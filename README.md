@@ -3,5 +3,4 @@
 HTML/CSS/JavaScript prototype for an iOS 7 App.
 
 ### Resources: 
-http://compass-style.org/
-http://jquerymobile.com/
+http://foundation.zurb.com/docs/
