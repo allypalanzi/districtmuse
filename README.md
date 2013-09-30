@@ -1,5 +1,7 @@
 # District Muse
-
+######Created by Ally Palanzi, Josh Mahan, and Madeline Beard
 HTML/CSS/JavaScript prototype for an iOS 7 App.
 
-######Created by Ally Palanzi, Josh Mahan, and Madeline Beard
+### Resources: 
+http://compass-style.org/
+http://jquerymobile.com/
