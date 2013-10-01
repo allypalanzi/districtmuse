@@ -1,0 +1,73 @@
+.clearfix {
+	clear: both;
+}
+
+nav {
+	background-color: #b4d455;
+	height: 44px;
+	width: 100%;
+	
+	h1 {
+		color: white;
+		font-size: 20px;
+		float: left;
+		line-height: 35px;
+		text-align: center;
+	}
+
+	.buttons {
+		width: 25%;
+	}
+
+	.center {
+		width: 50%;
+
+	}
+}
+
+.container {
+	margin: 0px auto;
+	width: 90%;
+}
+
+.home {
+	margin-top: 60px;
+
+	h2 {
+		font-size: 40px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	.checkin {
+
+
+		li {
+			border-bottom: 1px solid gray;
+			display: block;
+			list-style: none;
+
+			
+			&:first-child {
+				border-top: 1px solid gray;
+			}
+
+			p {
+				line-height: 50px;
+				margin-bottom: 0;
+			}
+
+			button {
+				background-color: gray;
+			}
+		}
+
+		.half {
+			display: inline-block;
+			width: 50%;
+		}
+		
+	}
+}
