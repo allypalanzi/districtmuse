@@ -7223,12 +7223,17 @@ a.th {
 }
 
 /* line 5, ../sass/_styles.scss */
+p {
+  margin: 0;
+}
+
+/* line 9, ../sass/_styles.scss */
 nav {
   background-color: #b4d455;
   height: 44px;
   width: 100%;
 }
-/* line 10, ../sass/_styles.scss */
+/* line 14, ../sass/_styles.scss */
 nav h1 {
   color: white;
   font-size: 20px;
@@ -7236,54 +7241,81 @@ nav h1 {
   line-height: 35px;
   text-align: center;
 }
-/* line 18, ../sass/_styles.scss */
+/* line 22, ../sass/_styles.scss */
 nav .buttons {
   width: 25%;
 }
-/* line 22, ../sass/_styles.scss */
+/* line 26, ../sass/_styles.scss */
 nav .center {
   width: 50%;
 }
 
-/* line 28, ../sass/_styles.scss */
+/* line 32, ../sass/_styles.scss */
 .container {
   margin: 0px auto;
   width: 90%;
 }
 
-/* line 33, ../sass/_styles.scss */
+/* line 37, ../sass/_styles.scss */
 .home {
   margin-top: 60px;
 }
-/* line 36, ../sass/_styles.scss */
+/* line 40, ../sass/_styles.scss */
 .home h2 {
   font-size: 40px;
 }
-/* line 40, ../sass/_styles.scss */
+/* line 44, ../sass/_styles.scss */
 .home h4 {
   font-size: 18px;
 }
-/* line 47, ../sass/_styles.scss */
+/* line 51, ../sass/_styles.scss */
 .home .checkin li {
   border-bottom: 1px solid gray;
   display: block;
   list-style: none;
 }
-/* line 53, ../sass/_styles.scss */
+/* line 57, ../sass/_styles.scss */
 .home .checkin li:first-child {
   border-top: 1px solid gray;
 }
-/* line 57, ../sass/_styles.scss */
+/* line 61, ../sass/_styles.scss */
 .home .checkin li p {
   line-height: 50px;
   margin-bottom: 0;
 }
-/* line 62, ../sass/_styles.scss */
-.home .checkin li button {
+/* line 66, ../sass/_styles.scss */
+.home .checkin li a {
   background-color: gray;
 }
-/* line 67, ../sass/_styles.scss */
+/* line 71, ../sass/_styles.scss */
 .home .checkin .half {
   display: inline-block;
   width: 50%;
+}
+
+/* line 80, ../sass/_styles.scss */
+.gallery .submission-image {
+  background-color: red;
+  height: 320px;
+  max-width: 320px;
+  margin: 0px auto;
+  width: 100%;
+}
+/* line 87, ../sass/_styles.scss */
+.gallery .description {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-width: 360px;
+}
+
+/* line 95, ../sass/_styles.scss */
+.create {
+  background-color: blue;
+  bottom: 10px;
+  height: 44px;
+  left: calc(50% - 100px);
+  left: -webkit-calc(50% - 100px);
+  left: -moz-calc(50% - 100px);
+  position: fixed;
+  width: 200px;
 }

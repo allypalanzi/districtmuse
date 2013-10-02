@@ -2,6 +2,10 @@
 	clear: both;
 }
 
+p {
+	margin: 0;
+}
+
 nav {
 	background-color: #b4d455;
 	height: 44px;
@@ -59,7 +63,7 @@ nav {
 				margin-bottom: 0;
 			}
 
-			button {
+			a {
 				background-color: gray;
 			}
 		}
@@ -70,4 +74,32 @@ nav {
 		}
 		
 	}
+}
+
+.gallery {
+	.submission-image {
+		background-color: red;
+		height: 320px;
+		max-width: 320px;
+		margin: 0px auto;
+		width: 100%;
+	}
+	.description {
+		margin-bottom: 20px;
+		margin-top: 20px;
+		max-width: 360px;
+		
+	}
+}
+
+.create {
+	background-color: blue;
+	bottom: 10px;
+	height: 44px;
+	left: calc(50% - 100px);
+	left: -webkit-calc(50% - 100px);
+	left: -moz-calc(50% - 100px);
+	position: fixed;
+	width: 200px;
+	
 }
