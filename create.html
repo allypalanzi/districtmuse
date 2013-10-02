@@ -13,7 +13,7 @@
 	<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
 	<!-- prevents iPhone5 letterboxing-->
 	<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
-	
+
 	<title>District Muse</title>
 
 
@@ -51,59 +51,71 @@
 </head>
 
 <body>
-<div class="content gallery">
-	<nav class="no-scroll">
-		<h1 class="buttons"><a href="index.html"><</a></h1>
+
+<div class="content create">
+	<nav>
+		<h1 class="buttons"><a href="gallery.html">< Back</a></h1>
 		<h1 class="center">
-			Gallery
+			Create
 		</h1>
-		<h1 class="buttons">?</h1>
+		<h1 class="buttons"><a href="#">?</a><a href="#">tool</a></h1>
 	</nav>
-	<div class="gallery">
-		<div class="submission-image">
-		</div>
-		<div class="container description">
-			<p>Ally</p>
-			<p>@mylifeasalllly</p>
-			<p>Farragut West</p>
-			<p>Some words about how pretty my picture is. Some more words about my picture</p>
-		</div>
+	<div class="container">
+		<canvas id="canvas"></canvas>
 	</div>
-
-	<div class="gallery">
-		<div class="submission-image">
-		</div>
-		<div class="container description">
-			<p>Ally</p>
-			<p>@mylifeasalllly</p>
-			<p>Farragut West</p>
-			<p>Some words about how pretty my picture is. Some more words about my picture</p>
-		</div>
-	</div>
-
-	<div class="gallery">
-		<div class="submission-image">
-		</div>
-		<div class="container description">
-			<p>Ally</p>
-			<p>@mylifeasalllly</p>
-			<p>Farragut West</p>
-			<p>Some words about how pretty my picture is. Some more words about my picture</p>
-		</div>
-	</div>
-
-	<a class="create-button" href="create.html"> 
-		Create
-	</a>
 </div>
 
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
-  '.js><\/script>')
-  </script>
 
- 
+
+   	<script src="javascripts/vendor/jquery.js"></script>
+ 	<script src="javascripts/vendor/paper.js"></script>
+	<script type="text/paperscript" canvas="canvas">
+
+		tool.fixedDistance = 30;
+
+		var values = {
+			lines: 1,
+			size: 10,
+			smooth: true
+		};
+		var selectedColor = "#000";
+		var selectedSize = 5;
+		var paths;
+
+		$(".colors span").click(function(event) {
+	        selectedColorID = "#" + event.target.id;
+	        selectedColor= $(selectedColorID).css("background-color");
+	    });
+
+	    $(".size span").click(function(event) {
+	        selectedSizeID = "#" + event.target.id;
+	        selectedSize= $(selectedSizeID).height();
+	    });
+
+		function onMouseDown(event) {
+			paths = [];
+			for (var i = 0; i < values.lines; i++) {
+				var path = new Path();
+				path.strokeColor = selectedColor;
+				path.strokeWidth = selectedSize;
+				paths.push(path);
+			}
+		}
+
+		function onMouseDrag(event) {
+			var offset = event.delta;
+			offset.angle = offset.angle + 90;
+			var lineSize = values.size / values.lines;
+			for (var i = 0; i < values.lines; i++) {
+				var path = paths[values.lines - 1 - i];
+				offset.length = lineSize * i + lineSize / 2;
+				path.add(event.middlePoint + offset);
+				path.smooth();
+			}
+		}
+	</script>
+ 	<script src="javascripts/foundation/foundation.js"></script>
+
 	<!--<script src="javascripts/foundation/foundation.abide.js"></script>
 	
 	<script src="javascripts/foundation/foundation.alerts.js"></script>

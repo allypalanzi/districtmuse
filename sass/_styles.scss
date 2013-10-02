@@ -32,9 +32,8 @@ nav {
 .container {
 	margin: 0px auto;
 	width: 90%;
-}
 
-.home {
+&.home {
 	margin-top: 60px;
 
 	h2 {
@@ -75,6 +74,7 @@ nav {
 		
 	}
 }
+}
 
 .gallery {
 	.submission-image {
@@ -92,7 +92,7 @@ nav {
 	}
 }
 
-.create {
+.create-button {
 	background-color: blue;
 	bottom: 10px;
 	height: 44px;
@@ -102,4 +102,67 @@ nav {
 	position: fixed;
 	width: 200px;
 	
+}
+
+.create {
+	.container {
+		max-width: 320px;
+		width: 100%;
+	}
+	canvas {
+		height: 320px;
+		width: 100%;
+		max-width: 320px;
+		max-height: 320px;
+		border: 1px solid gray;
+		margin: 0 auto;
+	}
+	.colors span {
+	padding: 20px;
+}
+
+#green {
+	background-color: #b4da55;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#black {
+	background-color: #000;
+}
+
+#white {
+	background-color: #fff;
+}
+
+.size {
+	margin-top: 50px;
+}
+
+#small {
+	background-color: black;
+	border-radius: 5px;
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+}
+
+#medium {
+	background-color: black;
+	border-radius: 10px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+}
+
+#large {
+	background-color: black;
+	border-radius: 15px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+
 }

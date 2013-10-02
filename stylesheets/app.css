@@ -7255,40 +7255,39 @@ nav .center {
   margin: 0px auto;
   width: 90%;
 }
-
-/* line 37, ../sass/_styles.scss */
-.home {
+/* line 36, ../sass/_styles.scss */
+.container.home {
   margin-top: 60px;
 }
-/* line 40, ../sass/_styles.scss */
-.home h2 {
+/* line 39, ../sass/_styles.scss */
+.container.home h2 {
   font-size: 40px;
 }
-/* line 44, ../sass/_styles.scss */
-.home h4 {
+/* line 43, ../sass/_styles.scss */
+.container.home h4 {
   font-size: 18px;
 }
-/* line 51, ../sass/_styles.scss */
-.home .checkin li {
+/* line 50, ../sass/_styles.scss */
+.container.home .checkin li {
   border-bottom: 1px solid gray;
   display: block;
   list-style: none;
 }
-/* line 57, ../sass/_styles.scss */
-.home .checkin li:first-child {
+/* line 56, ../sass/_styles.scss */
+.container.home .checkin li:first-child {
   border-top: 1px solid gray;
 }
-/* line 61, ../sass/_styles.scss */
-.home .checkin li p {
+/* line 60, ../sass/_styles.scss */
+.container.home .checkin li p {
   line-height: 50px;
   margin-bottom: 0;
 }
-/* line 66, ../sass/_styles.scss */
-.home .checkin li a {
+/* line 65, ../sass/_styles.scss */
+.container.home .checkin li a {
   background-color: gray;
 }
-/* line 71, ../sass/_styles.scss */
-.home .checkin .half {
+/* line 70, ../sass/_styles.scss */
+.container.home .checkin .half {
   display: inline-block;
   width: 50%;
 }
@@ -7309,7 +7308,7 @@ nav .center {
 }
 
 /* line 95, ../sass/_styles.scss */
-.create {
+.create-button {
   background-color: blue;
   bottom: 10px;
   height: 44px;
@@ -7318,4 +7317,67 @@ nav .center {
   left: -moz-calc(50% - 100px);
   position: fixed;
   width: 200px;
+}
+
+/* line 108, ../sass/_styles.scss */
+.create .container {
+  max-width: 320px;
+  width: 100%;
+}
+/* line 112, ../sass/_styles.scss */
+.create canvas {
+  height: 320px;
+  width: 100%;
+  max-width: 320px;
+  max-height: 320px;
+  border: 1px solid gray;
+  margin: 0 auto;
+}
+/* line 120, ../sass/_styles.scss */
+.create .colors span {
+  padding: 20px;
+}
+/* line 124, ../sass/_styles.scss */
+.create #green {
+  background-color: #b4da55;
+}
+/* line 128, ../sass/_styles.scss */
+.create #blue {
+  background-color: blue;
+}
+/* line 132, ../sass/_styles.scss */
+.create #black {
+  background-color: #000;
+}
+/* line 136, ../sass/_styles.scss */
+.create #white {
+  background-color: #fff;
+}
+/* line 140, ../sass/_styles.scss */
+.create .size {
+  margin-top: 50px;
+}
+/* line 144, ../sass/_styles.scss */
+.create #small {
+  background-color: black;
+  border-radius: 5px;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+}
+/* line 152, ../sass/_styles.scss */
+.create #medium {
+  background-color: black;
+  border-radius: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+/* line 160, ../sass/_styles.scss */
+.create #large {
+  background-color: black;
+  border-radius: 15px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
 }
