@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:300italic,400italic,400,300,600);
 /* normalize.css v2.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -7223,11 +7224,19 @@ a.th {
 }
 
 /* line 5, ../sass/_styles.scss */
-p {
+h1, h2, h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+/* line 10, ../sass/_styles.scss */
+p, a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
   margin: 0;
 }
 
-/* line 9, ../sass/_styles.scss */
+/* line 16, ../sass/_styles.scss */
 .button {
   height: 44px;
   width: 200px;
@@ -7235,13 +7244,13 @@ p {
   background-color: blue;
 }
 
-/* line 16, ../sass/_styles.scss */
+/* line 23, ../sass/_styles.scss */
 nav {
   background-color: #b4d455;
   height: 44px;
   width: 100%;
 }
-/* line 21, ../sass/_styles.scss */
+/* line 28, ../sass/_styles.scss */
 nav h1 {
   color: white;
   font-size: 20px;
@@ -7249,58 +7258,58 @@ nav h1 {
   line-height: 35px;
   text-align: center;
 }
-/* line 29, ../sass/_styles.scss */
+/* line 36, ../sass/_styles.scss */
 nav .buttons {
   width: 25%;
 }
-/* line 33, ../sass/_styles.scss */
+/* line 40, ../sass/_styles.scss */
 nav .center {
   width: 50%;
 }
 
-/* line 39, ../sass/_styles.scss */
+/* line 46, ../sass/_styles.scss */
 .container {
   margin: 0px auto;
   width: 90%;
 }
-/* line 43, ../sass/_styles.scss */
+/* line 50, ../sass/_styles.scss */
 .container.home {
   margin-top: 60px;
 }
-/* line 46, ../sass/_styles.scss */
+/* line 53, ../sass/_styles.scss */
 .container.home h2 {
   font-size: 40px;
 }
-/* line 50, ../sass/_styles.scss */
+/* line 57, ../sass/_styles.scss */
 .container.home h4 {
   font-size: 18px;
 }
-/* line 57, ../sass/_styles.scss */
+/* line 64, ../sass/_styles.scss */
 .container.home .checkin li {
   border-bottom: 1px solid gray;
   display: block;
   list-style: none;
 }
-/* line 63, ../sass/_styles.scss */
+/* line 70, ../sass/_styles.scss */
 .container.home .checkin li:first-child {
   border-top: 1px solid gray;
 }
-/* line 67, ../sass/_styles.scss */
+/* line 74, ../sass/_styles.scss */
 .container.home .checkin li p {
   line-height: 50px;
   margin-bottom: 0;
 }
-/* line 72, ../sass/_styles.scss */
+/* line 79, ../sass/_styles.scss */
 .container.home .checkin li a {
   background-color: gray;
 }
-/* line 77, ../sass/_styles.scss */
+/* line 84, ../sass/_styles.scss */
 .container.home .checkin .half {
   display: inline-block;
   width: 50%;
 }
 
-/* line 87, ../sass/_styles.scss */
+/* line 94, ../sass/_styles.scss */
 .gallery .submission-image {
   background-color: red;
   height: 320px;
@@ -7308,14 +7317,14 @@ nav .center {
   margin: 0px auto;
   width: 100%;
 }
-/* line 94, ../sass/_styles.scss */
+/* line 101, ../sass/_styles.scss */
 .gallery .description {
   margin-bottom: 20px;
   margin-top: 20px;
   max-width: 360px;
 }
 
-/* line 102, ../sass/_styles.scss */
+/* line 109, ../sass/_styles.scss */
 .create-button {
   background-color: blue;
   bottom: 10px;
@@ -7327,12 +7336,12 @@ nav .center {
   width: 200px;
 }
 
-/* line 115, ../sass/_styles.scss */
+/* line 122, ../sass/_styles.scss */
 .create .container {
   max-width: 320px;
   width: 100%;
 }
-/* line 119, ../sass/_styles.scss */
+/* line 126, ../sass/_styles.scss */
 .create canvas {
   height: 320px;
   width: 100%;
@@ -7341,31 +7350,31 @@ nav .center {
   border: 1px solid gray;
   margin: 0 auto;
 }
-/* line 127, ../sass/_styles.scss */
+/* line 134, ../sass/_styles.scss */
 .create .colors span {
   padding: 20px;
 }
-/* line 131, ../sass/_styles.scss */
+/* line 138, ../sass/_styles.scss */
 .create #green {
   background-color: #b4da55;
 }
-/* line 135, ../sass/_styles.scss */
+/* line 142, ../sass/_styles.scss */
 .create #blue {
   background-color: blue;
 }
-/* line 139, ../sass/_styles.scss */
+/* line 146, ../sass/_styles.scss */
 .create #black {
   background-color: #000;
 }
-/* line 143, ../sass/_styles.scss */
+/* line 150, ../sass/_styles.scss */
 .create #white {
   background-color: #fff;
 }
-/* line 147, ../sass/_styles.scss */
+/* line 154, ../sass/_styles.scss */
 .create .size {
   margin-top: 50px;
 }
-/* line 151, ../sass/_styles.scss */
+/* line 158, ../sass/_styles.scss */
 .create #small {
   background-color: black;
   border-radius: 5px;
@@ -7373,7 +7382,7 @@ nav .center {
   width: 5px;
   height: 5px;
 }
-/* line 159, ../sass/_styles.scss */
+/* line 166, ../sass/_styles.scss */
 .create #medium {
   background-color: black;
   border-radius: 10px;
@@ -7381,7 +7390,7 @@ nav .center {
   width: 10px;
   height: 10px;
 }
-/* line 167, ../sass/_styles.scss */
+/* line 174, ../sass/_styles.scss */
 .create #large {
   background-color: black;
   border-radius: 15px;
