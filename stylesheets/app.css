@@ -7248,9 +7248,10 @@ p, a {
 nav {
   background-color: #b4d455;
   height: 44px;
+  position: fixed;
   width: 100%;
 }
-/* line 28, ../sass/_styles.scss */
+/* line 29, ../sass/_styles.scss */
 nav h1 {
   color: white;
   font-size: 20px;
@@ -7258,58 +7259,75 @@ nav h1 {
   line-height: 35px;
   text-align: center;
 }
-/* line 36, ../sass/_styles.scss */
+/* line 37, ../sass/_styles.scss */
 nav .buttons {
   width: 25%;
 }
-/* line 40, ../sass/_styles.scss */
+/* line 41, ../sass/_styles.scss */
 nav .center {
   width: 50%;
 }
 
-/* line 46, ../sass/_styles.scss */
+/* line 47, ../sass/_styles.scss */
 .container {
   margin: 0px auto;
   width: 90%;
 }
-/* line 50, ../sass/_styles.scss */
+/* line 51, ../sass/_styles.scss */
 .container.home {
-  margin-top: 60px;
+  padding-top: 100px;
 }
-/* line 53, ../sass/_styles.scss */
-.container.home h2 {
-  font-size: 40px;
+/* line 54, ../sass/_styles.scss */
+.container.home h2, .container.home h4, .container.home p {
+  margin: 0 !important;
 }
 /* line 57, ../sass/_styles.scss */
-.container.home h4 {
-  font-size: 18px;
+.container.home h2 {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 90px;
+  text-transform: uppercase;
 }
-/* line 64, ../sass/_styles.scss */
+/* line 63, ../sass/_styles.scss */
+.container.home h4 {
+  font-weight: 200;
+  font-style: italic;
+}
+/* line 68, ../sass/_styles.scss */
+.container.home p {
+  font-size: 12px;
+  line-height: 12px;
+}
+/* line 73, ../sass/_styles.scss */
+.container.home .checkin {
+  margin-top: 50px;
+}
+/* line 77, ../sass/_styles.scss */
 .container.home .checkin li {
   border-bottom: 1px solid gray;
   display: block;
   list-style: none;
 }
-/* line 70, ../sass/_styles.scss */
+/* line 83, ../sass/_styles.scss */
 .container.home .checkin li:first-child {
   border-top: 1px solid gray;
 }
-/* line 74, ../sass/_styles.scss */
+/* line 87, ../sass/_styles.scss */
 .container.home .checkin li p {
   line-height: 50px;
   margin-bottom: 0;
 }
-/* line 79, ../sass/_styles.scss */
+/* line 92, ../sass/_styles.scss */
 .container.home .checkin li a {
   background-color: gray;
 }
-/* line 84, ../sass/_styles.scss */
+/* line 97, ../sass/_styles.scss */
 .container.home .checkin .half {
   display: inline-block;
   width: 50%;
 }
 
-/* line 94, ../sass/_styles.scss */
+/* line 107, ../sass/_styles.scss */
 .gallery .submission-image {
   background-color: red;
   height: 320px;
@@ -7317,14 +7335,14 @@ nav .center {
   margin: 0px auto;
   width: 100%;
 }
-/* line 101, ../sass/_styles.scss */
+/* line 114, ../sass/_styles.scss */
 .gallery .description {
   margin-bottom: 20px;
   margin-top: 20px;
   max-width: 360px;
 }
 
-/* line 109, ../sass/_styles.scss */
+/* line 122, ../sass/_styles.scss */
 .create-button {
   background-color: blue;
   bottom: 10px;
@@ -7336,12 +7354,12 @@ nav .center {
   width: 200px;
 }
 
-/* line 122, ../sass/_styles.scss */
+/* line 135, ../sass/_styles.scss */
 .create .container {
   max-width: 320px;
   width: 100%;
 }
-/* line 126, ../sass/_styles.scss */
+/* line 139, ../sass/_styles.scss */
 .create canvas {
   height: 320px;
   width: 100%;
@@ -7350,31 +7368,31 @@ nav .center {
   border: 1px solid gray;
   margin: 0 auto;
 }
-/* line 134, ../sass/_styles.scss */
+/* line 147, ../sass/_styles.scss */
 .create .colors span {
   padding: 20px;
 }
-/* line 138, ../sass/_styles.scss */
+/* line 151, ../sass/_styles.scss */
 .create #green {
   background-color: #b4da55;
 }
-/* line 142, ../sass/_styles.scss */
+/* line 155, ../sass/_styles.scss */
 .create #blue {
   background-color: blue;
 }
-/* line 146, ../sass/_styles.scss */
+/* line 159, ../sass/_styles.scss */
 .create #black {
   background-color: #000;
 }
-/* line 150, ../sass/_styles.scss */
+/* line 163, ../sass/_styles.scss */
 .create #white {
   background-color: #fff;
 }
-/* line 154, ../sass/_styles.scss */
+/* line 167, ../sass/_styles.scss */
 .create .size {
   margin-top: 50px;
 }
-/* line 158, ../sass/_styles.scss */
+/* line 171, ../sass/_styles.scss */
 .create #small {
   background-color: black;
   border-radius: 5px;
@@ -7382,7 +7400,7 @@ nav .center {
   width: 5px;
   height: 5px;
 }
-/* line 166, ../sass/_styles.scss */
+/* line 179, ../sass/_styles.scss */
 .create #medium {
   background-color: black;
   border-radius: 10px;
@@ -7390,7 +7408,7 @@ nav .center {
   width: 10px;
   height: 10px;
 }
-/* line 174, ../sass/_styles.scss */
+/* line 187, ../sass/_styles.scss */
 .create #large {
   background-color: black;
   border-radius: 15px;

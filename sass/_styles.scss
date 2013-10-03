@@ -23,6 +23,7 @@ p,a {
 nav {
 	background-color: #b4d455;
 	height: 44px;
+	position: fixed;
 	width: 100%;
 	
 	h1 {
@@ -48,17 +49,29 @@ nav {
 	width: 90%;
 
 &.home {
-	margin-top: 60px;
+	padding-top: 100px;
 
+	h2,h4,p {
+		margin: 0 !important;
+	}
 	h2 {
-		font-size: 40px;
+		font-size: 70px;
+		font-weight: 400;
+		line-height: 90px;
+		text-transform: uppercase;
+	}
+	h4 {
+		font-weight: 200;
+		font-style: italic;
 	}
 
-	h4 {
-		font-size: 18px;
+	p {
+		font-size: 12px;
+		line-height: 12px;
 	}
 
 	.checkin {
+		margin-top: 50px;
 
 
 		li {
