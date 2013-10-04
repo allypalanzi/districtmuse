@@ -65,9 +65,13 @@ nav {
 		font-style: italic;
 	}
 
-	p {
+	h6 {
 		font-size: 12px;
+		font-weight: 200;
 		line-height: 12px;
+		em {
+			text-align: right;
+		}
 	}
 
 	.checkin {
