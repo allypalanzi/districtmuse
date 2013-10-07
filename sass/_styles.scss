@@ -2,13 +2,28 @@
 	clear: both;
 }
 
-p {
+h1,h2,h3 {
+	font-family: $oswald;
+	font-weight: 300;
+}
+
+p,a {
+	font-family: $open-sans;
+	font-weight: 300;
 	margin: 0;
+}
+
+.button {
+	height: 44px;
+	width: 200px;
+	color: white;
+	background-color: blue;
 }
 
 nav {
 	background-color: #b4d455;
 	height: 44px;
+	position: fixed;
 	width: 100%;
 	
 	h1 {
@@ -32,20 +47,35 @@ nav {
 .container {
 	margin: 0px auto;
 	width: 90%;
-}
 
-.home {
-	margin-top: 60px;
+&.home {
+	padding-top: 100px;
 
+	h2,h4,p {
+		margin: 0 !important;
+	}
 	h2 {
-		font-size: 40px;
+		font-size: 70px;
+		font-weight: 400;
+		line-height: 90px;
+		text-transform: uppercase;
+	}
+	h4 {
+		font-weight: 200;
+		font-style: italic;
 	}
 
-	h4 {
-		font-size: 18px;
+	h6 {
+		font-size: 12px;
+		font-weight: 200;
+		line-height: 12px;
+		em {
+			text-align: right;
+		}
 	}
 
 	.checkin {
+		margin-top: 50px;
 
 
 		li {
@@ -75,6 +105,7 @@ nav {
 		
 	}
 }
+}
 
 .gallery {
 	.submission-image {
@@ -92,7 +123,7 @@ nav {
 	}
 }
 
-.create {
+.create-button {
 	background-color: blue;
 	bottom: 10px;
 	height: 44px;
@@ -103,3 +134,114 @@ nav {
 	width: 200px;
 	
 }
+
+.create {
+	.container {
+		max-width: 320px;
+		width: 100%;
+	}
+	canvas {
+		height: 320px;
+		width: 100%;
+		max-width: 320px;
+		max-height: 320px;
+		border: 1px solid gray;
+		margin: 0 auto;
+	}
+	.colors span {
+	padding: 20px;
+}
+
+#green {
+	background-color: #b4da55;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#black {
+	background-color: #000;
+}
+
+#white {
+	background-color: #fff;
+}
+
+.size {
+	margin-top: 50px;
+}
+
+#small {
+	background-color: black;
+	border-radius: 5px;
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+}
+
+#medium {
+	background-color: black;
+	border-radius: 10px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+}
+
+#large {
+	background-color: black;
+	border-radius: 15px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+
+}
+/* General styles for all menus */
+.toolbox {
+	background: #47a3da;
+	position: fixed;
+	margin-top: 44px;
+}
+
+
+/* Orientation-dependent styles for the content of the menu */
+
+.toolbox-vertical {
+	width: 240px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.toolbox-vertical a {
+	border-bottom: 1px solid #258ecd;
+	padding: 1em;
+}
+
+
+/* Vertical menu that slides from the left or right */
+
+
+
+.toolbox-right {
+	right: -240px;
+}
+
+
+
+.toolbox-right.toolbox-open {
+	right: 0px;
+}
+
+
+
+/* Transitions */
+
+.toolbox,
+.toolbox-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+

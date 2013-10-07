@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:300italic,400italic,400,300,600);
 /* normalize.css v2.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -7223,17 +7224,34 @@ a.th {
 }
 
 /* line 5, ../sass/_styles.scss */
-p {
+h1, h2, h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+/* line 10, ../sass/_styles.scss */
+p, a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
   margin: 0;
 }
 
-/* line 9, ../sass/_styles.scss */
+/* line 16, ../sass/_styles.scss */
+.button {
+  height: 44px;
+  width: 200px;
+  color: white;
+  background-color: blue;
+}
+
+/* line 23, ../sass/_styles.scss */
 nav {
   background-color: #b4d455;
   height: 44px;
+  position: fixed;
   width: 100%;
 }
-/* line 14, ../sass/_styles.scss */
+/* line 29, ../sass/_styles.scss */
 nav h1 {
   color: white;
   font-size: 20px;
@@ -7241,59 +7259,80 @@ nav h1 {
   line-height: 35px;
   text-align: center;
 }
-/* line 22, ../sass/_styles.scss */
+/* line 37, ../sass/_styles.scss */
 nav .buttons {
   width: 25%;
 }
-/* line 26, ../sass/_styles.scss */
+/* line 41, ../sass/_styles.scss */
 nav .center {
   width: 50%;
 }
 
-/* line 32, ../sass/_styles.scss */
+/* line 47, ../sass/_styles.scss */
 .container {
   margin: 0px auto;
   width: 90%;
 }
-
-/* line 37, ../sass/_styles.scss */
-.home {
-  margin-top: 60px;
-}
-/* line 40, ../sass/_styles.scss */
-.home h2 {
-  font-size: 40px;
-}
-/* line 44, ../sass/_styles.scss */
-.home h4 {
-  font-size: 18px;
-}
 /* line 51, ../sass/_styles.scss */
-.home .checkin li {
+.container.home {
+  padding-top: 100px;
+}
+/* line 54, ../sass/_styles.scss */
+.container.home h2, .container.home h4, .container.home p {
+  margin: 0 !important;
+}
+/* line 57, ../sass/_styles.scss */
+.container.home h2 {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+/* line 63, ../sass/_styles.scss */
+.container.home h4 {
+  font-weight: 200;
+  font-style: italic;
+}
+/* line 68, ../sass/_styles.scss */
+.container.home h6 {
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 12px;
+}
+/* line 72, ../sass/_styles.scss */
+.container.home h6 em {
+  text-align: right;
+}
+/* line 77, ../sass/_styles.scss */
+.container.home .checkin {
+  margin-top: 50px;
+}
+/* line 81, ../sass/_styles.scss */
+.container.home .checkin li {
   border-bottom: 1px solid gray;
   display: block;
   list-style: none;
 }
-/* line 57, ../sass/_styles.scss */
-.home .checkin li:first-child {
+/* line 87, ../sass/_styles.scss */
+.container.home .checkin li:first-child {
   border-top: 1px solid gray;
 }
-/* line 61, ../sass/_styles.scss */
-.home .checkin li p {
+/* line 91, ../sass/_styles.scss */
+.container.home .checkin li p {
   line-height: 50px;
   margin-bottom: 0;
 }
-/* line 66, ../sass/_styles.scss */
-.home .checkin li a {
+/* line 96, ../sass/_styles.scss */
+.container.home .checkin li a {
   background-color: gray;
 }
-/* line 71, ../sass/_styles.scss */
-.home .checkin .half {
+/* line 101, ../sass/_styles.scss */
+.container.home .checkin .half {
   display: inline-block;
   width: 50%;
 }
 
-/* line 80, ../sass/_styles.scss */
+/* line 111, ../sass/_styles.scss */
 .gallery .submission-image {
   background-color: red;
   height: 320px;
@@ -7301,15 +7340,15 @@ nav .center {
   margin: 0px auto;
   width: 100%;
 }
-/* line 87, ../sass/_styles.scss */
+/* line 118, ../sass/_styles.scss */
 .gallery .description {
   margin-bottom: 20px;
   margin-top: 20px;
   max-width: 360px;
 }
 
-/* line 95, ../sass/_styles.scss */
-.create {
+/* line 126, ../sass/_styles.scss */
+.create-button {
   background-color: blue;
   bottom: 10px;
   height: 44px;
@@ -7318,4 +7357,110 @@ nav .center {
   left: -moz-calc(50% - 100px);
   position: fixed;
   width: 200px;
+}
+
+/* line 139, ../sass/_styles.scss */
+.create .container {
+  max-width: 320px;
+  width: 100%;
+}
+/* line 143, ../sass/_styles.scss */
+.create canvas {
+  height: 320px;
+  width: 100%;
+  max-width: 320px;
+  max-height: 320px;
+  border: 1px solid gray;
+  margin: 0 auto;
+}
+/* line 151, ../sass/_styles.scss */
+.create .colors span {
+  padding: 20px;
+}
+/* line 155, ../sass/_styles.scss */
+.create #green {
+  background-color: #b4da55;
+}
+/* line 159, ../sass/_styles.scss */
+.create #blue {
+  background-color: blue;
+}
+/* line 163, ../sass/_styles.scss */
+.create #black {
+  background-color: #000;
+}
+/* line 167, ../sass/_styles.scss */
+.create #white {
+  background-color: #fff;
+}
+/* line 171, ../sass/_styles.scss */
+.create .size {
+  margin-top: 50px;
+}
+/* line 175, ../sass/_styles.scss */
+.create #small {
+  background-color: black;
+  border-radius: 5px;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+}
+/* line 183, ../sass/_styles.scss */
+.create #medium {
+  background-color: black;
+  border-radius: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+/* line 191, ../sass/_styles.scss */
+.create #large {
+  background-color: black;
+  border-radius: 15px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+/* General styles for all menus */
+/* line 201, ../sass/_styles.scss */
+.toolbox {
+  background: #47a3da;
+  position: fixed;
+  margin-top: 44px;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+/* line 210, ../sass/_styles.scss */
+.toolbox-vertical {
+  width: 240px;
+  height: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* line 217, ../sass/_styles.scss */
+.toolbox-vertical a {
+  border-bottom: 1px solid #258ecd;
+  padding: 1em;
+}
+
+/* Vertical menu that slides from the left or right */
+/* line 227, ../sass/_styles.scss */
+.toolbox-right {
+  right: -240px;
+}
+
+/* line 233, ../sass/_styles.scss */
+.toolbox-right.toolbox-open {
+  right: 0px;
+}
+
+/* Transitions */
+/* line 242, ../sass/_styles.scss */
+.toolbox,
+.toolbox-push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
