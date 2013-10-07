@@ -7244,23 +7244,28 @@ a.th {
 }
 
 /* line 1, ../sass/_styles.scss */
+body {
+  background-color: white;
+}
+
+/* line 5, ../sass/_styles.scss */
 .clearfix {
   clear: both;
 }
 
-/* line 5, ../sass/_styles.scss */
+/* line 9, ../sass/_styles.scss */
 h1, h2, h3, h4, h5, h6, a, p {
   letter-spacing: .4px;
 }
 
-/* line 9, ../sass/_styles.scss */
+/* line 13, ../sass/_styles.scss */
 h1, h2, h3 {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   letter-spacing: .8px;
 }
 
-/* line 16, ../sass/_styles.scss */
+/* line 20, ../sass/_styles.scss */
 p, a {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
@@ -7268,7 +7273,7 @@ p, a {
   margin: 0;
 }
 
-/* line 23, ../sass/_styles.scss */
+/* line 27, ../sass/_styles.scss */
 .button {
   height: 44px;
   width: 200px;
@@ -7276,7 +7281,7 @@ p, a {
   background-color: blue;
 }
 
-/* line 30, ../sass/_styles.scss */
+/* line 34, ../sass/_styles.scss */
 nav {
   background-color: #fd8f54;
   height: 44px;
@@ -7284,7 +7289,7 @@ nav {
   top: 0;
   width: 100%;
 }
-/* line 37, ../sass/_styles.scss */
+/* line 41, ../sass/_styles.scss */
 nav h1 {
   color: white;
   font-size: 20px;
@@ -7292,48 +7297,48 @@ nav h1 {
   line-height: 35px;
   text-align: center;
 }
-/* line 45, ../sass/_styles.scss */
+/* line 49, ../sass/_styles.scss */
 nav .buttons {
   width: 25%;
 }
-/* line 49, ../sass/_styles.scss */
+/* line 53, ../sass/_styles.scss */
 nav .center {
   width: 50%;
 }
 
-/* line 55, ../sass/_styles.scss */
+/* line 59, ../sass/_styles.scss */
 .container {
   margin: 0px auto;
   width: 90%;
 }
 
-/* line 62, ../sass/_styles.scss */
+/* line 66, ../sass/_styles.scss */
 .home h2, .home h4, .home p {
   margin: 0 !important;
 }
-/* line 65, ../sass/_styles.scss */
+/* line 69, ../sass/_styles.scss */
 .home h2 {
   font-size: 70px;
   font-weight: 300;
   line-height: 90px;
   text-transform: uppercase;
 }
-/* line 71, ../sass/_styles.scss */
+/* line 75, ../sass/_styles.scss */
 .home h4 {
   font-weight: 200;
   font-style: italic;
 }
-/* line 76, ../sass/_styles.scss */
+/* line 80, ../sass/_styles.scss */
 .home h6 {
   font-size: 12px;
   font-weight: 200;
   line-height: 12px;
 }
-/* line 80, ../sass/_styles.scss */
+/* line 84, ../sass/_styles.scss */
 .home h6 em {
   text-align: right;
 }
-/* line 85, ../sass/_styles.scss */
+/* line 89, ../sass/_styles.scss */
 .home .top-section {
   background: url(../img/metro.jpg) no-repeat fixed;
   background-size: 300%;
@@ -7341,57 +7346,57 @@ nav .center {
   margin-top: 44px;
   text-align: center;
 }
-/* line 92, ../sass/_styles.scss */
+/* line 96, ../sass/_styles.scss */
 .home .top-section .overlay-color {
   background-color: rgba(253, 153, 83, 0.9);
   padding: 50px 0px 50px 0px;
 }
-/* line 97, ../sass/_styles.scss */
+/* line 101, ../sass/_styles.scss */
 .home .top-section h2, .home .top-section h4, .home .top-section h6 {
   color: white;
 }
-/* line 102, ../sass/_styles.scss */
+/* line 106, ../sass/_styles.scss */
 .home .checkin {
   margin-top: 50px;
 }
-/* line 105, ../sass/_styles.scss */
+/* line 109, ../sass/_styles.scss */
 .home .checkin p {
   color: #fd8f54;
   padding-bottom: 10px;
 }
-/* line 110, ../sass/_styles.scss */
+/* line 114, ../sass/_styles.scss */
 .home .checkin em {
   padding-left: 20px;
 }
-/* line 115, ../sass/_styles.scss */
+/* line 119, ../sass/_styles.scss */
 .home .checkin li {
   border-bottom: 1px solid #f7ce48;
   display: block;
   list-style: none;
   padding: 0px 20px 0px 20px;
 }
-/* line 122, ../sass/_styles.scss */
+/* line 126, ../sass/_styles.scss */
 .home .checkin li:first-child {
   border-top: 1px solid #f7ce48;
 }
-/* line 126, ../sass/_styles.scss */
+/* line 130, ../sass/_styles.scss */
 .home .checkin li p {
   color: #303030;
   line-height: 50px;
   padding-bottom: 0;
 }
-/* line 133, ../sass/_styles.scss */
+/* line 137, ../sass/_styles.scss */
 .home .checkin a {
   color: white;
   text-align: center;
 }
-/* line 138, ../sass/_styles.scss */
+/* line 142, ../sass/_styles.scss */
 .home .checkin .half {
   display: inline-block;
   width: 50%;
 }
 
-/* line 148, ../sass/_styles.scss */
+/* line 152, ../sass/_styles.scss */
 .gallery .submission-image {
   background-color: red;
   height: 320px;
@@ -7399,14 +7404,14 @@ nav .center {
   margin: 0px auto;
   width: 100%;
 }
-/* line 155, ../sass/_styles.scss */
+/* line 159, ../sass/_styles.scss */
 .gallery .description {
   margin-bottom: 20px;
   margin-top: 20px;
   max-width: 360px;
 }
 
-/* line 163, ../sass/_styles.scss */
+/* line 167, ../sass/_styles.scss */
 .create-button {
   background-color: blue;
   bottom: 10px;
@@ -7418,12 +7423,12 @@ nav .center {
   width: 200px;
 }
 
-/* line 176, ../sass/_styles.scss */
+/* line 180, ../sass/_styles.scss */
 .create .container {
   max-width: 320px;
   width: 100%;
 }
-/* line 180, ../sass/_styles.scss */
+/* line 184, ../sass/_styles.scss */
 .create canvas {
   height: 320px;
   width: 100%;
@@ -7432,31 +7437,31 @@ nav .center {
   border: 1px solid gray;
   margin: 0 auto;
 }
-/* line 188, ../sass/_styles.scss */
+/* line 192, ../sass/_styles.scss */
 .create .colors span {
   padding: 20px;
 }
-/* line 192, ../sass/_styles.scss */
+/* line 196, ../sass/_styles.scss */
 .create #green {
   background-color: #b4da55;
 }
-/* line 196, ../sass/_styles.scss */
+/* line 200, ../sass/_styles.scss */
 .create #blue {
   background-color: blue;
 }
-/* line 200, ../sass/_styles.scss */
+/* line 204, ../sass/_styles.scss */
 .create #black {
   background-color: #000;
 }
-/* line 204, ../sass/_styles.scss */
+/* line 208, ../sass/_styles.scss */
 .create #white {
   background-color: #fff;
 }
-/* line 208, ../sass/_styles.scss */
+/* line 212, ../sass/_styles.scss */
 .create .size {
   margin-top: 50px;
 }
-/* line 212, ../sass/_styles.scss */
+/* line 216, ../sass/_styles.scss */
 .create #small {
   background-color: black;
   border-radius: 5px;
@@ -7464,7 +7469,7 @@ nav .center {
   width: 5px;
   height: 5px;
 }
-/* line 220, ../sass/_styles.scss */
+/* line 224, ../sass/_styles.scss */
 .create #medium {
   background-color: black;
   border-radius: 10px;
@@ -7472,7 +7477,7 @@ nav .center {
   width: 10px;
   height: 10px;
 }
-/* line 228, ../sass/_styles.scss */
+/* line 232, ../sass/_styles.scss */
 .create #large {
   background-color: black;
   border-radius: 15px;
@@ -7482,7 +7487,7 @@ nav .center {
 }
 
 /* General styles for all menus */
-/* line 238, ../sass/_styles.scss */
+/* line 242, ../sass/_styles.scss */
 .toolbox {
   background: #47a3da;
   position: fixed;
@@ -7490,7 +7495,7 @@ nav .center {
 }
 
 /* Orientation-dependent styles for the content of the menu */
-/* line 247, ../sass/_styles.scss */
+/* line 251, ../sass/_styles.scss */
 .toolbox-vertical {
   width: 240px;
   height: 100%;
@@ -7498,25 +7503,25 @@ nav .center {
   z-index: 1000;
 }
 
-/* line 254, ../sass/_styles.scss */
+/* line 258, ../sass/_styles.scss */
 .toolbox-vertical a {
   border-bottom: 1px solid #258ecd;
   padding: 1em;
 }
 
 /* Vertical menu that slides from the left or right */
-/* line 264, ../sass/_styles.scss */
+/* line 268, ../sass/_styles.scss */
 .toolbox-right {
   right: -240px;
 }
 
-/* line 270, ../sass/_styles.scss */
+/* line 274, ../sass/_styles.scss */
 .toolbox-right.toolbox-open {
   right: 0px;
 }
 
 /* Transitions */
-/* line 279, ../sass/_styles.scss */
+/* line 283, ../sass/_styles.scss */
 .toolbox,
 .toolbox-push {
   -webkit-transition: all 0.3s ease;
