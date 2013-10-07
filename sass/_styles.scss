@@ -2,14 +2,21 @@
 	clear: both;
 }
 
+h1,h2,h3,h4,h5,h6,a,p {
+	letter-spacing: .4px;
+}
+
 h1,h2,h3 {
 	font-family: $oswald;
 	font-weight: 300;
+	letter-spacing: .8px;
+
 }
 
 p,a {
 	font-family: $open-sans;
 	font-weight: 300;
+	letter-spacing: .4px;
 	margin: 0;
 }
 
@@ -21,9 +28,10 @@ p,a {
 }
 
 nav {
-	background-color: #b4d455;
+	background-color: $orange;
 	height: 44px;
 	position: fixed;
+	top: 0;
 	width: 100%;
 	
 	h1 {
@@ -47,16 +55,16 @@ nav {
 .container {
 	margin: 0px auto;
 	width: 90%;
+}
 
-&.home {
-	padding-top: 100px;
+.home {
 
 	h2,h4,p {
 		margin: 0 !important;
 	}
 	h2 {
 		font-size: 70px;
-		font-weight: 400;
+		font-weight: 300;
 		line-height: 90px;
 		text-transform: uppercase;
 	}
@@ -74,28 +82,57 @@ nav {
 		}
 	}
 
+	.top-section {
+		background: url(../img/metro.jpg) no-repeat fixed;
+		background-size: 300%;
+		color: white;
+		margin-top:44px;
+		text-align: center;
+		
+		.overlay-color {
+			background-color: rgba(253,153,83,.9);
+			padding: 50px 0px 50px 0px;
+		}
+
+		h2,h4,h6 {
+			color: white;
+		}
+	}
+
 	.checkin {
 		margin-top: 50px;
+		
+		p {
+			color: $orange;
+			padding-bottom: 10px;
+		}
+
+		em {
+			padding-left: 20px;
+		}
 
 
 		li {
-			border-bottom: 1px solid gray;
+			border-bottom: 1px solid $yellow;
 			display: block;
 			list-style: none;
+			padding: 0px 20px 0px 20px;
 
 			
 			&:first-child {
-				border-top: 1px solid gray;
+				border-top: 1px solid $yellow;
 			}
 
 			p {
+				color: $type;
 				line-height: 50px;
-				margin-bottom: 0;
+				padding-bottom: 0;
 			}
+		}
 
-			a {
-				background-color: gray;
-			}
+		a {
+			color: white;
+			text-align: center;
 		}
 
 		.half {
@@ -105,7 +142,7 @@ nav {
 		
 	}
 }
-}
+
 
 .gallery {
 	.submission-image {
