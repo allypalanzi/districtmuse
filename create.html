@@ -58,8 +58,18 @@
 		<h1 class="center">
 			Create
 		</h1>
-		<h1 class="buttons"><a href="#">?</a><a href="#">tool</a></h1>
+		<h1 class="buttons"><a href="#">?</a><a id="showRight" href="#">tool</a></h1>
 	</nav>
+
+	<nav class="toolbox toolbox-vertical toolbox-right" id="toolbox-s2">
+			<h3>Toolbox</h3>
+			<a href="#">Celery seakale</a>
+			<a href="#">Dulse daikon</a>
+			<a href="#">Zucchini garlic</a>
+			<a href="#">Catsear azuki bean</a>
+			<a href="#">Dandelion bunya</a>
+			<a href="#">Rutabaga</a>
+		</nav>
 	<div class="container">
 		<canvas id="canvas"></canvas>
 		<div class="actions">
@@ -120,6 +130,22 @@
 		}
 	</script>
  	<script src="javascripts/foundation/foundation.js"></script>
+ 	 	<script src="javascripts/foundation/classie.js"></script>
+ 	<script>
+ 				var
+				menuRight = document.getElementById( 'toolbox-s2' ),
+				showRight = document.getElementById( 'showRight' ),
+
+				body = document.body;
+
+
+			showRight.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( menuRight, 'toolbox-open' );
+				disableOther( 'showRight' );
+			};
+
+ 	</script>
 
 	<!--<script src="javascripts/foundation/foundation.abide.js"></script>
 	

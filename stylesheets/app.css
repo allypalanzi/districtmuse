@@ -7421,3 +7421,46 @@ nav .center {
   width: 15px;
   height: 15px;
 }
+
+/* General styles for all menus */
+/* line 201, ../sass/_styles.scss */
+.toolbox {
+  background: #47a3da;
+  position: fixed;
+  margin-top: 44px;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+/* line 210, ../sass/_styles.scss */
+.toolbox-vertical {
+  width: 240px;
+  height: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* line 217, ../sass/_styles.scss */
+.toolbox-vertical a {
+  border-bottom: 1px solid #258ecd;
+  padding: 1em;
+}
+
+/* Vertical menu that slides from the left or right */
+/* line 227, ../sass/_styles.scss */
+.toolbox-right {
+  right: -240px;
+}
+
+/* line 233, ../sass/_styles.scss */
+.toolbox-right.toolbox-open {
+  right: 0px;
+}
+
+/* Transitions */
+/* line 242, ../sass/_styles.scss */
+.toolbox,
+.toolbox-push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
