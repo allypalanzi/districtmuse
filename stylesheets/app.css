@@ -7279,8 +7279,8 @@ p, a {
 /* line 30, ../sass/_styles.scss */
 nav {
   background-color: #fd8f54;
-  height: 64px;
-  padding-top: 20px;
+  height: 59px;
+  padding-top: 15px;
   position: fixed;
   text-transform: lowercase;
   top: 0;
