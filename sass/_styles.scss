@@ -31,6 +31,7 @@ nav {
 	background-color: $orange;
 	height: 44px;
 	position: fixed;
+	text-transform: lowercase;
 	top: 0;
 	width: 100%;
 	
@@ -49,6 +50,10 @@ nav {
 	.center {
 		width: 50%;
 
+	}
+
+	a {
+		color: white;
 	}
 }
 
@@ -100,15 +105,12 @@ nav {
 	}
 
 	.checkin {
-		margin-top: 50px;
-		
-		p {
-			color: $orange;
-			padding-bottom: 10px;
-		}
+		margin-top: 30px;
 
 		em {
-			padding-left: 20px;
+			display: block;
+			color: $orange;
+			padding: 15px;
 		}
 
 
@@ -116,7 +118,7 @@ nav {
 			border-bottom: 1px solid $yellow;
 			display: block;
 			list-style: none;
-			padding: 0px 20px 0px 20px;
+			padding: 15px;
 
 			
 			&:first-child {
@@ -132,6 +134,8 @@ nav {
 
 		a {
 			color: white;
+			height: 44px;
+			line-height: 44px;
 			text-align: center;
 		}
 
