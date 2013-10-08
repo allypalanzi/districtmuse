@@ -54,6 +54,12 @@ nav {
 
 	a {
 		color: white;
+		line-height: 20px;
+	}
+
+	svg {
+		fill: white;
+		height: 20px;
 	}
 }
 
@@ -249,8 +255,8 @@ nav {
 /* Orientation-dependent styles for the content of the menu */
 
 .toolbox-vertical {
-	width: 240px;
-	height: 100%;
+	width: 150px;
+	height: 75%;
 	top: 0;
 	z-index: 1000;
 }
@@ -266,7 +272,7 @@ nav {
 
 
 .toolbox-right {
-	right: -240px;
+	right: -250px;
 }
 
 
