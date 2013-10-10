@@ -29,17 +29,15 @@ p,a {
 
 .action {
 	background-color: $blue;
-	border-bottom: 4px solid $blue-highlight;
+	border-bottom: 6px solid $blue-highlight;
+	color: white;
 	display: block;
 	height: 44px;
+	line-height: 44px;
 	opacity: .8;
+	text-align: center;
 	width: 200px;
-	
-				color: white;
-			height: 44px;
-			line-height: 44px;
-			text-align: center;
-}
+	}
 
 nav {
 	background-color: $orange;
@@ -226,7 +224,11 @@ nav {
 		margin: 0 auto;
 	}
 	.colors span {
-	padding: 20px;
+		margin-top: 20px;
+		border-radius: 50px;
+		width: 44px;
+		height: 44px;
+		display: inline-block;
 }
 
 #green {
@@ -247,6 +249,7 @@ nav {
 
 .size {
 	margin-top: 50px;
+	display: block;
 }
 
 #small {
@@ -276,9 +279,10 @@ nav {
 }
 /* General styles for all menus */
 .toolbox {
-	background: #47a3da;
+	background: white;
+	border: 1px solid gray;
 	position: fixed;
-	margin-top: 44px;
+	margin-top: 59px;
 }
 
 
