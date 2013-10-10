@@ -18,7 +18,8 @@
 
 
 	<link rel="stylesheet" href="stylesheets/app.css">
-
+	<link href="stylesheets/webfonts/ss-standard.css" rel="stylesheet" />
+	<script src="stylesheets/webfonts/ss-standard.js"></script>
 
 	<script src="javascripts/vendor/custom.modernizr.js"></script>
 
@@ -88,8 +89,8 @@
 	<div class="container">
 		<canvas id="canvas"></canvas>
 		<div class="actions">
-			<a href="#">undo</a>
-			<a href="#">download</a>
+			<a href="#" class="undo ss-icon">undo</a>
+			<a href="#" class="download ss-icon">download</a>
 			<a href="submission.html" class="action">next</a>
 		</div>
 	</div>
@@ -160,9 +161,9 @@
 				disableOther( 'showRight' );
 			};
 
-			document.ontouchmove = function(event){
-    event.preventDefault();
-}
+$('body').bind("touchmove", {}, function(event){
+  event.preventDefault();
+});
 
  	</script>
 

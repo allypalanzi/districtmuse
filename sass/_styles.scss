@@ -229,7 +229,21 @@ nav {
 		width: 44px;
 		height: 44px;
 		display: inline-block;
-}
+	}
+
+	.actions {
+		margin-top: 20px;
+		.undo, .download {
+			font-size: 30px;
+			padding: 10px;
+		}
+
+	}
+
+	.action {
+		margin: 0px auto;
+		width: 300px;
+	}
 
 #green {
 	background-color: #b4da55;
