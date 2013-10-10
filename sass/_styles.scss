@@ -234,6 +234,8 @@ nav {
 	.actions {
 		margin-top: 20px;
 		.undo, .download {
+			color: $blue;
+			float: left;
 			font-size: 30px;
 			padding: 10px;
 		}
@@ -241,8 +243,9 @@ nav {
 	}
 
 	.action {
-		margin: 0px auto;
-		width: 300px;
+		float: right;
+		margin-right: 10px;
+		width: 200px !important;
 	}
 
 #green {
