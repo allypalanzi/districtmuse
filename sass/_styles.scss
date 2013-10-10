@@ -2,10 +2,17 @@
 	clear: both;
 }
 
+body {
+	color: $type;
+}
+
 h1,h2,h3,h4,h5,h6,a,p {
 	letter-spacing: .4px;
 }
-
+input {
+	border: none;
+	background: none;
+}
 h1,h2,h3 {
 	font-family: $oswald;
 	font-weight: 300;
@@ -20,11 +27,18 @@ p,a {
 	margin: 0;
 }
 
-.button {
+.action {
+	background-color: $blue;
+	border-bottom: 4px solid $blue-highlight;
+	display: block;
 	height: 44px;
+	opacity: .8;
 	width: 200px;
-	color: white;
-	background-color: blue;
+	
+				color: white;
+			height: 44px;
+			line-height: 44px;
+			text-align: center;
 }
 
 nav {
@@ -32,6 +46,7 @@ nav {
 	height: 59px;
 	padding-top: 15px;
 	position: fixed;
+	opacity: .9;
 	text-transform: lowercase;
 	top: 0;
 	width: 100%;
@@ -42,6 +57,7 @@ nav {
 		float: left;
 		line-height: 35px;
 		text-align: center;
+		text-transform: uppercase;
 	}
 
 	.buttons {
@@ -103,11 +119,10 @@ nav {
 		background-size: 300%;
 		color: white;
 		margin-top: 59px;
-		text-align: center;
 		
 		.overlay-color {
 			background-color: rgba(253,153,83,.9);
-			padding: 30px 0px 30px 0px;
+			padding: 30px;
 		}
 
 		h2,h4,h6 {
@@ -116,8 +131,6 @@ nav {
 	}
 
 	.checkin {
-		margin-top: 30px;
-
 		em {
 			display: block;
 			color: $orange;
@@ -144,15 +157,17 @@ nav {
 		}
 
 		a {
-			color: white;
-			height: 44px;
-			line-height: 44px;
-			text-align: center;
+
 		}
 
 		.half {
 			display: inline-block;
 			width: 50%;
+			
+			&.right  {
+				float: right;
+				width: 40%;
+			}
 		}
 		
 	}
@@ -172,18 +187,28 @@ nav {
 		margin-top: 20px;
 		max-width: 360px;
 		
+		a {
+			color: $blue-highlight;
+			text-weight: 400;
+		}
+
+
+		
+	}
+
+	.extra-padding {
+		padding-bottom: 60px;
 	}
 }
 
 .create-button {
-	background-color: blue;
 	bottom: 10px;
 	height: 44px;
-	left: calc(50% - 100px);
-	left: -webkit-calc(50% - 100px);
-	left: -moz-calc(50% - 100px);
+	left: calc(50% - 150px);
+	left: -webkit-calc(50% - 150px);
+	left: -moz-calc(50% - 150px);
 	position: fixed;
-	width: 200px;
+	width: 300px;
 	
 }
 
