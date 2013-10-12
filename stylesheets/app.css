@@ -7469,7 +7469,7 @@ nav svg {
 }
 /* line 226, ../sass/_styles.scss */
 .create .colors span {
-  margin-top: 20px;
+  margin: 10px 0px 10px 0px;
   border-radius: 50px;
   width: 44px;
   height: 44px;
@@ -7543,38 +7543,40 @@ nav svg {
 .toolbox {
   background: white;
   border: 1px solid gray;
+  padding: 20px;
+  opacity: .97;
   position: fixed;
   margin-top: 59px;
 }
 
 /* Orientation-dependent styles for the content of the menu */
-/* line 308, ../sass/_styles.scss */
+/* line 310, ../sass/_styles.scss */
 .toolbox-vertical {
-  width: 150px;
+  width: 250px;
   height: 75%;
   top: 0;
   z-index: 1000;
 }
 
-/* line 315, ../sass/_styles.scss */
+/* line 317, ../sass/_styles.scss */
 .toolbox-vertical a {
   border-bottom: 1px solid #258ecd;
   padding: 1em;
 }
 
 /* Vertical menu that slides from the left or right */
-/* line 325, ../sass/_styles.scss */
+/* line 327, ../sass/_styles.scss */
 .toolbox-right {
   right: -250px;
 }
 
-/* line 331, ../sass/_styles.scss */
+/* line 333, ../sass/_styles.scss */
 .toolbox-right.toolbox-open {
   right: 0px;
 }
 
 /* Transitions */
-/* line 340, ../sass/_styles.scss */
+/* line 342, ../sass/_styles.scss */
 .toolbox,
 .toolbox-push {
   -webkit-transition: all 0.3s ease;

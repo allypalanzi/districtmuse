@@ -224,7 +224,7 @@ nav {
 		margin: 0 auto;
 	}
 	.colors span {
-		margin-top: 20px;
+		margin: 10px 0px 10px 0px;
 		border-radius: 50px;
 		width: 44px;
 		height: 44px;
@@ -298,6 +298,8 @@ nav {
 .toolbox {
 	background: white;
 	border: 1px solid gray;
+	padding: 20px;
+	opacity: .97;
 	position: fixed;
 	margin-top: 59px;
 }
@@ -306,7 +308,7 @@ nav {
 /* Orientation-dependent styles for the content of the menu */
 
 .toolbox-vertical {
-	width: 150px;
+	width: 250px;
 	height: 75%;
 	top: 0;
 	z-index: 1000;
