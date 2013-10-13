@@ -7437,12 +7437,17 @@ nav svg {
   color: #42d8e7;
   text-weight: 400;
 }
-/* line 197, ../sass/_styles.scss */
+/* line 195, ../sass/_styles.scss */
+.gallery .stars {
+  color: #f7ce48;
+  font-size: 44px;
+}
+/* line 200, ../sass/_styles.scss */
 .gallery .extra-padding {
   padding-bottom: 60px;
 }
 
-/* line 202, ../sass/_styles.scss */
+/* line 205, ../sass/_styles.scss */
 .create-button {
   bottom: 10px;
   height: 44px;
@@ -7453,12 +7458,12 @@ nav svg {
   width: 300px;
 }
 
-/* line 214, ../sass/_styles.scss */
+/* line 217, ../sass/_styles.scss */
 .create .container {
   max-width: 320px;
   width: 100%;
 }
-/* line 218, ../sass/_styles.scss */
+/* line 221, ../sass/_styles.scss */
 .create canvas {
   height: 320px;
   width: 100%;
@@ -7467,7 +7472,7 @@ nav svg {
   border: 1px solid gray;
   margin: 0 auto;
 }
-/* line 226, ../sass/_styles.scss */
+/* line 229, ../sass/_styles.scss */
 .create .colors span {
   margin: 10px 0px 10px 0px;
   border-radius: 50px;
@@ -7475,45 +7480,45 @@ nav svg {
   height: 44px;
   display: inline-block;
 }
-/* line 234, ../sass/_styles.scss */
+/* line 237, ../sass/_styles.scss */
 .create .actions {
   margin-top: 20px;
 }
-/* line 236, ../sass/_styles.scss */
+/* line 239, ../sass/_styles.scss */
 .create .actions .undo, .create .actions .download {
   color: #80dae9;
   float: left;
   font-size: 30px;
   padding: 10px;
 }
-/* line 245, ../sass/_styles.scss */
+/* line 248, ../sass/_styles.scss */
 .create .action {
   float: right;
   margin-right: 10px;
   width: 200px !important;
 }
-/* line 251, ../sass/_styles.scss */
+/* line 254, ../sass/_styles.scss */
 .create #green {
   background-color: #b4da55;
 }
-/* line 255, ../sass/_styles.scss */
+/* line 258, ../sass/_styles.scss */
 .create #blue {
   background-color: blue;
 }
-/* line 259, ../sass/_styles.scss */
+/* line 262, ../sass/_styles.scss */
 .create #black {
   background-color: #000;
 }
-/* line 263, ../sass/_styles.scss */
+/* line 266, ../sass/_styles.scss */
 .create #white {
   background-color: #fff;
 }
-/* line 267, ../sass/_styles.scss */
+/* line 270, ../sass/_styles.scss */
 .create .size {
   margin-top: 50px;
   display: block;
 }
-/* line 272, ../sass/_styles.scss */
+/* line 275, ../sass/_styles.scss */
 .create #small {
   background-color: black;
   border-radius: 5px;
@@ -7521,7 +7526,7 @@ nav svg {
   width: 5px;
   height: 5px;
 }
-/* line 280, ../sass/_styles.scss */
+/* line 283, ../sass/_styles.scss */
 .create #medium {
   background-color: black;
   border-radius: 10px;
@@ -7529,7 +7534,7 @@ nav svg {
   width: 10px;
   height: 10px;
 }
-/* line 288, ../sass/_styles.scss */
+/* line 291, ../sass/_styles.scss */
 .create #large {
   background-color: black;
   border-radius: 15px;
@@ -7539,7 +7544,7 @@ nav svg {
 }
 
 /* General styles for all menus */
-/* line 298, ../sass/_styles.scss */
+/* line 301, ../sass/_styles.scss */
 .toolbox {
   background: white;
   border: 1px solid gray;
@@ -7550,7 +7555,7 @@ nav svg {
 }
 
 /* Orientation-dependent styles for the content of the menu */
-/* line 310, ../sass/_styles.scss */
+/* line 313, ../sass/_styles.scss */
 .toolbox-vertical {
   width: 250px;
   height: 75%;
@@ -7558,25 +7563,25 @@ nav svg {
   z-index: 1000;
 }
 
-/* line 317, ../sass/_styles.scss */
+/* line 320, ../sass/_styles.scss */
 .toolbox-vertical a {
   border-bottom: 1px solid #258ecd;
   padding: 1em;
 }
 
 /* Vertical menu that slides from the left or right */
-/* line 327, ../sass/_styles.scss */
+/* line 330, ../sass/_styles.scss */
 .toolbox-right {
   right: -250px;
 }
 
-/* line 333, ../sass/_styles.scss */
+/* line 336, ../sass/_styles.scss */
 .toolbox-right.toolbox-open {
   right: 0px;
 }
 
 /* Transitions */
-/* line 342, ../sass/_styles.scss */
+/* line 345, ../sass/_styles.scss */
 .toolbox,
 .toolbox-push {
   -webkit-transition: all 0.3s ease;
