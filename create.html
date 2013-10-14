@@ -53,8 +53,8 @@
 
 <body>
 
-<div class="content create dontscroll">
-	<nav>
+<div class="content create">
+	<nav class="dontscroll">
 		<h1 class="buttons"><a href="gallery.html">< Back</a></h1>
 		<h1 class="center">
 			Create
@@ -80,14 +80,13 @@
 				<span href="#" id="green" class="inactive-tool">&nbsp;</span>
 				<span href="#" id="black" class="inactive-tool">&nbsp;</span>
 			</div>
-			<h3>brush size</h3>
-			<input type="range" id="slider" min="10" value="0" max="30" name="range">
-
-			<div class="size">
-				<span href="#" id="small">&nbsp;</span>
-				<span href="#" id="medium">&nbsp;</span>
-				<span href="#" id="large">&nbsp;</span>
+						<h3>eraser</h3>
+			<div class="colors">
+				<span href="#" id="white" class="inactive-tool">&nbsp;</span>
 			</div>
+			<h3>brush size</h3>
+			<input type="range" class="slider" min="10" value="0" max="30" name="range">
+
 		</nav>
 		<canvas id="canvas"></canvas>
 		<div class="actions">
@@ -135,8 +134,8 @@
 	    //});
 
 	    $(function(){
-			selectedSize = $('#slider').val();
-			$('#slider').change(function(){
+			selectedSize = $('.slider').val();
+			$('.slider').change(function(){
 	    	selectedSize = (this.value);
 		});
     
@@ -189,9 +188,9 @@
 				classie.toggle( menuRight, 'toolbox-open' );
 			};
 
-//$('.dontscroll').bind("touchmove", {}, function(event){
-//  event.preventDefault();
-//});
+$('.dontscroll').bind("touchmove", {}, function(event){
+  event.preventDefault();
+});
 
 
 
