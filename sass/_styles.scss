@@ -54,11 +54,10 @@ p,a {
 
 nav {
 	background-color: $orange;
-	height: 59px;
+	height: 64px;
 	padding-top: 15px;
 	position: fixed;
 	opacity: .9;
-	text-transform: lowercase;
 	top: 0;
 	width: 100%;
 	
@@ -66,9 +65,8 @@ nav {
 		color: white;
 		font-size: 20px;
 		float: left;
-		line-height: 35px;
+		line-height: 40px;
 		text-align: center;
-		text-transform: uppercase;
 	}
 
 	.buttons {
@@ -83,7 +81,7 @@ nav {
 	a {
 		color: white;
 		display: block;
-		line-height: 20px;
+		line-height: 40px;
 	}
 
 	svg {
@@ -102,7 +100,7 @@ nav {
 }
 
 .content {
-	margin-top: 59px;
+	margin-top: 64px;
 }
 
 .home {
@@ -134,7 +132,7 @@ nav {
 		background: url(../img/metro.jpg) no-repeat fixed;
 		background-size: 300%;
 		color: white;
-		margin-top: 59px;
+		margin-top: 64px;
 		
 		.overlay-color {
 			background-color: rgba(253,153,83,.9);
@@ -305,7 +303,7 @@ nav {
 	padding: 20px;
 	opacity: .97;
 	position: fixed;
-	margin-top: 59px;
+	margin-top: 64px;
 }
 
 .active {
