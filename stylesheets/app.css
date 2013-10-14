@@ -7443,34 +7443,33 @@ nav svg {
 
 /* line 192, ../sass/_styles.scss */
 .gallery .submission-image {
-  background-color: red;
   height: 320px;
   max-width: 320px;
   margin: 0px auto;
   width: 100%;
 }
-/* line 199, ../sass/_styles.scss */
+/* line 198, ../sass/_styles.scss */
 .gallery .description {
   margin-bottom: 20px;
   margin-top: 20px;
   max-width: 360px;
 }
-/* line 204, ../sass/_styles.scss */
+/* line 203, ../sass/_styles.scss */
 .gallery .description a {
   color: #42d8e7;
   text-weight: 400;
 }
-/* line 211, ../sass/_styles.scss */
+/* line 210, ../sass/_styles.scss */
 .gallery .stars {
   color: #f7ce48;
   font-size: 44px;
 }
-/* line 216, ../sass/_styles.scss */
+/* line 215, ../sass/_styles.scss */
 .gallery .extra-padding {
   padding-bottom: 60px;
 }
 
-/* line 221, ../sass/_styles.scss */
+/* line 220, ../sass/_styles.scss */
 .create-button {
   bottom: 10px;
   height: 44px;
@@ -7481,12 +7480,12 @@ nav svg {
   width: 300px;
 }
 
-/* line 233, ../sass/_styles.scss */
+/* line 232, ../sass/_styles.scss */
 .create .container {
   max-width: 320px;
   width: 100%;
 }
-/* line 237, ../sass/_styles.scss */
+/* line 236, ../sass/_styles.scss */
 .create canvas {
   background-color: #f4f4f4;
   height: 320px;
@@ -7495,13 +7494,14 @@ nav svg {
   max-height: 320px;
   margin: 0 auto;
 }
-/* line 245, ../sass/_styles.scss */
+/* line 244, ../sass/_styles.scss */
 .create .colors span {
   margin: 10px 0px 10px 0px;
   border-radius: 50px;
   width: 44px;
   height: 44px;
   display: inline-block;
+  margin: 10px;
 }
 /* line 253, ../sass/_styles.scss */
 .create .actions {

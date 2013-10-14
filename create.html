@@ -69,8 +69,8 @@
 	 M28.895,16.871h-0.884h-0.884h-2.367V15.84h-4.052v1.032H9.954V15.84H5.902v1.032H3.536H2.947H1.768V7.442h27.127V16.871z"/>
 </svg></a></h1>
 	</nav>
-
-	<nav class="toolbox toolbox-vertical toolbox-right" id="toolbox-s2">
+	<div class="container">
+			<nav class="toolbox toolbox-vertical toolbox-right" id="toolbox-s2">
 			<h3>colors</h3>
 			<div class="colors">
 				<span href="#" id="yellow" class="inactive-tool">&nbsp;</span>
@@ -80,13 +80,14 @@
 				<span href="#" id="green" class="inactive-tool">&nbsp;</span>
 				<span href="#" id="black" class="inactive-tool">&nbsp;</span>
 			</div>
+			<h3>brush size</h3>
+			<input type="range" name="slider-s" id="slider-s" value="25" min="0" max="100" data-highlight="true">
 			<div class="size">
 				<span href="#" id="small">&nbsp;</span>
 				<span href="#" id="medium">&nbsp;</span>
 				<span href="#" id="large">&nbsp;</span>
 			</div>
 		</nav>
-	<div class="container">
 		<canvas id="canvas"></canvas>
 		<div class="actions">
 			<a href="#" id="undo" class="undo ss-icon">undo</a>
