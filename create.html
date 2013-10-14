@@ -59,7 +59,7 @@
 		<h1 class="center">
 			Create
 		</h1>
-		<h1 class="buttons"><a href="#">?</a><a id="showRight" href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		<h1 class="buttons"><a id="showRight" href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="30.663px" height="28.658px" viewBox="0 0 30.663 28.658" enable-background="new 0 0 30.663 28.658" xml:space="preserve">
 <path d="M29.779,5.674h-6.343c-0.487-1.691-2.257-5.545-8.343-5.673c-2.548-0.038-4.597,0.621-6.026,2.003
 	c-1.28,1.238-1.747,2.74-1.92,3.67H0.884C0.395,5.674,0,6.069,0,6.558v11.197c0,0.489,0.395,0.884,0.884,0.884h1.768v9.134
@@ -73,12 +73,12 @@
 	<nav class="toolbox toolbox-vertical toolbox-right" id="toolbox-s2">
 			<h3>colors</h3>
 			<div class="colors">
-				<span href="#" id="green">&nbsp;</span>
-				<span href="#" id="blue">&nbsp;</span>
-				<span href="#" id="black">&nbsp;</span>
-				<span href="#" id="green">&nbsp;</span>
-				<span href="#" id="blue">&nbsp;</span>
-				<span href="#" id="black">&nbsp;</span>
+				<span href="#" id="yellow" class="inactive-tool">&nbsp;</span>
+				<span href="#" id="blue" class="inactive-tool">&nbsp;</span>
+				<span href="#" id="orange" class="inactive-tool">&nbsp;</span>
+				<span href="#" id="red" class="inactive-tool">&nbsp;</span>
+				<span href="#" id="green" class="inactive-tool">&nbsp;</span>
+				<span href="#" id="black" class="inactive-tool">&nbsp;</span>
 			</div>
 			<div class="size">
 				<span href="#" id="small">&nbsp;</span>
@@ -92,6 +92,7 @@
 			<a href="#" id="undo" class="undo ss-icon">undo</a>
 			<a href="#" class="download ss-icon">download</a>
 			<a href="submission.html" class="action">next</a>
+			<div class="clearfix"></div>
 		</div>
 	</div>
 </div>
@@ -118,7 +119,13 @@
 		$(".colors span").click(function(event) {
 	        selectedColorID = "#" + event.target.id;
 	        selectedColor= $(selectedColorID).css("background-color");
-	    });
+		});
+
+		$('.inactive-tool').click(function(){
+        	$('span').removeClass('active-tool').addClass('inactive-tool');
+        	$(this).addClass('active-tool').removeClass('inactive-tool');
+    	});
+
 
 	    $(".size span").click(function(event) {
 	        selectedSizeID = "#" + event.target.id;
@@ -169,7 +176,6 @@
 			showRight.onclick = function() {
 				classie.toggle( this, 'active' );
 				classie.toggle( menuRight, 'toolbox-open' );
-				disableOther( 'showRight' );
 			};
 
 $('body').bind("touchmove", {}, function(event){

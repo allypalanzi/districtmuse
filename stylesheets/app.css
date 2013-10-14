@@ -1,27 +1,32 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:300italic,400italic,400,300,600);
-/* line 15, ../sass/_vars.scss */
-.orange {
+/* line 16, ../sass/_vars.scss */
+.orange, #orange {
   background-color: #fd8f54;
 }
 
-/* line 19, ../sass/_vars.scss */
-.yellow {
+/* line 20, ../sass/_vars.scss */
+.yellow, #yellow {
   background-color: #f7ce48;
 }
 
-/* line 23, ../sass/_vars.scss */
-.blue {
+/* line 24, ../sass/_vars.scss */
+.blue, #blue {
   background-color: #80dae9;
 }
 
-/* line 27, ../sass/_vars.scss */
-.red {
+/* line 28, ../sass/_vars.scss */
+.red, #red {
   background-color: #ff5c70;
 }
 
-/* line 31, ../sass/_vars.scss */
-.green {
+/* line 32, ../sass/_vars.scss */
+.green, #green {
   background-color: #a1daa6;
+}
+
+/* line 36, ../sass/_vars.scss */
+#black {
+  background-color: #2b2b2b;
 }
 
 /* normalize.css v2.1.1 | MIT License | git.io/normalize */
@@ -7280,6 +7285,22 @@ p, a {
 }
 
 /* line 30, ../sass/_styles.scss */
+.active-tool {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+/* line 36, ../sass/_styles.scss */
+.inactive-tool {
+  opacity: .5;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+/* line 43, ../sass/_styles.scss */
 .action {
   background-color: #80dae9;
   border-bottom: 6px solid #42d8e7;
@@ -7292,7 +7313,7 @@ p, a {
   width: 200px;
 }
 
-/* line 42, ../sass/_styles.scss */
+/* line 55, ../sass/_styles.scss */
 nav {
   background-color: #fd8f54;
   height: 59px;
@@ -7303,7 +7324,7 @@ nav {
   top: 0;
   width: 100%;
 }
-/* line 52, ../sass/_styles.scss */
+/* line 65, ../sass/_styles.scss */
 nav h1 {
   color: white;
   font-size: 20px;
@@ -7312,113 +7333,117 @@ nav h1 {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 61, ../sass/_styles.scss */
+/* line 74, ../sass/_styles.scss */
 nav .buttons {
   width: 25%;
 }
-/* line 65, ../sass/_styles.scss */
+/* line 78, ../sass/_styles.scss */
 nav .center {
   width: 50%;
 }
-/* line 70, ../sass/_styles.scss */
+/* line 83, ../sass/_styles.scss */
 nav a {
   color: white;
+  display: block;
   line-height: 20px;
 }
-/* line 75, ../sass/_styles.scss */
+/* line 89, ../sass/_styles.scss */
 nav svg {
   fill: white;
-  height: 20px;
+  height: 40px;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  transition: background 0.3s ease;
 }
 
-/* line 81, ../sass/_styles.scss */
+/* line 99, ../sass/_styles.scss */
 .container {
   margin: 0px auto;
   width: 90%;
 }
 
-/* line 86, ../sass/_styles.scss */
+/* line 104, ../sass/_styles.scss */
 .content {
   margin-top: 59px;
 }
 
-/* line 92, ../sass/_styles.scss */
+/* line 110, ../sass/_styles.scss */
 .home h2, .home h4, .home p {
   margin: 0 !important;
 }
-/* line 95, ../sass/_styles.scss */
+/* line 113, ../sass/_styles.scss */
 .home h2 {
   font-size: 70px;
   font-weight: 300;
   line-height: 90px;
   text-transform: uppercase;
 }
-/* line 101, ../sass/_styles.scss */
+/* line 119, ../sass/_styles.scss */
 .home h4 {
   font-weight: 200;
   font-style: italic;
 }
-/* line 106, ../sass/_styles.scss */
+/* line 124, ../sass/_styles.scss */
 .home h6 {
   font-size: 12px;
   font-weight: 200;
   line-height: 12px;
 }
-/* line 110, ../sass/_styles.scss */
+/* line 128, ../sass/_styles.scss */
 .home h6 em {
   text-align: right;
 }
-/* line 115, ../sass/_styles.scss */
+/* line 133, ../sass/_styles.scss */
 .home .top-section {
   background: url(../img/metro.jpg) no-repeat fixed;
   background-size: 300%;
   color: white;
   margin-top: 59px;
 }
-/* line 121, ../sass/_styles.scss */
+/* line 139, ../sass/_styles.scss */
 .home .top-section .overlay-color {
   background-color: rgba(253, 153, 83, 0.9);
   padding: 30px;
 }
-/* line 126, ../sass/_styles.scss */
+/* line 144, ../sass/_styles.scss */
 .home .top-section h2, .home .top-section h4, .home .top-section h6 {
   color: white;
 }
-/* line 132, ../sass/_styles.scss */
+/* line 150, ../sass/_styles.scss */
 .home .checkin em {
   display: block;
   color: #fd8f54;
   padding: 15px;
 }
-/* line 139, ../sass/_styles.scss */
+/* line 157, ../sass/_styles.scss */
 .home .checkin li {
   border-bottom: 1px solid #f7ce48;
   display: block;
   list-style: none;
   padding: 15px;
 }
-/* line 146, ../sass/_styles.scss */
+/* line 164, ../sass/_styles.scss */
 .home .checkin li:first-child {
   border-top: 1px solid #f7ce48;
 }
-/* line 150, ../sass/_styles.scss */
+/* line 168, ../sass/_styles.scss */
 .home .checkin li p {
   color: #2b2b2b;
   line-height: 50px;
   padding-bottom: 0;
 }
-/* line 161, ../sass/_styles.scss */
+/* line 179, ../sass/_styles.scss */
 .home .checkin .half {
   display: inline-block;
   width: 50%;
 }
-/* line 165, ../sass/_styles.scss */
+/* line 183, ../sass/_styles.scss */
 .home .checkin .half.right {
   float: right;
   width: 40%;
 }
 
-/* line 176, ../sass/_styles.scss */
+/* line 194, ../sass/_styles.scss */
 .gallery .submission-image {
   background-color: red;
   height: 320px;
@@ -7426,28 +7451,28 @@ nav svg {
   margin: 0px auto;
   width: 100%;
 }
-/* line 183, ../sass/_styles.scss */
+/* line 201, ../sass/_styles.scss */
 .gallery .description {
   margin-bottom: 20px;
   margin-top: 20px;
   max-width: 360px;
 }
-/* line 188, ../sass/_styles.scss */
+/* line 206, ../sass/_styles.scss */
 .gallery .description a {
   color: #42d8e7;
   text-weight: 400;
 }
-/* line 195, ../sass/_styles.scss */
+/* line 213, ../sass/_styles.scss */
 .gallery .stars {
   color: #f7ce48;
   font-size: 44px;
 }
-/* line 200, ../sass/_styles.scss */
+/* line 218, ../sass/_styles.scss */
 .gallery .extra-padding {
   padding-bottom: 60px;
 }
 
-/* line 205, ../sass/_styles.scss */
+/* line 223, ../sass/_styles.scss */
 .create-button {
   bottom: 10px;
   height: 44px;
@@ -7458,21 +7483,21 @@ nav svg {
   width: 300px;
 }
 
-/* line 217, ../sass/_styles.scss */
+/* line 235, ../sass/_styles.scss */
 .create .container {
   max-width: 320px;
   width: 100%;
 }
-/* line 221, ../sass/_styles.scss */
+/* line 239, ../sass/_styles.scss */
 .create canvas {
+  background-color: #f4f4f4;
   height: 320px;
   width: 100%;
   max-width: 320px;
   max-height: 320px;
-  border: 1px solid gray;
   margin: 0 auto;
 }
-/* line 229, ../sass/_styles.scss */
+/* line 247, ../sass/_styles.scss */
 .create .colors span {
   margin: 10px 0px 10px 0px;
   border-radius: 50px;
@@ -7480,45 +7505,29 @@ nav svg {
   height: 44px;
   display: inline-block;
 }
-/* line 237, ../sass/_styles.scss */
+/* line 255, ../sass/_styles.scss */
 .create .actions {
   margin-top: 20px;
 }
-/* line 239, ../sass/_styles.scss */
+/* line 257, ../sass/_styles.scss */
 .create .actions .undo, .create .actions .download {
   color: #80dae9;
   float: left;
   font-size: 30px;
   padding: 10px;
 }
-/* line 248, ../sass/_styles.scss */
+/* line 266, ../sass/_styles.scss */
 .create .action {
   float: right;
   margin-right: 10px;
   width: 200px !important;
 }
-/* line 254, ../sass/_styles.scss */
-.create #green {
-  background-color: #b4da55;
-}
-/* line 258, ../sass/_styles.scss */
-.create #blue {
-  background-color: blue;
-}
-/* line 262, ../sass/_styles.scss */
-.create #black {
-  background-color: #000;
-}
-/* line 266, ../sass/_styles.scss */
-.create #white {
-  background-color: #fff;
-}
-/* line 270, ../sass/_styles.scss */
+/* line 272, ../sass/_styles.scss */
 .create .size {
   margin-top: 50px;
   display: block;
 }
-/* line 275, ../sass/_styles.scss */
+/* line 277, ../sass/_styles.scss */
 .create #small {
   background-color: black;
   border-radius: 5px;
@@ -7526,7 +7535,7 @@ nav svg {
   width: 5px;
   height: 5px;
 }
-/* line 283, ../sass/_styles.scss */
+/* line 285, ../sass/_styles.scss */
 .create #medium {
   background-color: black;
   border-radius: 10px;
@@ -7534,7 +7543,7 @@ nav svg {
   width: 10px;
   height: 10px;
 }
-/* line 291, ../sass/_styles.scss */
+/* line 293, ../sass/_styles.scss */
 .create #large {
   background-color: black;
   border-radius: 15px;
@@ -7544,18 +7553,32 @@ nav svg {
 }
 
 /* General styles for all menus */
-/* line 301, ../sass/_styles.scss */
+/* line 303, ../sass/_styles.scss */
 .toolbox {
   background: white;
-  border: 1px solid gray;
   padding: 20px;
   opacity: .97;
   position: fixed;
   margin-top: 59px;
 }
 
+/* line 311, ../sass/_styles.scss */
+.active {
+  background-color: white;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+/* line 316, ../sass/_styles.scss */
+.active svg {
+  fill: #fd8f54;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+
 /* Orientation-dependent styles for the content of the menu */
-/* line 313, ../sass/_styles.scss */
+/* line 327, ../sass/_styles.scss */
 .toolbox-vertical {
   width: 250px;
   height: 75%;
@@ -7563,25 +7586,25 @@ nav svg {
   z-index: 1000;
 }
 
-/* line 320, ../sass/_styles.scss */
+/* line 334, ../sass/_styles.scss */
 .toolbox-vertical a {
   border-bottom: 1px solid #258ecd;
   padding: 1em;
 }
 
 /* Vertical menu that slides from the left or right */
-/* line 330, ../sass/_styles.scss */
+/* line 344, ../sass/_styles.scss */
 .toolbox-right {
   right: -250px;
 }
 
-/* line 336, ../sass/_styles.scss */
+/* line 350, ../sass/_styles.scss */
 .toolbox-right.toolbox-open {
   right: 0px;
 }
 
 /* Transitions */
-/* line 345, ../sass/_styles.scss */
+/* line 359, ../sass/_styles.scss */
 .toolbox,
 .toolbox-push {
   -webkit-transition: all 0.3s ease;
