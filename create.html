@@ -54,7 +54,7 @@
 <body>
 
 <div class="content create">
-	<nav class="dontscroll">
+	<nav>
 		<h1 class="buttons"><a href="gallery.html">< Back</a></h1>
 		<h1 class="center">
 			Create
@@ -88,7 +88,7 @@
 			<input type="range" class="slider" min="10" value="0" max="30" name="range">
 
 		</nav>
-		<canvas id="canvas"></canvas>
+		<canvas class="dontscroll" id="canvas"></canvas>
 		<div class="actions">
 			<a href="#" id="undo" class="undo ss-icon">undo</a>
 			<a href="#" class="download ss-icon">download</a>
@@ -126,12 +126,6 @@
         	$('span').removeClass('active-tool').addClass('inactive-tool');
         	$(this).addClass('active-tool').removeClass('inactive-tool');
     	});
-
-
-	 //   $(".size span").click(function(event) {
-	   //     selectedSizeID = "#" + event.target.id;
-	     //   selectedSize= $(selectedSizeID).height();
-	    //});
 
 	    $(function(){
 			selectedSize = $('.slider').val();
