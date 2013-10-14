@@ -81,7 +81,8 @@
 				<span href="#" id="black" class="inactive-tool">&nbsp;</span>
 			</div>
 			<h3>brush size</h3>
-			<input type="range" name="slider-s" id="slider-s" value="25" min="0" max="100" data-highlight="true">
+			<input type="range" id="slider" min="10" value="0" max="30" name="range"> <div id="output"></div>  
+
 			<div class="size">
 				<span href="#" id="small">&nbsp;</span>
 				<span href="#" id="medium">&nbsp;</span>
@@ -112,7 +113,7 @@
 			smooth: true
 		};
 		var selectedColor = "#000";
-		var selectedSize = 5;
+		var selectedSize;
 		var allpaths =[]
 		var path;
 		var offset;
@@ -128,10 +129,19 @@
     	});
 
 
-	    $(".size span").click(function(event) {
-	        selectedSizeID = "#" + event.target.id;
-	        selectedSize= $(selectedSizeID).height();
-	    });
+	 //   $(".size span").click(function(event) {
+	   //     selectedSizeID = "#" + event.target.id;
+	     //   selectedSize= $(selectedSizeID).height();
+	    //});
+
+	    $(function(){
+			selectedSize = $('#slider').val();
+			$('#slider').change(function(){
+	    	selectedSize = (this.value);
+		});
+    
+
+});
 
 	    $("#undo").click(function(event){
 	    	var del = allpaths.length - 1;
@@ -182,6 +192,9 @@
 $('body').bind("touchmove", {}, function(event){
   event.preventDefault();
 });
+
+
+
 
  	</script>
 
