@@ -89,7 +89,7 @@
 	<div class="container">
 		<canvas id="canvas"></canvas>
 		<div class="actions">
-			<a href="#" class="undo ss-icon">undo</a>
+			<a href="#" id="undo" class="undo ss-icon">undo</a>
 			<a href="#" class="download ss-icon">download</a>
 			<a href="submission.html" class="action">next</a>
 		</div>
@@ -112,6 +112,8 @@
 		var selectedColor = "#000";
 		var selectedSize = 5;
 		var paths;
+		var path;
+		var offset;
 
 		$(".colors span").click(function(event) {
 	        selectedColorID = "#" + event.target.id;
@@ -122,6 +124,10 @@
 	        selectedSizeID = "#" + event.target.id;
 	        selectedSize= $(selectedSizeID).height();
 	    });
+
+	    $("#undo").click(function(event){
+	    	path.remove(event.middlePoint + offset);
+		});
 
 		function onMouseDown(event) {
 			paths = [];
@@ -134,16 +140,19 @@
 		}
 
 		function onMouseDrag(event) {
-			var offset = event.delta;
+			offset = event.delta;
 			offset.angle = offset.angle + 90;
 			var lineSize = values.size / values.lines;
 			for (var i = 0; i < values.lines; i++) {
-				var path = paths[values.lines - 1 - i];
+				path = paths[values.lines - 1 - i];
 				offset.length = lineSize * i + lineSize / 2;
 				path.add(event.middlePoint + offset);
 				path.smooth();
 			}
 		}
+
+
+
 	</script>
  	<script src="javascripts/foundation/foundation.js"></script>
  	 	<script src="javascripts/foundation/classie.js"></script>
