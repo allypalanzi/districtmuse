@@ -113,6 +113,7 @@
 		};
 		var selectedColor = "#000";
 		var selectedSize;
+		var allpaths =[]
 		var path;
 		var offset;
 
@@ -136,7 +137,9 @@
 });
 
 	    $("#undo").click(function(event){
-	    	path.remove();
+			poppedPath = allpaths.pop();
+			poppedPath.remove();
+	    	console.log(allpaths);
 		});
 
 		function onMouseDown(event) {
@@ -159,6 +162,11 @@
 				path.add(event.middlePoint + offset);
 				path.smooth();
 			}
+		}
+
+		function onMouseUp(event) {
+			allpaths.push(path);
+			console.log(allpaths);
 		}
 
 
