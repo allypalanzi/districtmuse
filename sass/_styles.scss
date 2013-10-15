@@ -272,6 +272,8 @@ nav {
 
 	}
 
+
+
 	.action {
 		float: right;
 		margin-right: 10px;
@@ -308,6 +310,18 @@ nav {
 }
 
 }
+	.tip {
+		background-color: $orange;
+		height: 100px;
+		margin-top: 30px;
+		position: absolute;
+		width: 100%;
+		
+		p {
+			color: white;
+			padding: 10px;
+		}
+	}
 /* General styles for all menus */
 .toolbox {
 	background: white;
