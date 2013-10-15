@@ -207,9 +207,19 @@ nav {
 
 	}
 
-  .stars {
-    color: $yellow;
-    font-size: 44px;
+  .likes {
+  	color: $red;
+  	float: left;
+   	font-size: 12px;
+  	font-weight: 200;
+  	padding: 10px;
+  }
+  .like {
+  	color: gray;
+  	font-size: 40px;
+  	font-weight: 200;
+  	float: right;
+  	padding: 10px;
   }
 
 	.extra-padding {
