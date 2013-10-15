@@ -7563,15 +7563,16 @@ nav svg {
   opacity: .97;
   position: fixed;
   margin-top: 64px;
+  overflow: scroll;
 }
-/* line 308, ../sass/_styles.scss */
+/* line 309, ../sass/_styles.scss */
 .toolbox input[type=range] {
   -webkit-appearance: none;
   background-color: #f7ce48;
   width: 90%;
   height: 10px;
 }
-/* line 315, ../sass/_styles.scss */
+/* line 316, ../sass/_styles.scss */
 .toolbox input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   background-color: #f7ce48;
@@ -7579,19 +7580,19 @@ nav svg {
   height: 30px;
   border-radius: 30px;
 }
-/* line 323, ../sass/_styles.scss */
+/* line 324, ../sass/_styles.scss */
 .toolbox h3 {
   margin: 20px 0 20px 0;
 }
 
-/* line 328, ../sass/_styles.scss */
+/* line 329, ../sass/_styles.scss */
 .active {
   background-color: white;
   -webkit-transition: background 0.3s ease;
   -moz-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
-/* line 333, ../sass/_styles.scss */
+/* line 334, ../sass/_styles.scss */
 .active svg {
   fill: #fd8f54;
   -webkit-transition: background 0.3s ease;
@@ -7600,7 +7601,7 @@ nav svg {
 }
 
 /* Orientation-dependent styles for the content of the menu */
-/* line 344, ../sass/_styles.scss */
+/* line 345, ../sass/_styles.scss */
 .toolbox-vertical {
   width: 250px;
   height: 75%;
@@ -7608,25 +7609,25 @@ nav svg {
   z-index: 1000;
 }
 
-/* line 351, ../sass/_styles.scss */
+/* line 352, ../sass/_styles.scss */
 .toolbox-vertical a {
   border-bottom: 1px solid #258ecd;
   padding: 1em;
 }
 
 /* Vertical menu that slides from the left or right */
-/* line 361, ../sass/_styles.scss */
+/* line 362, ../sass/_styles.scss */
 .toolbox-right {
   right: -250px;
 }
 
-/* line 367, ../sass/_styles.scss */
+/* line 368, ../sass/_styles.scss */
 .toolbox-right.toolbox-open {
   right: 0px;
 }
 
 /* Transitions */
-/* line 376, ../sass/_styles.scss */
+/* line 377, ../sass/_styles.scss */
 .toolbox,
 .toolbox-push {
   -webkit-transition: all 0.3s ease;

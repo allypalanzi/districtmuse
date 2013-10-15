@@ -304,6 +304,7 @@ nav {
 	opacity: .97;
 	position: fixed;
 	margin-top: 64px;
+	overflow: scroll;
 	
 	input[type=range] {
     -webkit-appearance: none;
