@@ -19,7 +19,7 @@ input {
 	background: none;
 }
 h1,h2,h3 {
-	font-family: $oswald;
+	font-family: $open-sans;
 	font-weight: 300;
 	letter-spacing: .8px;
 
@@ -32,27 +32,16 @@ p,a {
 	margin: 0;
 }
 
-.active-tool {
-    opacity: 1;
-	-webkit-transition: opacity 0.3s ease;
-	-moz-transition: opacity 0.3s ease;
-	transition: opacity 0.3s ease;
-}
-.inactive-tool {
-	opacity: .5;
-	-webkit-transition: opacity 0.3s ease;
-	-moz-transition: opacity 0.3s ease;
-	transition: opacity 0.3s ease;
-}
 
 .action {
 	background-color: $blue;
 	border-bottom: 6px solid $blue-highlight;
 	color: white;
+	text-weight: 400;
 	display: block;
 	height: 44px;
 	line-height: 44px;
-	opacity: .8;
+	opacity: .97;
 	text-align: center;
 	width: 200px;
 	}
@@ -92,10 +81,9 @@ nav {
 	svg {
 		fill: white;
 		height: 40px;
-			-webkit-transition: background 0.3s ease;
-	-moz-transition: background 0.3s ease;
-	transition: background 0.3s ease;
-		
+		-webkit-transition: background 0.3s ease;
+		-moz-transition: background 0.3s ease;
+		transition: background 0.3s ease;		
 	}
 }
 
@@ -183,10 +171,15 @@ nav {
 		.half {
 			display: inline-block;
 			width: 50%;
-			
+
 			&.right  {
 				float: right;
 				width: 40%;
+			.ss-icon {
+				font-size: 10px;
+				margin-left: 6px;
+			}
+			
 			}
 		}
 		
@@ -203,12 +196,13 @@ nav {
 	}
 	.description {
 		margin-bottom: 20px;
-		margin-top: 20px;
+		margin-top: -20px;
 		max-width: 360px;
 		
 		a {
 			color: $blue-highlight;
-			text-weight: 400;
+			font-style: italic;
+			font-weight: 400;
 		}
 
 	}
@@ -216,16 +210,23 @@ nav {
   .likes {
   	color: $red;
   	float: left;
-   	font-size: 12px;
+   	font-size: 16px;
   	font-weight: 200;
   	padding: 10px;
   }
-  .like {
-  	color: gray;
+  .like, .liked {
   	font-size: 40px;
   	font-weight: 200;
   	float: right;
   	padding: 10px;
+  }
+
+  .like {
+  	color: gray;
+  }
+
+  .liked {
+  	color: $red;
   }
 
 	.extra-padding {
@@ -245,6 +246,7 @@ nav {
 }
 
 .create {
+
 	.container {
 		max-width: 320px;
 		width: 100%;
@@ -257,14 +259,75 @@ nav {
 		max-height: 320px;
 		margin: 0 auto;
 	}
+
 	.colors span {
 		margin: 10px 0px 10px 0px;
 		border-radius: 50px;
-		border: 1px solid gray;
 		width: 44px;
 		height: 44px;
 		display: inline-block;
 		margin: 10px;
+	}
+
+	#orange {
+		background-color: $orange;
+		border: 1px solid;
+		border-color: darken($orange, 10);
+
+	}
+
+	#yellow {
+		background-color: $yellow;
+		border: 1px solid;
+		border-color: darken($yellow, 10);
+	}
+
+	#blue{
+		background-color: $blue;
+			border: 1px solid;
+		border-color: darken($blue, 10);
+	}
+
+	#red {
+		background-color: $red;
+			border: 1px solid;
+		border-color: darken($red, 10);
+	}
+
+	#green{
+		background-color: $green;
+			border: 1px solid;
+		border-color: darken($green, 10);
+	}
+
+	#black {
+		background-color: $type;
+			border: 1px solid;
+		border-color: darken($type, 10);
+	}
+
+	#white {
+		background-color: $off-white;
+			border: 1px solid;
+		border-color: darken($off-white, 10);
+	}
+
+	.active-tool {
+	    opacity: 1;
+		-webkit-transition: opacity 0.3s ease;
+		-moz-transition: opacity 0.3s ease;
+		transition: opacity 0.3s ease;
+	}
+	.inactive-tool {
+		opacity: .5;
+		-webkit-transition: opacity 0.3s ease;
+		-moz-transition: opacity 0.3s ease;
+		transition: opacity 0.3s ease;
+	}
+
+	.size {
+		margin-top: 50px;
+		display: block;
 	}
 
 	.actions {
@@ -285,56 +348,27 @@ nav {
 		margin-right: 10px;
 		width: 200px !important;
 	}
-
-.size {
-	margin-top: 50px;
-	display: block;
 }
 
-#small {
-	background-color: black;
-	border-radius: 5px;
-	display: inline-block;
-	width: 5px;
-	height: 5px;
-}
-
-#medium {
-	background-color: black;
-	border-radius: 10px;
-	display: inline-block;
-	width: 10px;
-	height: 10px;
-}
-
-#large {
-	background-color: black;
-	border-radius: 15px;
-	display: inline-block;
-	width: 15px;
-	height: 15px;
-}
-
-}
-	.tip {
-		background-color: $orange;
-		height: 100px;
-		margin-top: 30px;
-		position: absolute;
-		width: 100%;
-		
-		p {
-			color: white;
-			padding: 10px;
-		}
+.tip {
+	background-color: $orange;
+	height: 100px;
+	margin-top: 30px;
+	position: absolute;
+	width: 100%;
+	
+	p {
+		color: white;
+		padding: 10px;
 	}
-/* General styles for all menus */
+}
+
 .toolbox {
 	background: white;
 	padding: 20px;
 	opacity: .97;
 	position: fixed;
-	height: 75%;
+	height: 90%;
 	margin-top: 64px;
 	overflow: scroll;
 	
@@ -410,4 +444,5 @@ h3 {
 	-moz-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
+
 

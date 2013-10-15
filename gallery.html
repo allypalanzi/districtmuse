@@ -64,7 +64,7 @@
 		<div class="submission-image">
 			<img src="img/flower.png">
 		</div>
-		<div class="likes"><span class="ss-icon">heart</span> 58 likes</div>
+		<div class="likes"><span class="ss-icon">heart</span> 58 Likes</div>
 				<div class="like ss-icon">heart</div>
 
 		<div class="clearfix"></div>
@@ -80,8 +80,8 @@
 		<div class="submission-image">
 			<img src="img/flower.png">
 		</div>
-		<div class="likes"><span class="ss-icon">heart</span> 58 likes</div>
-		<div class="like ss-icon">heart</div>
+		<div class="likes"><span class="ss-icon">heart</span> 58 Likes</div>
+		<div class="like ss-icon inactive">heart</div>
 		<div class="clearfix"></div>
 		<div class="container description">
 			<p>Ally</p>
@@ -97,6 +97,9 @@
 			<img src="img/flower.png">
 
 		</div>
+		<div class="likes"><span class="ss-icon">heart</span> 58 Likes</div>
+		<div class="like ss-icon inactive">heart</div>
+		<div class="clearfix"></div>
 		<div class="container description">
 			<p>Ally</p>
 			<p><a href="#">@mylifeasalllly</a></p>
@@ -109,11 +112,15 @@
 		Create
 	</a>
 </div>
+   	<script src="javascripts/vendor/jquery.js"></script>
 
   <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
-  '.js><\/script>')
+
+  		$('.like').click(function(){
+  			      $(this).toggleClass("liked");
+
+
+    	});
   </script>
 
  
