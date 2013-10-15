@@ -139,7 +139,6 @@
 	    $("#undo").click(function(event){
 			poppedPath = allpaths.pop();
 			poppedPath.remove();
-	    	console.log(allpaths);
 		});
 
 		function onMouseDown(event) {
@@ -166,7 +165,6 @@
 
 		function onMouseUp(event) {
 			allpaths.push(path);
-			console.log(allpaths);
 		}
 
 
