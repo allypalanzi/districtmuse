@@ -177,21 +177,23 @@
  	<script src="javascripts/foundation/foundation.js"></script>
  	 	<script src="javascripts/foundation/classie.js"></script>
  	<script>
- 				var
-				menuRight = document.getElementById( 'toolbox-s2' ),
-				showRight = document.getElementById( 'showRight' ),
+$( document ).ready(function() {
+ 	var pageHeight = $(window).height();
+ 	$('toolbox-vertical').css('height', (pageHeight - 70));
+ 	console.log(pageHeight);
+ });
 
-				body = document.body;
-
-
+ 		var menuRight = document.getElementById( 'toolbox-s2' ),
+			showRight = document.getElementById( 'showRight' ),
+			body = document.body;
 			showRight.onclick = function() {
 				classie.toggle( this, 'active' );
 				classie.toggle( menuRight, 'toolbox-open' );
 			};
 
-$('.dontscroll').bind("touchmove", {}, function(event){
-  event.preventDefault();
-});
+	$('.dontscroll').bind("touchmove", {}, function(event){
+	  event.preventDefault();
+	});
 
 
 

@@ -1,3 +1,8 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
 .clearfix {
 	clear: both;
 }
@@ -101,6 +106,7 @@ nav {
 
 .content {
 	margin-top: 64px;
+	height: 100%;
 }
 
 .home {
@@ -328,6 +334,7 @@ nav {
 	padding: 20px;
 	opacity: .97;
 	position: fixed;
+	height: 75%;
 	margin-top: 64px;
 	overflow: scroll;
 	
@@ -369,9 +376,8 @@ h3 {
 
 .toolbox-vertical {
 	width: 250px;
-	height: 100%;
 	top: 0;
-	z-index: 1000;
+	z-index: 100;
 }
 
 .toolbox-vertical a {
