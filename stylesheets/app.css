@@ -7604,7 +7604,7 @@ nav svg {
 /* line 345, ../sass/_styles.scss */
 .toolbox-vertical {
   width: 250px;
-  height: 75%;
+  height: 100%;
   top: 0;
   z-index: 1000;
 }
