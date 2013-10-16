@@ -3752,7 +3752,7 @@ label.error {
 .section-container.accordion > .section > .title a {
   padding: 0.9375em;
   color: #fd8f54;
-  font-size: 0.875em;
+  font-size: 16px;
   background: none;
 }
 /* line 217, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss/foundation/components/_section.scss */
@@ -3921,7 +3921,7 @@ label.error {
 .section-container.tabs > section > .title a, .section-container.tabs > .section > .title a {
   padding: 0.9375em;
   color: #fd8f54;
-  font-size: 0.875em;
+  font-size: 16px;
   background: none;
 }
 /* line 217, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss/foundation/components/_section.scss */
@@ -4019,7 +4019,7 @@ label.error {
   .section-container.auto > section > .title a, .section-container.auto > .section > .title a {
     padding: 0.9375em;
     color: #fd8f54;
-    font-size: 0.875em;
+    font-size: 16px;
     background: none;
   }
   /* line 217, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss/foundation/components/_section.scss */
@@ -4137,7 +4137,7 @@ label.error {
   .section-container.vertical-tabs > section > .title a, .section-container.vertical-tabs > .section > .title a {
     padding: 0.9375em;
     color: #fd8f54;
-    font-size: 0.875em;
+    font-size: 16px;
     background: none;
   }
   /* line 217, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss/foundation/components/_section.scss */
@@ -4266,7 +4266,7 @@ label.error {
   .section-container.vertical-nav > section > .title a, .section-container.vertical-nav > .section > .title a {
     padding: 0.9375em;
     color: #fd8f54;
-    font-size: 0.875em;
+    font-size: 16px;
     background: none;
   }
   /* line 217, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss/foundation/components/_section.scss */
@@ -4389,7 +4389,7 @@ label.error {
   .section-container.horizontal-nav > section > .title a, .section-container.horizontal-nav > .section > .title a {
     padding: 0.9375em;
     color: #fd8f54;
-    font-size: 0.875em;
+    font-size: 16px;
     background: none;
   }
   /* line 217, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss/foundation/components/_section.scss */
@@ -4491,7 +4491,7 @@ label.error {
 .no-js .section-container > section > .title a, .no-js .section-container > .section > .title a {
   padding: 0.9375em;
   color: #fd8f54;
-  font-size: 0.875em;
+  font-size: 16px;
   background: none;
 }
 /* line 217, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss/foundation/components/_section.scss */
@@ -7764,7 +7764,7 @@ nav svg {
 .help-accordion > section > .help-title a {
   padding: 0.9375em;
   color: #fd8f54;
-  font-size: 0.875em;
+  font-size: 16px;
   background: none;
 }
 /* line 217, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss/foundation/components/_section.scss */

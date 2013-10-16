@@ -1029,11 +1029,11 @@ $default-float: left;
 
 // These style the titles
 
- $section-title-color: $orange;
+$section-title-color: $orange;
 $section-title-color-active: $orange;
 $section-title-bg: #fff;
- $section-title-bg-active: #fff;
- $section-title-bg-active-tabs: #fff;
+$section-title-bg-active: #fff;
+$section-title-bg-active-tabs: #fff;
 $section-title-bg-hover: #fff;
 
 // Want to control border size, here ya go!
@@ -1044,7 +1044,7 @@ $section-border-size: 0px;
 
 // Font controls
 
-// $section-font-size: emCalc(14);
+$section-font-size: 16px;
 
 // Control the color of the background and some size options
 
