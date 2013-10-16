@@ -7589,7 +7589,7 @@ nav svg {
 
 /* line 371, ../sass/_styles.scss */
 .tip-bottom {
-  bottom: -350px;
+  bottom: -370px;
   top: inherit;
 }
 
@@ -7613,10 +7613,10 @@ nav svg {
 
 /* line 393, ../sass/_styles.scss */
 #showBottom {
-  top: -25px;
-  left: 135px;
-  width: 50px;
-  height: 50px;
+  top: -15px;
+  left: 145px;
+  width: 30px;
+  height: 30px;
   background-color: #fd8f54;
   position: absolute;
   -webkit-transform: rotate(45deg);
