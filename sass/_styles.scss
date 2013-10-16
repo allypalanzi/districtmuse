@@ -33,6 +33,10 @@ p,a {
 	margin: 0;
 }
 
+a:hover {
+	color: white;
+}
+
 
 .action {
 	background-color: $blue;
@@ -490,6 +494,18 @@ h3 {
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+}
+
+
+
+.submission {
+	.image-preview {
+		background: url(../img/mappath.svg) no-repeat center;
+		height: 320px;
+		max-width: 320px;
+		margin: 0px auto;
+		width: 100%;
+	}
 }
 
 .help-accordion {

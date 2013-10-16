@@ -243,7 +243,7 @@
 			<div class="actions">
 				<a id="undo" class="undo ss-icon">undo</a>
 				<a id="download" class="download ss-icon">download</a>
-				<a href="#submission" data-transition="slide" class="action">next</a>
+				<a href="#submission" data-transition="slide" class=" next action">next</a>
 				<div class="clearfix"></div>
 			</div>
 			<nav class="tip tip-horizontal tip-bottom" id="tip-s4">
@@ -264,8 +264,9 @@
 			</h1>
 			<h1 class="buttons"></h1>
 		</nav>
-		<div class="gallery">
-			<div class="submission-image">
+		<div class="submission">
+			<div class="image-preview">
+				<img src="">
 			</div>
 			<div class="container description">
 				<form>
@@ -366,20 +367,7 @@
 
 	</script>
 
-	<script>
 
-//var canvas = document.getElementById('canvas');
-
-// function downloadCanvas(link, canvasId, filename) {
-//     link.href = document.getElementById(canvasId).toDataURL();
-//     link.download = filename;
-// }
-
-// document.getElementById('download').addEventListener('click', function() {
-//     downloadCanvas(this, 'canvas', 'muse.png');
-// }, false);
-
-</script>
  	<script>
  		var menuRight = document.getElementById( 'toolbox-s2' ),
 			showRight = document.getElementById( 'showRight' ),
@@ -410,6 +398,13 @@ $(document).foundation();
 
 $('.like').click(function(){
 	$(this).toggleClass("liked");
+});
+
+$('.next').click(function(){
+var canvas = document.getElementById("canvas");
+var img    = canvas.toDataURL("image/png");
+
+   $('.image-preview img').attr('src',img);
 });
 
  </script>
