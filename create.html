@@ -88,7 +88,7 @@
 			<input type="range" class="slider" min="10" value="0" max="30" name="range">
 
 		</nav>
-		<canvas class="dontscroll" id="canvas"></canvas>
+		<canvas class="dontscroll" id="canvas" width="320" height="320"></canvas>
 		<div class="actions">
 			<a id="undo" class="undo ss-icon">undo</a>
 			<a id="download" class="download ss-icon">download</a>
@@ -176,17 +176,16 @@
 
 	<script>
 
-var canvas = document.getElementById('canvas');
+//var canvas = document.getElementById('canvas');
 
-function downloadCanvas(link, canvasId, filename) {
-    link.href = document.getElementById(canvasId).toDataURL();
-    link.download = filename;
-}
+// function downloadCanvas(link, canvasId, filename) {
+//     link.href = document.getElementById(canvasId).toDataURL();
+//     link.download = filename;
+// }
 
-document.getElementById('download').addEventListener('click', function() {
-    downloadCanvas(this, 'canvas', 'muse.png');
-}, false);
-
+// document.getElementById('download').addEventListener('click', function() {
+//     downloadCanvas(this, 'canvas', 'muse.png');
+// }, false);
 
 </script>
  	<script src="javascripts/foundation/foundation.js"></script>

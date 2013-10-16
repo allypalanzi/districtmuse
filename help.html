@@ -8,19 +8,18 @@
 	<!-- MOBILE THINGS -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<!-- screen fix -->
 	<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
 	<!-- prevents iPhone5 letterboxing-->
 	<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
-	
-	<title>muse</title>
+
+	<title>Muse</title>
 
 
 	<link rel="stylesheet" href="stylesheets/app.css">
 	<link href="stylesheets/webfonts/ss-standard.css" rel="stylesheet" />
 	<script src="stylesheets/webfonts/ss-standard.js"></script>
-
 	<script src="javascripts/vendor/custom.modernizr.js"></script>
 
 	<!-- FAVICON 
@@ -52,43 +51,69 @@
 </head>
 
 <body>
-<div class="content submission">
+<div class="content help">
 	<nav>
-		<h1 class="buttons"><a href="create.html" class="ss-icon">previous</a></h1>
+		<h1 class="buttons"><a href="index.html" class="ss-icon">previous</h1>
 		<h1 class="center">
-			Submission
+			Help
 		</h1>
-		<h1 class="buttons"></h1>
+		<h1 class="buttons ss-icon"></h1>
 	</nav>
-	<div class="gallery">
-		<div class="submission-image">
-		</div>
-		<div class="container description">
-			<form>
-				<p>Name:</p>
-				<input type="text" placeholder="John Doe">
-				<p>Twitter:</p>
-				<input type="text" placeholder="@username">
-				<p>Description:</p>
-				<textarea type="text" placeholder="John Doe"></textarea>
-				Social:
-				<p>twitter</p>
-				<p>facebook</p>
-				<p>instagram</p>
-				<p>foursquare</p>
-				<input class="action" type="submit" value="Submit">	
-			</form>	
-		</div>
-	</div>
+
+	<div class="help-accordion" data-section="accordion">
+  <section class="active">
+    <p class="help-title" data-section-title><a href="#section1">What is Muse? <span class="ss-icon"> directright</span></a></p>
+    <div class="help-content" data-slug="section1" data-section-content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque laboriosam dicta facilis neque praesentium. Atque, quia, officiis, delectus quam sapiente natus libero neque eligendi nam soluta assumenda labore excepturi quod.</p>
+    </div>
+  </section>
+  <section>
+    <p class="help-title" data-section-title><a href="#section2">The Gallery <span class="ss-icon"> directright</span></a></p>
+    <div class="help-content" data-slug="section2" data-section-content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, id eligendi blanditiis tempore sit consequatur impedit porro voluptatibus ducimus laboriosam possimus quasi! Quaerat, assumenda, libero sit placeat ut facilis neque!</p>
+    </div>
+  </section>
+
+    <section>
+    <p class="help-title" data-section-title><a href="#section3">Canvas <span class="ss-icon"> directright</span></a></p>
+    <div class="help-content" data-slug="section3" data-section-content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, unde, quam ullam modi molestias repudiandae magni consectetur blanditiis perspiciatis odit dolor fugit voluptatem ducimus voluptate sit expedita repellat cumque eius.</p>
+    </div>
+  </section>
+
+    <section>
+    <p class="help-title" data-section-title><a href="#section4">Submitting <span class="ss-icon"> directright</span></a></p>
+    <div class="help-content" data-slug="section4" data-section-content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, atque, illum, eum maiores quisquam natus quasi quaerat iure animi velit nemo doloremque praesentium aperiam beatae quas ipsam ratione reiciendis voluptas.</p>
+    </div>
+  </section>
+
+    <section>
+    <p class="help-title" data-section-title><a href="#section5">Weekly Contest <span class="ss-icon"> directright</span></a></p>
+    <div class="help-content" data-slug="section5" data-section-content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, corporis sit qui debitis nisi sint velit officia illo impedit quis dolor unde quae expedita accusamus illum ullam amet tempore consectetur.</p>
+    </div>
+  </section>
+
+    <section>
+    <p class="help-title" data-section-title><a href="#section6">Digital Canvas <span class="ss-icon"> directright</span></a></p>
+    <div class="help-content" data-slug="section6" data-section-content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure debitis sed necessitatibus deleniti atque at nostrum! Vitae, voluptatum, voluptate laboriosam et ipsam fugiat doloribus earum. Dolorem iusto incidunt quo tenetur.</p>
+    </div>
+  </section>
 </div>
+</div>
+
 
   <script>
   document.write('<script src=' +
   ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
   '.js><\/script>')
   </script>
+  
+ 	<script src="javascripts/foundation/foundation.js"></script>
+<script src="javascripts/foundation/foundation.section.js"></script>
 
- 
 	<!--<script src="javascripts/foundation/foundation.abide.js"></script>
 	
 	<script src="javascripts/foundation/foundation.alerts.js"></script>
@@ -113,7 +138,7 @@
 	
 	<script src="javascripts/foundation/foundation.reveal.js"></script>
 	
-	<script src="javascripts/foundation/foundation.section.js"></script>
+	
 	
 	<script src="javascripts/foundation/foundation.tooltips.js"></script>
 	

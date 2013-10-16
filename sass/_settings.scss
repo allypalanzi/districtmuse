@@ -1029,16 +1029,16 @@ $default-float: left;
 
 // These style the titles
 
-// $section-title-color: #333;
-// $section-title-color-active: #333;
-// $section-title-bg: #efefef;
-// $section-title-bg-active: darken($section-title-bg, $section-function-factor);
-// $section-title-bg-active-tabs: #fff;
-// $section-title-bg-hover: darken($section-title-bg, $section-function-factor / 2);
+ $section-title-color: $orange;
+$section-title-color-active: $orange;
+$section-title-bg: #fff;
+ $section-title-bg-active: #fff;
+ $section-title-bg-active-tabs: #fff;
+$section-title-bg-hover: #fff;
 
 // Want to control border size, here ya go!
 
-// $section-border-size: 1px;
+$section-border-size: 0px;
 // $section-border-style: solid;
 // $section-border-color: #ccc;
 
