@@ -84,7 +84,7 @@
 <div data-role="page" id="gallery"> 
 	<div class="content gallery">
 		<nav>
-			<h1 class="buttons"><a href="#home" data-rel="back" class="ss-icon">previous</a></h1>
+			<h1 class="buttons"><a data-rel="back" class="ss-icon">previous</a></h1>
 			<h1 class="center">
 				Gallery
 			</h1>
@@ -138,7 +138,7 @@
 			</div>
 		</div>
 
-		<a class="create-button action" href="create.html"> 
+		<a class="create-button action" href="#create" data-transition="slide"> 
 			Create
 		</a>
 	</div>
@@ -148,63 +148,262 @@
 
 <div data-role="page" id="help">
 	<div class="content help">
-	<nav>
-		<h1 class="buttons"><a data-rel="back" class="ss-icon">previous</a></h1>
-		<h1 class="center">
-			Help
-		</h1>
-		<h1 class="buttons ss-icon"></h1>
-	</nav>
+		<nav>
+			<h1 class="buttons"><a data-rel="back" class="ss-icon">previous</a></h1>
+			<h1 class="center">
+				Help
+			</h1>
+			<h1 class="buttons ss-icon"></h1>
+		</nav>
 
 	<div class="help-accordion" data-section="accordion">
-  <section class="active">
-    <p class="help-title" data-section-title><a href="#section1">What is Muse? <span class="ss-icon"> directright</span></a></p>
-    <div class="help-content" data-slug="section1" data-section-content>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque laboriosam dicta facilis neque praesentium. Atque, quia, officiis, delectus quam sapiente natus libero neque eligendi nam soluta assumenda labore excepturi quod.</p>
-    </div>
-  </section>
-  <section>
-    <p class="help-title" data-section-title><a href="#section2">The Gallery <span class="ss-icon"> directright</span></a></p>
-    <div class="help-content" data-slug="section2" data-section-content>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, id eligendi blanditiis tempore sit consequatur impedit porro voluptatibus ducimus laboriosam possimus quasi! Quaerat, assumenda, libero sit placeat ut facilis neque!</p>
-    </div>
-  </section>
+		<section class="active">
+		    <p class="help-title" data-section-title><a href="#section1">What is Muse? <span class="ss-icon"> directright</span></a></p>
+		    <div class="help-content" data-slug="section1" data-section-content>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque laboriosam dicta facilis neque praesentium. Atque, quia, officiis, delectus quam sapiente natus libero neque eligendi nam soluta assumenda labore excepturi quod.</p>
+		    </div>
+		</section>
 
-    <section>
-    <p class="help-title" data-section-title><a href="#section3">Canvas <span class="ss-icon"> directright</span></a></p>
-    <div class="help-content" data-slug="section3" data-section-content>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, unde, quam ullam modi molestias repudiandae magni consectetur blanditiis perspiciatis odit dolor fugit voluptatem ducimus voluptate sit expedita repellat cumque eius.</p>
-    </div>
-  </section>
+		<section>
+		    <p class="help-title" data-section-title><a href="#section2">The Gallery <span class="ss-icon"> directright</span></a></p>
+		    <div class="help-content" data-slug="section2" data-section-content>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, id eligendi blanditiis tempore sit consequatur impedit porro voluptatibus ducimus laboriosam possimus quasi! Quaerat, assumenda, libero sit placeat ut facilis neque!</p>
+		    </div>
+		 </section>
 
-    <section>
-    <p class="help-title" data-section-title><a href="#section4">Submitting <span class="ss-icon"> directright</span></a></p>
-    <div class="help-content" data-slug="section4" data-section-content>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, atque, illum, eum maiores quisquam natus quasi quaerat iure animi velit nemo doloremque praesentium aperiam beatae quas ipsam ratione reiciendis voluptas.</p>
-    </div>
-  </section>
+		<section>
+		    <p class="help-title" data-section-title><a href="#section3">Canvas <span class="ss-icon"> directright</span></a></p>
+		    <div class="help-content" data-slug="section3" data-section-content>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, unde, quam ullam modi molestias repudiandae magni consectetur blanditiis perspiciatis odit dolor fugit voluptatem ducimus voluptate sit expedita repellat cumque eius.</p>
+		    </div>
+		  </section>
 
-    <section>
-    <p class="help-title" data-section-title><a href="#section5">Weekly Contest <span class="ss-icon"> directright</span></a></p>
-    <div class="help-content" data-slug="section5" data-section-content>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, corporis sit qui debitis nisi sint velit officia illo impedit quis dolor unde quae expedita accusamus illum ullam amet tempore consectetur.</p>
-    </div>
-  </section>
+	    <section>
+		    <p class="help-title" data-section-title><a href="#section4">Submitting <span class="ss-icon"> directright</span></a></p>
+		    <div class="help-content" data-slug="section4" data-section-content>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, atque, illum, eum maiores quisquam natus quasi quaerat iure animi velit nemo doloremque praesentium aperiam beatae quas ipsam ratione reiciendis voluptas.</p>
+		    </div>
+		  </section>
 
-    <section>
-    <p class="help-title" data-section-title><a href="#section6">Digital Canvas <span class="ss-icon"> directright</span></a></p>
-    <div class="help-content" data-slug="section6" data-section-content>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure debitis sed necessitatibus deleniti atque at nostrum! Vitae, voluptatum, voluptate laboriosam et ipsam fugiat doloribus earum. Dolorem iusto incidunt quo tenetur.</p>
-    </div>
-  </section>
+	    <section>
+		    <p class="help-title" data-section-title><a href="#section5">Weekly Contest <span class="ss-icon"> directright</span></a></p>
+		    <div class="help-content" data-slug="section5" data-section-content>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, corporis sit qui debitis nisi sint velit officia illo impedit quis dolor unde quae expedita accusamus illum ullam amet tempore consectetur.</p>
+		    </div>
+	  	</section>
+
+	    <section>
+		    <p class="help-title" data-section-title><a href="#section6">Digital Canvas <span class="ss-icon"> directright</span></a></p>
+		    <div class="help-content" data-slug="section6" data-section-content>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure debitis sed necessitatibus deleniti atque at nostrum! Vitae, voluptatum, voluptate laboriosam et ipsam fugiat doloribus earum. Dolorem iusto incidunt quo tenetur.</p>
+		    </div>
+		  </section>
+		</div>
+	</div>
 </div>
+
+<!-- CREATE-->
+
+<div data-role="page" id="create">
+	<div class="content create">
+		<nav>
+			<h1 class="buttons"><a data-rel="back" class="ss-icon">previous</a></h1>
+			<h1 class="center">
+			Create
+			</h1>
+			<h1 class="buttons"><a id="showRight" href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			width="31.663px" height="29.658px" viewBox="0 0 31.663 29.658" enable-background="new 0 0 31.663 29.658" xml:space="preserve">
+			<path d="M30.279,5.674h-5.977c-0.65-1.914-2.679-5.547-8.703-5.673L15.385,0c-2.62,0-4.694,0.722-6.167,2.145
+			C8.037,3.288,7.492,4.632,7.241,5.674H1.384C0.621,5.674,0,6.295,0,7.058v11.197c0,0.763,0.621,1.384,1.384,1.384h1.268v8.635
+			c0,0.763,0.621,1.384,1.384,1.384h23.591c0.763,0,1.384-0.621,1.384-1.384v-8.635h1.269c0.763,0,1.384-0.621,1.384-1.384V7.058
+			C31.663,6.295,31.042,5.674,30.279,5.674z M15.32,2.767l0.226,0.002c3.493,0.073,5.065,1.636,5.767,2.905H10.134
+			C10.648,4.382,11.963,2.767,15.32,2.767z M20.709,15.84v1.031h-9.755V15.84H5.902v1.031H2.768v-8.43h26.127v8.43h-3.134V15.84
+			H20.709z M5.42,19.124h0.482v1.768h5.051v-1.768h9.755v1.768h5.052v-1.768h0.482v7.767H5.42V19.124z"/>
+			</svg></a></h1>
+		</nav>
+		<div class="container">
+			<nav class="toolbox toolbox-vertical toolbox-right" id="toolbox-s2">
+				<h3>colors</h3>
+				<div class="colors">
+					<span href="#" id="yellow" class="inactive-tool">&nbsp;</span>
+					<span href="#" id="blue" class="inactive-tool">&nbsp;</span>
+					<span href="#" id="orange" class="inactive-tool">&nbsp;</span>
+					<span href="#" id="red" class="inactive-tool">&nbsp;</span>
+					<span href="#" id="green" class="inactive-tool">&nbsp;</span>
+					<span href="#" id="black" class="inactive-tool">&nbsp;</span>
+				</div>
+				<h3>eraser</h3>
+				<div class="colors">
+					<span href="#" id="white" class="inactive-tool">&nbsp;</span>
+				</div>
+				<h3>brush size</h3>
+				<input type="range" class="slider" min="5" value="0" max="30" name="range">
+			</nav>
+			<canvas class="dontscroll" id="canvas" width="320" height="320"></canvas>
+			<div class="actions">
+				<a id="undo" class="undo ss-icon">undo</a>
+				<a id="download" class="download ss-icon">download</a>
+				<a href="#submission" data-transition="slide" class="action">next</a>
+				<div class="clearfix"></div>
+			</div>
+			<nav class="tip tip-horizontal tip-bottom" id="tip-s4">
+				<div id="showBottom"></div>
+				<p>Words words words words words</p>
+			</nav>
+		</div>					
+	</div>
 </div>
+
+<!-- SUBMISSION -->
+<div data-role="page" id="submission">
+	<div class="content submission">
+		<nav>
+			<h1 class="buttons"><a data-rel="back" class="ss-icon">previous</a></h1>
+			<h1 class="center">
+				Submission
+			</h1>
+			<h1 class="buttons"></h1>
+		</nav>
+		<div class="gallery">
+			<div class="submission-image">
+			</div>
+			<div class="container description">
+				<form>
+					<p>Name:</p>
+					<input type="text" placeholder="John Doe">
+					<p>Twitter:</p>
+					<input type="text" placeholder="@username">
+					<p>Description:</p>
+					<textarea type="text" placeholder="John Doe"></textarea>
+					Social:
+					<p>twitter</p>
+					<p>facebook</p>
+					<p>instagram</p>
+					<p>foursquare</p>
+					<a href="#gallery" class"action">
+						<input type="submit" value="Submit">	
+					</a>
+				</form>	
+			</div>
+		</div>
+	</div>
 </div>
+
 
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script> 
 <script src="javascripts/foundation/foundation.js"></script>
 <script src="javascripts/foundation/foundation.section.js"></script>
+
+<script src="javascripts/vendor/paper.js"></script>
+	<script type="text/paperscript" canvas="canvas">
+
+		tool.fixedDistance = 30;
+
+		var values = {
+			lines: 1,
+			size: 10,
+			smooth: true
+		};
+		var selectedColor = "#000";
+		var selectedSize;
+		var allpaths =[]
+		var path;
+		var offset;
+
+		$(".colors span").click(function(event) {
+	        selectedColorID = "#" + event.target.id;
+	        selectedColor= $(selectedColorID).css("background-color");
+		});
+
+		$('.inactive-tool').click(function(){
+        	$('span').removeClass('active-tool').addClass('inactive-tool');
+        	$(this).addClass('active-tool').removeClass('inactive-tool');
+    	});
+
+	    $(function(){
+			selectedSize = $('.slider').val();
+			$('.slider').change(function(){
+	    	selectedSize = (this.value);
+		});
+    
+
+});
+
+	    $("#undo").click(function(event){
+			poppedPath = allpaths.pop();
+			poppedPath.remove();
+		});
+
+		function onMouseDown(event) {
+			paths = [];
+			for (var i = 0; i < values.lines; i++) {
+				var path = new Path();
+				path.strokeColor = selectedColor;
+				path.strokeWidth = selectedSize;
+				paths.push(path);
+			}
+		}
+
+		function onMouseDrag(event) {
+			offset = event.delta;
+			offset.angle = offset.angle + 90;
+			var lineSize = values.size / values.lines;
+			for (var i = 0; i < values.lines; i++) {
+				path = paths[values.lines - 1 - i];
+				offset.length = lineSize * i + lineSize / 2;
+				path.add(event.middlePoint + offset);
+				path.smooth();
+			}
+		}
+
+		function onMouseUp(event) {
+			allpaths.push(path);
+		}
+
+
+
+	</script>
+
+	<script>
+
+//var canvas = document.getElementById('canvas');
+
+// function downloadCanvas(link, canvasId, filename) {
+//     link.href = document.getElementById(canvasId).toDataURL();
+//     link.download = filename;
+// }
+
+// document.getElementById('download').addEventListener('click', function() {
+//     downloadCanvas(this, 'canvas', 'muse.png');
+// }, false);
+
+</script>
+ 	<script src="javascripts/foundation/foundation.js"></script>
+ 	 	<script src="javascripts/foundation/classie.js"></script>
+ 	<script>
+ 		var menuRight = document.getElementById( 'toolbox-s2' ),
+			showRight = document.getElementById( 'showRight' ),
+			menuBottom = document.getElementById( 'tip-s4' ),
+			showBottom = document.getElementById( 'showBottom' ),
+			body = document.body;
+		showRight.onclick = function() {
+			classie.toggle( this, 'active' );
+			classie.toggle( menuRight, 'toolbox-open' );
+		};
+
+		showBottom.onclick = function() {
+			classie.toggle( this, 'active' );
+			classie.toggle( menuBottom, 'tip-open' );
+		};
+
+	$('.dontscroll').bind("touchmove", {}, function(event){
+	  event.preventDefault();
+	});
+ 	</script>
+
+
+
 <script>
 
 $(document).foundation();
