@@ -237,7 +237,7 @@
 					<span href="#" id="white" class="inactive-tool">&nbsp;</span>
 				</div>
 				<h3>brush size</h3>
-				<input type="range" class="slider" min="5" value="0" max="30" name="range">
+				<input type="range" class="size-slider" min="5" value="0" max="30" name="range">
 			</nav>
 			<canvas class="dontscroll" id="canvas" width="320" height="320"></canvas>
 			<div class="actions">
@@ -282,7 +282,7 @@
 					<p>instagram</p>
 					<p>foursquare</p>
 					<a href="#gallery" class"action">
-						<input type="submit" value="Submit">	
+						<input class="action" type="submit" value="Submit">	
 					</a>
 				</form>	
 			</div>
@@ -298,7 +298,7 @@
 <script src="javascripts/foundation/foundation.section.js"></script>
 <script src="javascripts/foundation/classie.js"></script>
 <script src="javascripts/vendor/paper.js"></script>
-	<script type="text/paperscript" canvas="canvas">
+<script type="text/paperscript" canvas="canvas">
 
 		tool.fixedDistance = 30;
 
@@ -324,13 +324,11 @@
     	});
 
 	    $(function(){
-			selectedSize = $('.slider').val();
-			$('.slider').change(function(){
-	    	selectedSize = (this.value);
+			selectedSize = $('.size-slider').val();
+			$('.size-slider').change(function(){
+	    		selectedSize = (this.value);
+			});
 		});
-    
-
-});
 
 	    $("#undo").click(function(event){
 			poppedPath = allpaths.pop();
@@ -362,9 +360,6 @@
 		function onMouseUp(event) {
 			allpaths.push(path);
 		}
-
-
-
 	</script>
 
 
@@ -374,6 +369,7 @@
 			menuBottom = document.getElementById( 'tip-s4' ),
 			showBottom = document.getElementById( 'showBottom' ),
 			body = document.body;
+		
 		showRight.onclick = function() {
 			classie.toggle( this, 'active' );
 			classie.toggle( menuRight, 'toolbox-open' );
@@ -384,27 +380,23 @@
 			classie.toggle( menuBottom, 'tip-open' );
 		};
 
-	$('.dontscroll').bind("touchmove", {}, function(event){
-	  event.preventDefault();
+		$('.dontscroll').bind("touchmove", {}, function(event){
+		  event.preventDefault();
+		});
+
+
+	$(document).foundation();
+
+
+	$('.like').click(function(){
+		$(this).toggleClass("liked");
 	});
- 	</script>
 
-
-
-<script>
-
-$(document).foundation();
-
-
-$('.like').click(function(){
-	$(this).toggleClass("liked");
-});
-
-$('.next').click(function(){
-	var canvas = document.getElementById("canvas");
-	var img    = canvas.toDataURL("image/png");
-   $('.image-preview img').attr('src',img);
-});
+	$('.next').click(function(){
+		var canvas = document.getElementById("canvas");
+		var img    = canvas.toDataURL("image/png");
+	   $('.image-preview img').attr('src',img);
+	});
 
  </script>
 </body>
