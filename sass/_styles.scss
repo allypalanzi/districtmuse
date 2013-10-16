@@ -352,16 +352,57 @@ nav {
 
 .tip {
 	background-color: $orange;
-	height: 100px;
-	margin-top: 30px;
-	position: absolute;
-	width: 100%;
+	position: fixed;
 	
 	p {
 		color: white;
 		padding: 10px;
 	}
 }
+
+
+.tip-horizontal {
+	width: 100%;
+	height: 400px;
+	left: 0;
+	z-index: 1000;
+}
+
+.tip-bottom {
+	bottom: -350px;
+	top: inherit;
+}
+
+.tip-bottom.tip-open {
+	bottom: 0px !important;
+}
+
+.tip,
+.tip-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.tip {
+	.active {
+		background-color: $orange;
+	}
+}
+
+#showBottom {
+top: -25px;
+left: 135px;
+width: 50px;
+height: 50px;
+background-color: $orange;
+position: absolute;
+-webkit-transform: rotate(45deg);
+}
+
+
+
+
 
 .toolbox {
 	background: white;

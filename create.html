@@ -95,15 +95,14 @@
 			<a href="submission.html" class="action">next</a>
 			<div class="clearfix"></div>
 		</div>
-	</div>
-			<div class="tip">
+		<nav class="tip tip-horizontal tip-bottom" id="tip-s4">
+					<div id="showBottom"></div>
+
 				<p>Words words words words words</p>
-			</div>
+			</nav>
+	</div>					
 
 </div>
-
-
-
    	<script src="javascripts/vendor/jquery.js"></script>
  	<script src="javascripts/vendor/paper.js"></script>
 	<script type="text/paperscript" canvas="canvas">
@@ -195,19 +194,22 @@ document.getElementById('download').addEventListener('click', function() {
  	<script>
  		var menuRight = document.getElementById( 'toolbox-s2' ),
 			showRight = document.getElementById( 'showRight' ),
+			menuBottom = document.getElementById( 'tip-s4' ),
+			showBottom = document.getElementById( 'showBottom' ),
 			body = document.body;
-			showRight.onclick = function() {
-				classie.toggle( this, 'active' );
-				classie.toggle( menuRight, 'toolbox-open' );
-			};
+		showRight.onclick = function() {
+			classie.toggle( this, 'active' );
+			classie.toggle( menuRight, 'toolbox-open' );
+		};
+
+		showBottom.onclick = function() {
+			classie.toggle( this, 'active' );
+			classie.toggle( menuBottom, 'tip-open' );
+		};
 
 	$('.dontscroll').bind("touchmove", {}, function(event){
 	  event.preventDefault();
 	});
-
-
-
-
  	</script>
 
 	<!--<script src="javascripts/foundation/foundation.abide.js"></script>
