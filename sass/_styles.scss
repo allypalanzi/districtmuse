@@ -48,8 +48,8 @@ a:hover {
 	line-height: 44px;
 	opacity: .97;
 	text-align: center;
-	width: 200px;
-	}
+	width: 300px;
+}
 
 nav {
 	background-color: $orange;
@@ -342,21 +342,19 @@ nav {
 
 	.actions {
 		margin-top: 20px;
-		.undo, .download {
+		.undo, .trash {
 			color: $blue;
-			float: left;
 			font-size: 30px;
-			padding: 10px;
 		}
 
-	}
+		.undo {
+			padding-left: 10px;
+		}
+		.action {
+			margin-left: 10px;
+			margin-top: 10px;
+		}
 
-
-
-	.action {
-		float: right;
-		margin-right: 10px;
-		width: 200px !important;
 	}
 }
 
