@@ -7837,29 +7837,30 @@ nav svg {
   font-size: 14px;
   margin: 0 !important;
   padding: 10px;
+  text-align: center;
   width: 50%;
 }
-/* line 592, ../sass/_styles.scss */
+/* line 593, ../sass/_styles.scss */
 .social .ss-social {
-  padding-right: 15px;
+  padding-right: 10px;
 }
 
-/* line 597, ../sass/_styles.scss */
+/* line 598, ../sass/_styles.scss */
 .twitter {
   background-color: #009bca;
 }
 
-/* line 601, ../sass/_styles.scss */
+/* line 602, ../sass/_styles.scss */
 .facebook {
   background-color: #4d68a1;
 }
 
-/* line 605, ../sass/_styles.scss */
+/* line 606, ../sass/_styles.scss */
 #submit {
   margin-top: 20px;
 }
 
-/* line 610, ../sass/_styles.scss */
+/* line 611, ../sass/_styles.scss */
 .help-accordion {
   width: 100%;
   position: relative;
@@ -7882,7 +7883,7 @@ nav svg {
 .help-accordion[data-section-small-style] > [data-section-region] > [data-section-title], .help-accordion[data-section-small-style] > [data-section-region] > .title, .help-accordion[data-section-small-style] > section > [data-section-title], .help-accordion[data-section-small-style] > section > .title, .help-accordion[data-section-small-style] > .section > [data-section-title], .help-accordion[data-section-small-style] > .section > .title {
   width: 100% !important;
 }
-/* line 612, ../sass/_styles.scss */
+/* line 613, ../sass/_styles.scss */
 .help-accordion > section {
   margin: 0;
 }
@@ -7964,7 +7965,7 @@ nav svg {
   border-top: none;
 }
 
-/* line 619, ../sass/_styles.scss */
+/* line 620, ../sass/_styles.scss */
 .help-title .ss-icon {
   font-size: 8px;
 }
