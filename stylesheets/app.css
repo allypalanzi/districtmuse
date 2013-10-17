@@ -7702,12 +7702,17 @@ nav svg {
   transition: all 0.3s ease;
 }
 
+/* line 447, ../sass/_styles.scss */
+.tip {
+  background: none;
+  background-color: #fd8f54;
+}
 /* line 448, ../sass/_styles.scss */
 .tip .active {
   background-color: #fd8f54;
 }
 
-/* line 453, ../sass/_styles.scss */
+/* line 457, ../sass/_styles.scss */
 #showBottom {
   top: -15px;
   left: 145px;
@@ -7718,7 +7723,7 @@ nav svg {
   -webkit-transform: rotate(45deg);
 }
 
-/* line 467, ../sass/_styles.scss */
+/* line 471, ../sass/_styles.scss */
 .toolbox {
   background: white;
   padding: 20px;
@@ -7727,14 +7732,14 @@ nav svg {
   margin-top: 64px;
   overflow: scroll;
 }
-/* line 475, ../sass/_styles.scss */
+/* line 479, ../sass/_styles.scss */
 .toolbox input[type=range] {
   -webkit-appearance: none;
   background-color: #f7ce48;
   width: 90%;
   height: 10px;
 }
-/* line 482, ../sass/_styles.scss */
+/* line 486, ../sass/_styles.scss */
 .toolbox input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   background-color: #f7ce48;
@@ -7742,19 +7747,19 @@ nav svg {
   height: 30px;
   border-radius: 30px;
 }
-/* line 490, ../sass/_styles.scss */
+/* line 494, ../sass/_styles.scss */
 .toolbox h3 {
   margin: 20px 0 20px 0;
 }
 
-/* line 495, ../sass/_styles.scss */
+/* line 499, ../sass/_styles.scss */
 .active {
   background-color: white;
   -webkit-transition: background 0.3s ease;
   -moz-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
-/* line 500, ../sass/_styles.scss */
+/* line 504, ../sass/_styles.scss */
 .active svg {
   fill: #fd8f54;
   -webkit-transition: background 0.3s ease;
@@ -7763,32 +7768,32 @@ nav svg {
 }
 
 /* Orientation-dependent styles for the content of the menu */
-/* line 511, ../sass/_styles.scss */
+/* line 515, ../sass/_styles.scss */
 .toolbox-vertical {
   width: 250px;
   top: 0;
   z-index: 100;
 }
 
-/* line 517, ../sass/_styles.scss */
+/* line 521, ../sass/_styles.scss */
 .toolbox-vertical a {
   border-bottom: 1px solid #258ecd;
   padding: 1em;
 }
 
 /* Vertical menu that slides from the left or right */
-/* line 527, ../sass/_styles.scss */
+/* line 531, ../sass/_styles.scss */
 .toolbox-right {
   right: -250px;
 }
 
-/* line 532, ../sass/_styles.scss */
+/* line 536, ../sass/_styles.scss */
 .toolbox-right.toolbox-open {
   right: 0px;
 }
 
 /* Transitions */
-/* line 541, ../sass/_styles.scss */
+/* line 545, ../sass/_styles.scss */
 .toolbox,
 .toolbox-push {
   -webkit-transition: all 0.3s ease;
@@ -7796,7 +7801,7 @@ nav svg {
   transition: all 0.3s ease;
 }
 
-/* line 550, ../sass/_styles.scss */
+/* line 554, ../sass/_styles.scss */
 .image-preview {
   background: url(../img/mappath.svg) no-repeat center;
   height: 320px;
@@ -7805,23 +7810,23 @@ nav svg {
   width: 100%;
 }
 
-/* line 558, ../sass/_styles.scss */
+/* line 562, ../sass/_styles.scss */
 .action .ss-icon {
   font-size: 10px;
   padding-top: 2px;
 }
 
-/* line 565, ../sass/_styles.scss */
+/* line 569, ../sass/_styles.scss */
 .submission textarea {
   height: 75px;
   margin-bottom: 10px;
 }
-/* line 570, ../sass/_styles.scss */
+/* line 574, ../sass/_styles.scss */
 .submission form p {
   margin-bottom: 10px;
 }
 
-/* line 576, ../sass/_styles.scss */
+/* line 580, ../sass/_styles.scss */
 .social {
   color: white;
   float: left;
@@ -7830,27 +7835,27 @@ nav svg {
   padding: 10px;
   width: 50%;
 }
-/* line 584, ../sass/_styles.scss */
+/* line 588, ../sass/_styles.scss */
 .social .ss-social {
   padding-right: 15px;
 }
 
-/* line 589, ../sass/_styles.scss */
+/* line 593, ../sass/_styles.scss */
 .twitter {
   background-color: #009bca;
 }
 
-/* line 593, ../sass/_styles.scss */
+/* line 597, ../sass/_styles.scss */
 .facebook {
   background-color: #4d68a1;
 }
 
-/* line 597, ../sass/_styles.scss */
+/* line 601, ../sass/_styles.scss */
 #submit {
   margin-top: 20px;
 }
 
-/* line 602, ../sass/_styles.scss */
+/* line 606, ../sass/_styles.scss */
 .help-accordion {
   width: 100%;
   position: relative;
@@ -7873,7 +7878,7 @@ nav svg {
 .help-accordion[data-section-small-style] > [data-section-region] > [data-section-title], .help-accordion[data-section-small-style] > [data-section-region] > .title, .help-accordion[data-section-small-style] > section > [data-section-title], .help-accordion[data-section-small-style] > section > .title, .help-accordion[data-section-small-style] > .section > [data-section-title], .help-accordion[data-section-small-style] > .section > .title {
   width: 100% !important;
 }
-/* line 604, ../sass/_styles.scss */
+/* line 608, ../sass/_styles.scss */
 .help-accordion > section {
   margin: 0;
 }
@@ -7955,7 +7960,7 @@ nav svg {
   border-top: none;
 }
 
-/* line 611, ../sass/_styles.scss */
+/* line 615, ../sass/_styles.scss */
 .help-title .ss-icon {
   font-size: 8px;
 }

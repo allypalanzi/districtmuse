@@ -448,16 +448,20 @@ nav {
 	.active {
 		background-color: $orange;
 	}
+		background: none;
+
+	background-color: $orange;
 }
 
+
 #showBottom {
-top: -15px;
-left: 145px;
-width: 30px;
-height: 30px;
-background-color: $orange;
-position: absolute;
--webkit-transform: rotate(45deg);
+	top: -15px;
+	left: 145px;
+	width: 30px;
+	height: 30px;
+	background-color: $orange;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
 }
 
 
