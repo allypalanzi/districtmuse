@@ -19,6 +19,8 @@
 	<link rel="stylesheet" href="stylesheets/app.css">
 	<link href="stylesheets/webfonts/ss-standard.css" rel="stylesheet" />
 	<script src="stylesheets/webfonts/ss-standard.js"></script>
+	<link href="stylesheets/webfonts/ss-social.css" rel="stylesheet" />
+	<script src="stylesheets/webfonts/ss-social.js"></script>
 	<script src="javascripts/vendor/custom.modernizr.js"></script>
 
 	<!-- FAVICON 
@@ -314,7 +316,7 @@
 			<div class="image-preview">
 				<img src="">
 			</div>
-			<div class="container description">
+			<div class="container">
 				<form>
 					<p>Name:</p>
 					<input type="text" placeholder="John Doe">
@@ -322,11 +324,10 @@
 					<input type="text" placeholder="@username">
 					<p>Description:</p>
 					<textarea type="text" maxlength="100" placeholder="Write a description here less than 100 characters"></textarea>
-					Social:
-					<p>twitter</p>
-					<p>facebook</p>
-					<p>instagram</p>
-					<p>foursquare</p>
+					<p>Social:<p>
+					<p class="social twitter"><span class="ss-social">twitter</span>twitter</p>
+					<p class="social facebook"><span class="ss-social">facebook</span>facebook</p>
+					<div class="clearfix"></div>
 				<a href="#gallery" id="submit" class="action">Submit <span class="ss-icon">directright</span></a>
 				</form>	
 			</div>
