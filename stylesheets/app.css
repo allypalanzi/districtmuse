@@ -7772,8 +7772,14 @@ nav svg {
   margin: 0px auto;
   width: 100%;
 }
+/* line 561, ../sass/_styles.scss */
+.submission .ss-icon {
+  font-size: 10px;
+  padding-left: 10px;
+  padding-top: 2px;
+}
 
-/* line 562, ../sass/_styles.scss */
+/* line 568, ../sass/_styles.scss */
 .help-accordion {
   width: 100%;
   position: relative;
@@ -7796,7 +7802,7 @@ nav svg {
 .help-accordion[data-section-small-style] > [data-section-region] > [data-section-title], .help-accordion[data-section-small-style] > [data-section-region] > .title, .help-accordion[data-section-small-style] > section > [data-section-title], .help-accordion[data-section-small-style] > section > .title, .help-accordion[data-section-small-style] > .section > [data-section-title], .help-accordion[data-section-small-style] > .section > .title {
   width: 100% !important;
 }
-/* line 564, ../sass/_styles.scss */
+/* line 570, ../sass/_styles.scss */
 .help-accordion > section {
   margin: 0;
 }
@@ -7878,7 +7884,7 @@ nav svg {
   border-top: none;
 }
 
-/* line 571, ../sass/_styles.scss */
+/* line 577, ../sass/_styles.scss */
 .help-title .ss-icon {
   font-size: 8px;
 }
