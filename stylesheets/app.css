@@ -7286,7 +7286,7 @@ nav {
   height: 64px;
   padding-top: 15px;
   position: fixed;
-  opacity: .9;
+  opacity: .97;
   top: 0;
   width: 100%;
   z-index: 1;
@@ -7597,14 +7597,49 @@ nav svg {
 .tip {
   background-color: #fd8f54;
   position: fixed;
+  text-align: center;
 }
 /* line 378, ../sass/_styles.scss */
 .tip p {
   color: white;
   padding: 10px;
 }
+/* line 383, ../sass/_styles.scss */
+.tip h4, .tip h5 {
+  color: white;
+  font-weight: 300;
+}
+/* line 388, ../sass/_styles.scss */
+.tip h4 {
+  font-style: italic;
+}
+/* line 392, ../sass/_styles.scss */
+.tip h5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+/* line 400, ../sass/_styles.scss */
+.tip .tip-stuff {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+/* line 406, ../sass/_styles.scss */
+.tip .tip-image {
+  background: url(../img/colbert.png);
+  background-size: cover;
+  border-radius: 100px;
+  border: 5px solid white;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 100px;
+}
 
-/* line 385, ../sass/_styles.scss */
+/* line 424, ../sass/_styles.scss */
 .tip-horizontal {
   width: 100%;
   height: 400px;
@@ -7612,18 +7647,18 @@ nav svg {
   z-index: 10;
 }
 
-/* line 392, ../sass/_styles.scss */
+/* line 431, ../sass/_styles.scss */
 .tip-bottom {
-  bottom: -370px;
+  bottom: -390px;
   top: inherit;
 }
 
-/* line 397, ../sass/_styles.scss */
+/* line 436, ../sass/_styles.scss */
 .tip-bottom.tip-open {
   bottom: 0px !important;
 }
 
-/* line 402, ../sass/_styles.scss */
+/* line 441, ../sass/_styles.scss */
 .tip,
 .tip-push {
   -webkit-transition: all 0.3s ease;
@@ -7631,12 +7666,12 @@ nav svg {
   transition: all 0.3s ease;
 }
 
-/* line 409, ../sass/_styles.scss */
+/* line 448, ../sass/_styles.scss */
 .tip .active {
   background-color: #fd8f54;
 }
 
-/* line 414, ../sass/_styles.scss */
+/* line 453, ../sass/_styles.scss */
 #showBottom {
   top: -15px;
   left: 145px;
@@ -7647,24 +7682,23 @@ nav svg {
   -webkit-transform: rotate(45deg);
 }
 
-/* line 428, ../sass/_styles.scss */
+/* line 467, ../sass/_styles.scss */
 .toolbox {
   background: white;
   padding: 20px;
-  opacity: .97;
   position: fixed;
   height: 90%;
   margin-top: 64px;
   overflow: scroll;
 }
-/* line 437, ../sass/_styles.scss */
+/* line 475, ../sass/_styles.scss */
 .toolbox input[type=range] {
   -webkit-appearance: none;
   background-color: #f7ce48;
   width: 90%;
   height: 10px;
 }
-/* line 444, ../sass/_styles.scss */
+/* line 482, ../sass/_styles.scss */
 .toolbox input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   background-color: #f7ce48;
@@ -7672,19 +7706,19 @@ nav svg {
   height: 30px;
   border-radius: 30px;
 }
-/* line 452, ../sass/_styles.scss */
+/* line 490, ../sass/_styles.scss */
 .toolbox h3 {
   margin: 20px 0 20px 0;
 }
 
-/* line 457, ../sass/_styles.scss */
+/* line 495, ../sass/_styles.scss */
 .active {
   background-color: white;
   -webkit-transition: background 0.3s ease;
   -moz-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
-/* line 462, ../sass/_styles.scss */
+/* line 500, ../sass/_styles.scss */
 .active svg {
   fill: #fd8f54;
   -webkit-transition: background 0.3s ease;
@@ -7693,32 +7727,32 @@ nav svg {
 }
 
 /* Orientation-dependent styles for the content of the menu */
-/* line 473, ../sass/_styles.scss */
+/* line 511, ../sass/_styles.scss */
 .toolbox-vertical {
   width: 250px;
   top: 0;
   z-index: 100;
 }
 
-/* line 479, ../sass/_styles.scss */
+/* line 517, ../sass/_styles.scss */
 .toolbox-vertical a {
   border-bottom: 1px solid #258ecd;
   padding: 1em;
 }
 
 /* Vertical menu that slides from the left or right */
-/* line 489, ../sass/_styles.scss */
+/* line 527, ../sass/_styles.scss */
 .toolbox-right {
   right: -250px;
 }
 
-/* line 495, ../sass/_styles.scss */
+/* line 533, ../sass/_styles.scss */
 .toolbox-right.toolbox-open {
   right: 0px;
 }
 
 /* Transitions */
-/* line 504, ../sass/_styles.scss */
+/* line 542, ../sass/_styles.scss */
 .toolbox,
 .toolbox-push {
   -webkit-transition: all 0.3s ease;
@@ -7726,7 +7760,7 @@ nav svg {
   transition: all 0.3s ease;
 }
 
-/* line 513, ../sass/_styles.scss */
+/* line 551, ../sass/_styles.scss */
 .submission .image-preview {
   background: url(../img/mappath.svg) no-repeat center;
   height: 320px;
@@ -7735,7 +7769,7 @@ nav svg {
   width: 100%;
 }
 
-/* line 522, ../sass/_styles.scss */
+/* line 560, ../sass/_styles.scss */
 .help-accordion {
   width: 100%;
   position: relative;
@@ -7758,7 +7792,7 @@ nav svg {
 .help-accordion[data-section-small-style] > [data-section-region] > [data-section-title], .help-accordion[data-section-small-style] > [data-section-region] > .title, .help-accordion[data-section-small-style] > section > [data-section-title], .help-accordion[data-section-small-style] > section > .title, .help-accordion[data-section-small-style] > .section > [data-section-title], .help-accordion[data-section-small-style] > .section > .title {
   width: 100% !important;
 }
-/* line 524, ../sass/_styles.scss */
+/* line 562, ../sass/_styles.scss */
 .help-accordion > section {
   margin: 0;
 }
@@ -7840,7 +7874,7 @@ nav svg {
   border-top: none;
 }
 
-/* line 531, ../sass/_styles.scss */
+/* line 569, ../sass/_styles.scss */
 .help-title .ss-icon {
   font-size: 8px;
 }
