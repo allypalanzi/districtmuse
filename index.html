@@ -287,7 +287,7 @@
 				<a href="#submission" data-transition="slide" class=" next action">Next <span class="ss-icon">directright</span></a>
 				<div class="clearfix"></div>
 			</div>
-			<nav class="tip tip-horizontal tip-bottom" id="tip-s4">
+			<nav class="tip tip-horizontal tip-bottom animate" id="tip-s4">
 				<div id="showBottom"></div>
 				<div class="tip-stuff">
 				<h4>"Saying "yes" is how things <strong>grow</strong>."</h4>
@@ -328,7 +328,7 @@
 					<p>instagram</p>
 					<p>foursquare</p>
 					<a href="#gallery" class"action">
-						<input class="action" type="submit" value="Submit">	
+						<input class="action submit" type="submit" value="Submit">	
 					</a>
 				</form>	
 			</div>
@@ -379,6 +379,13 @@
 	    $("#undo").click(function(event){
 			poppedPath = allpaths.pop();
 			poppedPath.remove();
+		});
+
+		$("#trash, .submit").click(function(event){
+			while (allpaths.length !=0) {
+				poppedPath = allpaths.pop();
+				poppedPath.remove();
+			};
 		});
 
 		function onMouseDown(event) {
