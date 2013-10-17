@@ -376,6 +376,18 @@
 			poppedPath.remove();
 		});
 
+		$("#undo").on({ 'touchstart' : function(){ 
+			poppedPath = allpaths.pop();
+			poppedPath.remove();
+		}});
+
+		$("#trash, #submit").on({ 'touchstart' : function(){ 
+			while (allpaths.length !=0) {
+				poppedPath = allpaths.pop();
+				poppedPath.remove();
+			};
+		}});
+
 		$("#trash, #submit").click(function(event){
 			while (allpaths.length !=0) {
 				poppedPath = allpaths.pop();
@@ -432,6 +444,11 @@
 			$('.toolbox-right').removeClass("toolbox-open");
 			$("#showRight").removeClass("active");
 		}});
+
+		$('#canvas').click(function(event){
+			$('.toolbox-right').removeClass("toolbox-open");
+			$("#showRight").removeClass("active");
+		});
 
 		$('.dontscroll').bind("touchmove", {}, function(event){
 		  event.preventDefault();
