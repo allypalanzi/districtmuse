@@ -75,6 +75,10 @@ nav {
 
 	.center {
 		width: 50%;
+		svg {
+			height: 30px;
+			margin-top: 10px;
+		}
 
 	}
 
@@ -247,11 +251,13 @@ nav {
 .create-button {
 	bottom: 10px;
 	height: 44px;
-	left: calc(50% - 150px);
-	left: -webkit-calc(50% - 150px);
-	left: -moz-calc(50% - 150px);
+	right: 20px;
 	position: fixed;
-	width: 300px;
+	width: 44px;
+	
+	.ss-icon {
+		font-size: 20px;
+	}
 	
 }
 
@@ -345,14 +351,21 @@ nav {
 		.undo, .trash {
 			color: $blue;
 			font-size: 30px;
-		}
-
-		.undo {
+			float:left;
+			padding-top: 10px;
 			padding-left: 10px;
 		}
+
 		.action {
-			margin-left: 10px;
-			margin-top: 10px;
+			float: right;
+			margin-right: 10px;
+			width: 200px;
+			
+			.ss-icon {
+				font-size: 10px;
+				padding-left: 10px;
+				padding-top: 2px;
+			}
 		}
 
 	}
