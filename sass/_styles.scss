@@ -56,7 +56,7 @@ a:hover {
 }
 
 nav {
-	background-color: $orange;
+@extend %orange-gradient;
 	height: 64px;
 	padding-top: 15px;
 	position: fixed;
