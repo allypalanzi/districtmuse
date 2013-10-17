@@ -7494,7 +7494,7 @@ nav svg {
 }
 /* line 268, ../sass/_styles.scss */
 .create-button .ss-icon {
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 /* line 276, ../sass/_styles.scss */
