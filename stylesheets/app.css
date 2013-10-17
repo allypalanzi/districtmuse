@@ -7618,16 +7618,15 @@ nav svg {
   font-size: 20px;
   letter-spacing: 1px;
   margin-top: 20px;
-  text-transform: uppercase;
   font-weight: 400;
 }
-/* line 400, ../sass/_styles.scss */
+/* line 399, ../sass/_styles.scss */
 .tip .tip-stuff {
   width: 90%;
   margin: 0 auto;
   margin-top: 20px;
 }
-/* line 406, ../sass/_styles.scss */
+/* line 405, ../sass/_styles.scss */
 .tip .tip-image {
   background: url(../img/colbert.png);
   background-size: cover;
@@ -7639,7 +7638,7 @@ nav svg {
   width: 100px;
 }
 
-/* line 424, ../sass/_styles.scss */
+/* line 423, ../sass/_styles.scss */
 .tip-horizontal {
   width: 100%;
   height: 400px;
@@ -7647,18 +7646,18 @@ nav svg {
   z-index: 10;
 }
 
-/* line 431, ../sass/_styles.scss */
+/* line 430, ../sass/_styles.scss */
 .tip-bottom {
   bottom: -390px;
   top: inherit;
 }
 
-/* line 436, ../sass/_styles.scss */
+/* line 435, ../sass/_styles.scss */
 .tip-bottom.tip-open {
   bottom: 0px !important;
 }
 
-/* line 441, ../sass/_styles.scss */
+/* line 440, ../sass/_styles.scss */
 .tip,
 .tip-push {
   -webkit-transition: all 0.3s ease;
@@ -7666,12 +7665,12 @@ nav svg {
   transition: all 0.3s ease;
 }
 
-/* line 448, ../sass/_styles.scss */
+/* line 447, ../sass/_styles.scss */
 .tip .active {
   background-color: #fd8f54;
 }
 
-/* line 453, ../sass/_styles.scss */
+/* line 452, ../sass/_styles.scss */
 #showBottom {
   top: -15px;
   left: 145px;
@@ -7682,7 +7681,7 @@ nav svg {
   -webkit-transform: rotate(45deg);
 }
 
-/* line 467, ../sass/_styles.scss */
+/* line 466, ../sass/_styles.scss */
 .toolbox {
   background: white;
   padding: 20px;
@@ -7691,14 +7690,14 @@ nav svg {
   margin-top: 64px;
   overflow: scroll;
 }
-/* line 475, ../sass/_styles.scss */
+/* line 474, ../sass/_styles.scss */
 .toolbox input[type=range] {
   -webkit-appearance: none;
   background-color: #f7ce48;
   width: 90%;
   height: 10px;
 }
-/* line 482, ../sass/_styles.scss */
+/* line 481, ../sass/_styles.scss */
 .toolbox input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   background-color: #f7ce48;
@@ -7706,19 +7705,19 @@ nav svg {
   height: 30px;
   border-radius: 30px;
 }
-/* line 490, ../sass/_styles.scss */
+/* line 489, ../sass/_styles.scss */
 .toolbox h3 {
   margin: 20px 0 20px 0;
 }
 
-/* line 495, ../sass/_styles.scss */
+/* line 494, ../sass/_styles.scss */
 .active {
   background-color: white;
   -webkit-transition: background 0.3s ease;
   -moz-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
-/* line 500, ../sass/_styles.scss */
+/* line 499, ../sass/_styles.scss */
 .active svg {
   fill: #fd8f54;
   -webkit-transition: background 0.3s ease;
@@ -7727,32 +7726,32 @@ nav svg {
 }
 
 /* Orientation-dependent styles for the content of the menu */
-/* line 511, ../sass/_styles.scss */
+/* line 510, ../sass/_styles.scss */
 .toolbox-vertical {
   width: 250px;
   top: 0;
   z-index: 100;
 }
 
-/* line 517, ../sass/_styles.scss */
+/* line 516, ../sass/_styles.scss */
 .toolbox-vertical a {
   border-bottom: 1px solid #258ecd;
   padding: 1em;
 }
 
 /* Vertical menu that slides from the left or right */
-/* line 527, ../sass/_styles.scss */
+/* line 526, ../sass/_styles.scss */
 .toolbox-right {
   right: -250px;
 }
 
-/* line 533, ../sass/_styles.scss */
+/* line 532, ../sass/_styles.scss */
 .toolbox-right.toolbox-open {
   right: 0px;
 }
 
 /* Transitions */
-/* line 542, ../sass/_styles.scss */
+/* line 541, ../sass/_styles.scss */
 .toolbox,
 .toolbox-push {
   -webkit-transition: all 0.3s ease;
@@ -7760,7 +7759,7 @@ nav svg {
   transition: all 0.3s ease;
 }
 
-/* line 551, ../sass/_styles.scss */
+/* line 550, ../sass/_styles.scss */
 .submission .image-preview {
   background: url(../img/mappath.svg) no-repeat center;
   height: 320px;
@@ -7769,7 +7768,7 @@ nav svg {
   width: 100%;
 }
 
-/* line 560, ../sass/_styles.scss */
+/* line 559, ../sass/_styles.scss */
 .help-accordion {
   width: 100%;
   position: relative;
@@ -7792,7 +7791,7 @@ nav svg {
 .help-accordion[data-section-small-style] > [data-section-region] > [data-section-title], .help-accordion[data-section-small-style] > [data-section-region] > .title, .help-accordion[data-section-small-style] > section > [data-section-title], .help-accordion[data-section-small-style] > section > .title, .help-accordion[data-section-small-style] > .section > [data-section-title], .help-accordion[data-section-small-style] > .section > .title {
   width: 100% !important;
 }
-/* line 562, ../sass/_styles.scss */
+/* line 561, ../sass/_styles.scss */
 .help-accordion > section {
   margin: 0;
 }
@@ -7874,7 +7873,7 @@ nav svg {
   border-top: none;
 }
 
-/* line 569, ../sass/_styles.scss */
+/* line 568, ../sass/_styles.scss */
 .help-title .ss-icon {
   font-size: 8px;
 }
