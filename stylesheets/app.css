@@ -7446,8 +7446,8 @@ nav svg {
 }
 /* line 221, ../sass/_styles.scss */
 .gallery .description {
-  margin-bottom: 20px;
-  margin-top: -20px;
+  margin-bottom: 50px;
+  margin-top: -15px;
   max-width: 360px;
 }
 /* line 226, ../sass/_styles.scss */
