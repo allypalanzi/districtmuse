@@ -15,15 +15,16 @@ body {
 h1,h2,h3,h4,h5,h6,a,p {
 	letter-spacing: .4px;
 }
+
 input {
 	border: none;
 	background: none;
 }
+
 h1,h2,h3 {
 	font-family: $open-sans;
 	font-weight: 300;
 	letter-spacing: .8px;
-
 }
 
 p,a, input, textarea {
@@ -152,6 +153,7 @@ nav {
 	h2,h4,h6 {
 		color: $orange;
 	}
+
 	text-align: center;
 	background-color: rgba(255, 255, 255, 0.9);
 	width: 90%;
@@ -162,100 +164,91 @@ nav {
 }
 
 
-	.checkin {
-		em {
-			display: block;
-			color: $orange;
-			padding: 15px;
+.checkin {
+	em {
+		display: block;
+		color: $orange;
+		padding: 15px;
+	}
+
+
+	li {
+		border-bottom: 1px solid $yellow;
+		display: block;
+		list-style: none;
+		padding: 15px;
+
+		
+		&:first-child {
+			border-top: 1px solid $yellow;
 		}
 
-
-		li {
-			border-bottom: 1px solid $yellow;
-			display: block;
-			list-style: none;
-			padding: 15px;
-
-			
-			&:first-child {
-				border-top: 1px solid $yellow;
-			}
-
-			p {
-				color: $type;
-				line-height: 50px;
-				padding-bottom: 0;
-			}
+		p {
+			color: $type;
+			line-height: 50px;
+			padding-bottom: 0;
 		}
+	}
 
-		a {
+	.half {
+		display: inline-block;
+		width: 50%;
 
-		}
-
-		.half {
-			display: inline-block;
-			width: 50%;
-
-			&.right  {
-				float: right;
-				width: 40%;
+		&.right  {
+			float: right;
+			width: 40%;
 			.ss-icon {
 				font-size: 10px;
 				margin-left: 6px;
 			}
-			
-			}
 		}
-		
 	}
+	
+}
 
 
-
-.gallery {
-	.submission-image {
-		height: 320px;
-		max-width: 320px;
-		margin: 0px auto;
-		width: 100%;
+.submission-image {
+	height: 320px;
+	max-width: 320px;
+	margin: 0px auto;
+	width: 100%;
+}
+.description {
+	margin-bottom: 50px;
+	margin-top: -15px;
+	max-width: 360px;
+	
+	a {
+		color: $blue-highlight;
+		font-style: italic;
+		font-weight: 400;
 	}
-	.description {
-		margin-bottom: 50px;
-		margin-top: -15px;
-		max-width: 360px;
-		
-		a {
-			color: $blue-highlight;
-			font-style: italic;
-			font-weight: 400;
-		}
+}
 
-	}
+.likes {
+	color: $red;
+	float: left;
+	font-size: 16px;
+	font-weight: 200;
+	padding: 10px;
+}
+.like, .liked {
+	font-size: 40px;
+	font-weight: 200;
+	float: right;
+	padding: 10px;
+}
 
-  .likes {
-  	color: $red;
-  	float: left;
-   	font-size: 16px;
-  	font-weight: 200;
-  	padding: 10px;
-  }
-  .like, .liked {
-  	font-size: 40px;
-  	font-weight: 200;
-  	float: right;
-  	padding: 10px;
-  }
+.like {
+	color: gray;
+}
 
-  .like {
-  	color: gray;
-  }
+.liked {
+	color: $red;
+}
 
-  .liked {
-  	color: $red;
-  }
-
-	.extra-padding {
-		padding-bottom: 60px;
-	}
+.extra-padding {
+	padding-bottom: 60px;
 }
 
 .create-button {
@@ -264,15 +257,14 @@ nav {
 	right: 20px;
 	position: fixed;
 	width: 44px;
-	
+
 	.ss-icon {
 		font-size: 20px !important;
 	}
-	
 }
 
 .create {
-
+	
 	.container {
 		max-width: 320px;
 		width: 100%;
