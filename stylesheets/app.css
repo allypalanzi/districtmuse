@@ -7417,46 +7417,46 @@ nav svg {
   color: #fd8f54;
 }
 
-/* line 168, ../sass/_styles.scss */
+/* line 169, ../sass/_styles.scss */
 .checkin em {
   display: block;
   color: #fd8f54;
   padding: 15px;
 }
-/* line 175, ../sass/_styles.scss */
+/* line 176, ../sass/_styles.scss */
 .checkin li {
   border-bottom: 1px solid #f7ce48;
   display: block;
   list-style: none;
   padding: 15px;
 }
-/* line 182, ../sass/_styles.scss */
+/* line 183, ../sass/_styles.scss */
 .checkin li:first-child {
   border-top: 1px solid #f7ce48;
 }
-/* line 186, ../sass/_styles.scss */
+/* line 187, ../sass/_styles.scss */
 .checkin li p {
   color: #2b2b2b;
   line-height: 50px;
   padding-bottom: 0;
 }
-/* line 193, ../sass/_styles.scss */
+/* line 194, ../sass/_styles.scss */
 .checkin .half {
   display: inline-block;
   width: 50%;
 }
-/* line 197, ../sass/_styles.scss */
+/* line 198, ../sass/_styles.scss */
 .checkin .half.right {
   float: right;
   width: 40%;
 }
-/* line 200, ../sass/_styles.scss */
+/* line 201, ../sass/_styles.scss */
 .checkin .half.right .ss-icon {
   font-size: 10px;
   margin-left: 6px;
 }
 
-/* line 210, ../sass/_styles.scss */
+/* line 211, ../sass/_styles.scss */
 .submission-image {
   height: 320px;
   max-width: 320px;
@@ -7464,24 +7464,24 @@ nav svg {
   width: 100%;
 }
 
-/* line 216, ../sass/_styles.scss */
+/* line 217, ../sass/_styles.scss */
 .description {
   margin-bottom: 50px;
   margin-top: -15px;
   max-width: 360px;
 }
-/* line 221, ../sass/_styles.scss */
+/* line 222, ../sass/_styles.scss */
 .description a {
   color: #42d8e7;
   font-style: italic;
   font-weight: 400;
 }
-/* line 227, ../sass/_styles.scss */
+/* line 228, ../sass/_styles.scss */
 .description p {
   margin-bottom: 8px;
 }
 
-/* line 232, ../sass/_styles.scss */
+/* line 233, ../sass/_styles.scss */
 .likes {
   color: #ff5c70;
   float: left;
@@ -7490,7 +7490,7 @@ nav svg {
   padding: 10px;
 }
 
-/* line 239, ../sass/_styles.scss */
+/* line 240, ../sass/_styles.scss */
 .like, .liked {
   font-size: 40px;
   font-weight: 200;
@@ -7498,22 +7498,22 @@ nav svg {
   padding: 10px;
 }
 
-/* line 246, ../sass/_styles.scss */
+/* line 247, ../sass/_styles.scss */
 .like {
   color: gray;
 }
 
-/* line 250, ../sass/_styles.scss */
+/* line 251, ../sass/_styles.scss */
 .liked {
   color: #ff5c70;
 }
 
-/* line 254, ../sass/_styles.scss */
+/* line 255, ../sass/_styles.scss */
 .extra-padding {
   padding-bottom: 60px;
 }
 
-/* line 258, ../sass/_styles.scss */
+/* line 259, ../sass/_styles.scss */
 .create-button {
   bottom: 10px;
   height: 44px;
@@ -7521,17 +7521,17 @@ nav svg {
   position: fixed;
   width: 44px;
 }
-/* line 265, ../sass/_styles.scss */
+/* line 266, ../sass/_styles.scss */
 .create-button .ss-icon {
   font-size: 20px !important;
 }
 
-/* line 272, ../sass/_styles.scss */
+/* line 273, ../sass/_styles.scss */
 .create .container {
   max-width: 320px;
   width: 100%;
 }
-/* line 276, ../sass/_styles.scss */
+/* line 277, ../sass/_styles.scss */
 .create canvas {
   background: url(../img/mappath.svg) no-repeat center;
   height: 320px;
@@ -7540,7 +7540,7 @@ nav svg {
   max-height: 320px;
   margin: 0 auto;
 }
-/* line 285, ../sass/_styles.scss */
+/* line 286, ../sass/_styles.scss */
 .create .colors span {
   margin: 10px 0px 10px 0px;
   border-radius: 50px;
@@ -7549,72 +7549,72 @@ nav svg {
   display: inline-block;
   margin: 10px;
 }
-/* line 294, ../sass/_styles.scss */
+/* line 295, ../sass/_styles.scss */
 .create #orange {
   background-color: #fd8f54;
   border: 1px solid;
   border-color: #fc6e22;
 }
-/* line 301, ../sass/_styles.scss */
+/* line 302, ../sass/_styles.scss */
 .create #yellow {
   background-color: #f7ce48;
   border: 1px solid;
   border-color: #f5c117;
 }
-/* line 307, ../sass/_styles.scss */
+/* line 308, ../sass/_styles.scss */
 .create #blue {
   background-color: #80dae9;
   border: 1px solid;
   border-color: #55cde1;
 }
-/* line 313, ../sass/_styles.scss */
+/* line 314, ../sass/_styles.scss */
 .create #red {
   background-color: #ff5c70;
   border: 1px solid;
   border-color: #ff2943;
 }
-/* line 319, ../sass/_styles.scss */
+/* line 320, ../sass/_styles.scss */
 .create #green {
   background-color: #a1daa6;
   border: 1px solid;
   border-color: #7ccc83;
 }
-/* line 325, ../sass/_styles.scss */
+/* line 326, ../sass/_styles.scss */
 .create #black {
   background-color: #2b2b2b;
   border: 1px solid;
   border-color: #121212;
 }
-/* line 331, ../sass/_styles.scss */
+/* line 332, ../sass/_styles.scss */
 .create #white {
   background-color: white;
   border: 1px solid;
   border-color: #dbdbdb;
 }
-/* line 337, ../sass/_styles.scss */
+/* line 338, ../sass/_styles.scss */
 .create .active-tool {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease;
   -moz-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
-/* line 343, ../sass/_styles.scss */
+/* line 344, ../sass/_styles.scss */
 .create .inactive-tool {
   opacity: .5;
   -webkit-transition: opacity 0.3s ease;
   -moz-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
-/* line 350, ../sass/_styles.scss */
+/* line 351, ../sass/_styles.scss */
 .create .size {
   margin-top: 50px;
   display: block;
 }
-/* line 355, ../sass/_styles.scss */
+/* line 356, ../sass/_styles.scss */
 .create .actions {
   margin-top: 20px;
 }
-/* line 357, ../sass/_styles.scss */
+/* line 358, ../sass/_styles.scss */
 .create .actions .undo, .create .actions .trash {
   color: #80dae9;
   font-size: 30px;
@@ -7622,52 +7622,52 @@ nav svg {
   padding-top: 10px;
   padding-left: 10px;
 }
-/* line 365, ../sass/_styles.scss */
+/* line 366, ../sass/_styles.scss */
 .create .actions .action {
   float: right;
   margin-right: 10px;
   width: 200px;
 }
-/* line 370, ../sass/_styles.scss */
+/* line 371, ../sass/_styles.scss */
 .create .actions .action .ss-icon {
   font-size: 10px;
   padding-top: 2px;
 }
 
-/* line 379, ../sass/_styles.scss */
+/* line 380, ../sass/_styles.scss */
 .tip {
   background-color: #fd8f54;
   position: fixed;
   text-align: center;
 }
-/* line 383, ../sass/_styles.scss */
+/* line 384, ../sass/_styles.scss */
 .tip p {
   color: white;
   padding: 10px;
 }
-/* line 388, ../sass/_styles.scss */
+/* line 389, ../sass/_styles.scss */
 .tip h4, .tip h5 {
   color: white;
   font-weight: 300;
 }
-/* line 393, ../sass/_styles.scss */
+/* line 394, ../sass/_styles.scss */
 .tip h4 {
   font-style: italic;
 }
-/* line 397, ../sass/_styles.scss */
+/* line 398, ../sass/_styles.scss */
 .tip h5 {
   font-size: 20px;
   letter-spacing: 1px;
   margin-top: 20px;
   font-weight: 400;
 }
-/* line 404, ../sass/_styles.scss */
+/* line 405, ../sass/_styles.scss */
 .tip .tip-stuff {
   width: 90%;
   margin: 0 auto;
   margin-top: 20px;
 }
-/* line 410, ../sass/_styles.scss */
+/* line 411, ../sass/_styles.scss */
 .tip .tip-image {
   background: url(../img/colbert.png);
   background-size: cover;
@@ -7679,7 +7679,7 @@ nav svg {
   width: 100px;
 }
 
-/* line 428, ../sass/_styles.scss */
+/* line 429, ../sass/_styles.scss */
 .tip-horizontal {
   width: 100%;
   height: 400px;
@@ -7687,18 +7687,18 @@ nav svg {
   z-index: 10;
 }
 
-/* line 435, ../sass/_styles.scss */
+/* line 436, ../sass/_styles.scss */
 .tip-bottom {
   bottom: -390px;
   top: inherit;
 }
 
-/* line 440, ../sass/_styles.scss */
+/* line 441, ../sass/_styles.scss */
 .tip-bottom.tip-open {
   bottom: 0px !important;
 }
 
-/* line 445, ../sass/_styles.scss */
+/* line 446, ../sass/_styles.scss */
 .tip,
 .tip-push {
   -webkit-transition: all 0.3s ease;
@@ -7706,17 +7706,17 @@ nav svg {
   transition: all 0.3s ease;
 }
 
-/* line 451, ../sass/_styles.scss */
+/* line 452, ../sass/_styles.scss */
 .tip {
   background: none;
   background-color: #fd8f54;
 }
-/* line 452, ../sass/_styles.scss */
+/* line 453, ../sass/_styles.scss */
 .tip .active {
   background-color: #fd8f54;
 }
 
-/* line 461, ../sass/_styles.scss */
+/* line 462, ../sass/_styles.scss */
 #showBottom {
   top: -15px;
   left: 145px;
@@ -7727,7 +7727,7 @@ nav svg {
   -webkit-transform: rotate(45deg);
 }
 
-/* line 475, ../sass/_styles.scss */
+/* line 476, ../sass/_styles.scss */
 .toolbox {
   background: white;
   padding: 20px;
@@ -7736,14 +7736,14 @@ nav svg {
   margin-top: 64px;
   overflow: scroll;
 }
-/* line 483, ../sass/_styles.scss */
+/* line 484, ../sass/_styles.scss */
 .toolbox input[type=range] {
   -webkit-appearance: none;
   background-color: #f7ce48;
   width: 90%;
   height: 10px;
 }
-/* line 490, ../sass/_styles.scss */
+/* line 491, ../sass/_styles.scss */
 .toolbox input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   background-color: #f7ce48;
@@ -7751,19 +7751,19 @@ nav svg {
   height: 30px;
   border-radius: 30px;
 }
-/* line 498, ../sass/_styles.scss */
+/* line 499, ../sass/_styles.scss */
 .toolbox h3 {
   margin: 20px 0 20px 0;
 }
 
-/* line 503, ../sass/_styles.scss */
+/* line 504, ../sass/_styles.scss */
 .active {
   background-color: white;
   -webkit-transition: background 0.3s ease;
   -moz-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
-/* line 508, ../sass/_styles.scss */
+/* line 509, ../sass/_styles.scss */
 .active svg {
   fill: #fd8f54;
   -webkit-transition: background 0.3s ease;
@@ -7772,32 +7772,32 @@ nav svg {
 }
 
 /* Orientation-dependent styles for the content of the menu */
-/* line 519, ../sass/_styles.scss */
+/* line 520, ../sass/_styles.scss */
 .toolbox-vertical {
   width: 250px;
   top: 0;
   z-index: 100;
 }
 
-/* line 525, ../sass/_styles.scss */
+/* line 526, ../sass/_styles.scss */
 .toolbox-vertical a {
   border-bottom: 1px solid #258ecd;
   padding: 1em;
 }
 
 /* Vertical menu that slides from the left or right */
-/* line 535, ../sass/_styles.scss */
+/* line 536, ../sass/_styles.scss */
 .toolbox-right {
   right: -250px;
 }
 
-/* line 540, ../sass/_styles.scss */
+/* line 541, ../sass/_styles.scss */
 .toolbox-right.toolbox-open {
   right: 0px;
 }
 
 /* Transitions */
-/* line 549, ../sass/_styles.scss */
+/* line 550, ../sass/_styles.scss */
 .toolbox,
 .toolbox-push {
   -webkit-transition: all 0.3s ease;
@@ -7805,7 +7805,7 @@ nav svg {
   transition: all 0.3s ease;
 }
 
-/* line 558, ../sass/_styles.scss */
+/* line 559, ../sass/_styles.scss */
 .image-preview {
   background: url(../img/mappath.svg) no-repeat center;
   height: 320px;
@@ -7814,23 +7814,23 @@ nav svg {
   width: 100%;
 }
 
-/* line 566, ../sass/_styles.scss */
+/* line 567, ../sass/_styles.scss */
 .action .ss-icon {
   font-size: 10px;
   padding-top: 2px;
 }
 
-/* line 573, ../sass/_styles.scss */
+/* line 574, ../sass/_styles.scss */
 .submission textarea {
   height: 75px;
   margin-bottom: 10px;
 }
-/* line 578, ../sass/_styles.scss */
+/* line 579, ../sass/_styles.scss */
 .submission form p {
   margin-bottom: 10px;
 }
 
-/* line 584, ../sass/_styles.scss */
+/* line 585, ../sass/_styles.scss */
 .social {
   color: white;
   float: left;
@@ -7840,27 +7840,27 @@ nav svg {
   text-align: center;
   width: 50%;
 }
-/* line 593, ../sass/_styles.scss */
+/* line 594, ../sass/_styles.scss */
 .social .ss-social {
   padding-right: 10px;
 }
 
-/* line 598, ../sass/_styles.scss */
+/* line 599, ../sass/_styles.scss */
 .twitter {
   background-color: #009bca;
 }
 
-/* line 602, ../sass/_styles.scss */
+/* line 603, ../sass/_styles.scss */
 .facebook {
   background-color: #4d68a1;
 }
 
-/* line 606, ../sass/_styles.scss */
+/* line 607, ../sass/_styles.scss */
 #submit {
   margin-top: 20px;
 }
 
-/* line 611, ../sass/_styles.scss */
+/* line 612, ../sass/_styles.scss */
 .help-accordion {
   width: 100%;
   position: relative;
@@ -7883,7 +7883,7 @@ nav svg {
 .help-accordion[data-section-small-style] > [data-section-region] > [data-section-title], .help-accordion[data-section-small-style] > [data-section-region] > .title, .help-accordion[data-section-small-style] > section > [data-section-title], .help-accordion[data-section-small-style] > section > .title, .help-accordion[data-section-small-style] > .section > [data-section-title], .help-accordion[data-section-small-style] > .section > .title {
   width: 100% !important;
 }
-/* line 613, ../sass/_styles.scss */
+/* line 614, ../sass/_styles.scss */
 .help-accordion > section {
   margin: 0;
 }
@@ -7965,9 +7965,181 @@ nav svg {
   border-top: none;
 }
 
-/* line 620, ../sass/_styles.scss */
+/* line 621, ../sass/_styles.scss */
 .help-title .ss-icon {
   font-size: 8px;
+}
+
+/**
+ *
+ * Main container
+ *
+ */
+/* line 630, ../sass/_styles.scss */
+#addToHomeScreen {
+  z-index: 9999;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  touch-callout: none;
+  width: 240px;
+  font-size: 15px;
+  padding: 12px 14px;
+  text-align: left;
+  font-family: helvetica;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, white), color-stop(0.02, #eeeeee), color-stop(0.98, #cccccc), color-stop(1, #a3a3a3));
+  border: 1px solid #505050;
+  -webkit-border-radius: 8px;
+  -webkit-background-clip: padding-box;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  line-height: 130%;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+/* line 653, ../sass/_styles.scss */
+#addToHomeScreen.addToHomeIOS7 {
+  background: #f2f2f2 !important;
+  -webkit-border-radius: 1px !important;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+/* line 660, ../sass/_styles.scss */
+#addToHomeScreen.addToHomeIpad {
+  width: 268px;
+  font-size: 18px;
+  padding: 14px;
+}
+
+/**
+ *
+ * The 'wide' class is added when the popup contains the touch icon
+ *
+ */
+/* line 671, ../sass/_styles.scss */
+#addToHomeScreen.addToHomeWide {
+  width: 296px;
+}
+
+/* line 675, ../sass/_styles.scss */
+#addToHomeScreen.addToHomeIpad.addToHomeWide {
+  width: 320px;
+  font-size: 18px;
+  padding: 14px;
+}
+
+/**
+ *
+ * The balloon arrow
+ *
+ */
+/* line 686, ../sass/_styles.scss */
+#addToHomeScreen .addToHomeArrow {
+  position: absolute;
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0, rgba(204, 204, 204, 0)), color-stop(0.4, rgba(204, 204, 204, 0)), color-stop(0.4, #cccccc));
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: #505050;
+  width: 16px;
+  height: 16px;
+  -webkit-transform: rotateZ(45deg);
+  bottom: -9px;
+  left: 50%;
+  margin-left: -8px;
+  -webkit-box-shadow: inset -1px -1px 0 #a9a9a9;
+  -webkit-border-bottom-right-radius: 2px;
+}
+
+/* line 701, ../sass/_styles.scss */
+#addToHomeScreen.addToHomeIOS7 .addToHomeArrow {
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0, rgba(204, 204, 204, 0)), color-stop(0.4, rgba(204, 204, 204, 0)), color-stop(0.4, #f2f2f2)) !important;
+  -webkit-box-shadow: inset -1px -1px 0 #fff !important;
+  border-color: #ccc !important;
+}
+
+/**
+ *
+ * The balloon arrow for iPad
+ *
+ */
+/* line 712, ../sass/_styles.scss */
+#addToHomeScreen.addToHomeIpad .addToHomeArrow {
+  -webkit-transform: rotateZ(-135deg);
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0, rgba(238, 238, 238, 0)), color-stop(0.4, rgba(238, 238, 238, 0)), color-stop(0.4, #eeeeee));
+  -webkit-box-shadow: inset -1px -1px 0 #fff;
+  top: -9px;
+  bottom: auto;
+  left: 50%;
+}
+
+/**
+ *
+ * Close button
+ *
+ */
+/* line 725, ../sass/_styles.scss */
+#addToHomeScreen .addToHomeClose {
+  -webkit-box-sizing: border-box;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 18px;
+  height: 18px;
+  line-height: 14px;
+  text-align: center;
+  text-indent: 1px;
+  -webkit-border-radius: 9px;
+  background: rgba(0, 0, 0, 0.12);
+  color: #888;
+  -webkit-box-shadow: 0 1px 0 #fff;
+  font-size: 16px;
+}
+
+/* line 741, ../sass/_styles.scss */
+#addToHomeScreen.addToHomeIOS7 .addToHomeClose {
+  line-height: 12px;
+  padding-right: 1px;
+  background: transparent;
+  border: 1px solid #888;
+  -webkit-box-shadow: none;
+}
+
+/**
+ *
+ * The '+' icon, displayed only on iOS < 4.2
+ *
+ */
+/* line 754, ../sass/_styles.scss */
+#addToHomeScreen .addToHomePlus {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+/**
+ *
+ * The 'share' icon, displayed only on iOS >= 4.2
+ *
+ */
+/* line 765, ../sass/_styles.scss */
+#addToHomeScreen .addToHomeShare {
+  display: inline-block;
+  width: 18px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAeCAQAAADu6HTYAAADPElEQVR4Xq3TX2gcRRzA8e/M7mVv2+TSNpc/TZtrY6jUGqgaSAmEChKLrYK0YH0RFC2CSCkEfCghiKU04J8qNigq6os+iQV98MHWFwVBrQQRWs21lBw5cw3NNb1/udu72RGG5Y77IzXW77D7sAwf5scyYoL6BGXSDKFZwaGpLvIUaeoCkvX1MmsM0Ny6oRSQYOLuIS+YZOpfQdqslpUxcZrzTVAz4qPwW2O3CeIwC/RSzeY6Ow1QhUrkr+YOWfEKDkEP8Rij7CHKJmrFSDHBdwGEE5wiGChPN+PnT8VdRtEIl1d4gRj/1EVe5ZSBKGh8iqQpo/Fo5+3C/gz0MYg4zgwbqday1/Q4B8BGQ45d/Hi54lakCrU5obOcidJpu1+Lg9whjabyaOYLnrIBFFaRD+xe2ybMDWY66GmP/WA9cGfGp0CWhy0wkMN8inepFiH2rV1j0NQSNQbFLRQnS8/8YSDBBpadfv4CYDub2fmeHDNAsL1MBWUel0iA+Xik6eHcyvD3vAMSU1TGuA/YRS+dD7ovCQN43GKRFCU20Kd3V/avDVVyAZ5niTEuLA5/zBGWg9EEEhfJKN200Tat8CmRAQb9+wv7soPlHt2tQorsz1uPbr0HTY4sJwrH47zJZwABBAKLMBoQXepwgTwdHCo+fXMkQ4lrxEmQ5AaXipPqDY9V2vn09tgvTPI71EEGYxM+/uMJLJ4svpgaWGKOi/xKgmqLSUGSUd5f2vIVJ/CgBaTIUsZ7ZBsn0+NzfMOXLFCXQyTcybN6ep5ZZgUOHn7jpfUpsZshdugPGf+E5zjbyHTSRyQ8xfRPPM/s63RHeuknSoT22mjmmnAOIMkUZ6D1xSfPPAfd1WFKM3sO2CMaHx8M1NjnXKHaAGGkOW0C02WeYHUz4qMtx+w5gUDS8NckYe5lHsMYwCZEPyEEmjLDZFmAS7CDviMdxyTkMNVBKEmYLvbiQQBIBBbCQG04bGQvFWz6CfsCQLWCigILFwcfkGYBiOpbYuOizTAyYyDdCtrGaRG1LCkIgMYEFhI0WqQZoSlbGRyHKe4qOx7iv2bVQW9dp4dlM/x6kmwnWQcd/Q3FCqwTEiT5s+6D5v/pb0SSHyg7uhMWAAAAAElFTkSuQmCC);
+  background-size: 18px 15px;
+  text-indent: -9999em;
+  overflow: hidden;
+}
+
+/* line 776, ../sass/_styles.scss */
+#addToHomeScreen.addToHomeIOS7 .addToHomeShare {
+  width: 11px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAA8CAYAAAAQTCjdAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAASCQAAEgkB80sG3AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKjSURBVGiB7dpPiFVVHMDxz7m9NCtMyI2bEJEC25WrEkzHUXCRraIwdNE8ZxfYIlcis1ZEbGEzT1QCF4XgH1CyWhUoJKIWNRGEiCNKmkSiYTzfcfGuOokx77x3ZlS8382959zfn+/invvn3RdijHIRBrwkOINCYXEcdjpb7VyiYdBsLScwt5y6IloYdzqXo36Ro0gY9IKWo+5JwmzBt2HQnBw9ehYNazyn5TBee8Dh+Vq+CWu92GufnkTDR6ab7gDeBNHouMM/l9tXTXM0fGBmL726Fg1Dam74EsvKqR8VNowL2Yzj5f7rnnE4DHq2235diYYhhTGfC94up35T0y+6di/ITU0rKVd+sEi0P7xr2pSJOu8zvF+OzqEv7vDH/WFxt7/cshy/ticsN8sXYUht0kXDOlsF9XJ4UaEvNoz9X3zc5bKaZThbyr5jzJ4wlNY7KTgM+ES0vhz+KeiPw36fKC/ucAF9uFBOrTZm26SJCtaV27+xIo7cXdkTEhvOoh+XyxprU1qnim7CQdGK2HAyKRexYVShT3RItDElN+mkjiP2Ym+S3f01hv2EVal5WW6hU0ElmptaqJuBpXg6MbeFH2LDpU6CQ93zWIKnEvs0cayGU3glMfkOo1jQYewZzOuyz7FC95Jwo5OgUFfgeg993hh/eTqCTxOSm/iuk8DY0Ap1b2GhtHXxsfZN4j/X0fOx4auEIknEhqv4OiUn1L13Z/+xWfWVaG4q0dxUormpRHNTieamEs1NJZqbJ1Q0jHvdiJo5S2cVjSNOCHZhn3/SnuYnIvl3yomIIz7MXZMn9hydRCrR3FSiualEc1OJ5qYSzU0lmptKNDePjWgwcPePT7/g+4cp8wCW4GXaryK3tL+mLdD5x62ppllgu7bso8q/2HIbzGWdNmWnSJwAAAAASUVORK5CYII=);
+  background-size: 11px 15px;
 }
 
 /*
