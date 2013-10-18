@@ -627,6 +627,14 @@ h3 {
 	}
 }
 
+.ui-dialog-background {
+	opacity: 0.5;
+	-webkit-transition: opacity 0.5s ease-in;
+}
+
+#submissionalert {
+	background: transparent;
+}
 
 .submissionalert {
 	color: white;
@@ -636,6 +644,7 @@ h3 {
 	margin: 40% 15px 0px 15px;
 	text-align: center;
 	width: 290px;
+
 	
 	p {
 		padding: 15px;

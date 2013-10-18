@@ -28,18 +28,59 @@
 	  type="image/png" 
 	  href="http://example.com/myicon.png"> -->
 
-	<!-- TOUCH ICONS -->
-	<link rel="apple-touch-icon" href="img/app-icon.pn" />
-	<link rel="apple-touch-icon" sizes="76x76" href="img/app-icon.png" />
-	<link rel="apple-touch-icon" sizes="120x120" href="img/app-icon.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/app-icon.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="img/app-icon.png" />
-
-	<!-- iPhone 4 Retina -->
-    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" href="img/apple-startup-iphone-tall-retina.png">
-
-    <!-- iPhone 5 Retina -->
-    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="img/apple-startup-iphone-tall-retina.png">
+	<!-- iPhone -->
+        <link href="http://taylor.fausak.me/static/images/apple-touch-icon-57x57.png"
+              sizes="57x57"
+              rel="apple-touch-icon">
+        <link href="http://taylor.fausak.me/static/images/apple-touch-startup-image-320x460.png"
+              media="(device-width: 320px) and (device-height: 480px)
+                 and (-webkit-device-pixel-ratio: 1)"
+              rel="apple-touch-startup-image">
+ 
+        <!-- iPhone (Retina) -->
+        <link href="http://taylor.fausak.me/static/images/apple-touch-icon-114x114.png"
+              sizes="114x114"
+              rel="apple-touch-icon">
+        <link href="http://taylor.fausak.me/static/images/apple-touch-startup-image-640x920.png"
+              media="(device-width: 320px) and (device-height: 480px)
+                 and (-webkit-device-pixel-ratio: 2)"
+              rel="apple-touch-startup-image">
+ 
+        <!-- iPhone 5 -->
+        <link href="http://taylor.fausak.me/static/images/apple-touch-startup-image-640x1096.png"
+              media="(device-width: 320px) and (device-height: 568px)
+                 and (-webkit-device-pixel-ratio: 2)"
+              rel="apple-touch-startup-image">
+ 
+        <!-- iPad -->
+        <link href="http://taylor.fausak.me/static/images/apple-touch-icon-72x72.png"
+              sizes="72x72"
+              rel="apple-touch-icon">
+        <link href="http://taylor.fausak.me/static/images/apple-touch-startup-image-768x1004.png"
+              media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: portrait)
+                 and (-webkit-device-pixel-ratio: 1)"
+              rel="apple-touch-startup-image">
+        <link href="http://taylor.fausak.me/static/images/apple-touch-startup-image-748x1024.png"
+              media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: landscape)
+                 and (-webkit-device-pixel-ratio: 1)"
+              rel="apple-touch-startup-image">
+ 
+        <!-- iPad (Retina) -->
+        <link href="http://taylor.fausak.me/static/images/apple-touch-icon-144x144.png"
+              sizes="144x144"
+              rel="apple-touch-icon">
+        <link href="http://taylor.fausak.me/static/images/apple-touch-startup-image-1536x2008.png"
+              media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: portrait)
+                 and (-webkit-device-pixel-ratio: 2)"
+              rel="apple-touch-startup-image">
+        <link href="http://taylor.fausak.me/static/images/apple-touch-startup-image-1496x2048.png"
+              media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: landscape)
+                 and (-webkit-device-pixel-ratio: 2)"
+              rel="apple-touch-startup-image">
 
 </head>
 
@@ -352,7 +393,7 @@
 		<p>Your submission has been recieved!</p>
 		<p>You'll get a notification when it is accepted into the gallery.</p>
 		<a class="action" href="#gallery" id="submit">Okay!</a>
-		<a class="action" data-rel="back">Take Me Back</a>
+		<a class="action" data-rel="back" id="submit-back">Take Me Back</a>
 	</div>
 
 
@@ -423,6 +464,7 @@
 			};
 		});
 
+
 		function onMouseDown(event) {
 			paths = [];
 			for (var i = 0; i < values.lines; i++) {
@@ -478,10 +520,10 @@
 			$("#showRight").removeClass("active");
 		});
 
+
 		$('.dontscroll').bind("touchmove", {}, function(event){
 		  event.preventDefault();
 		});
-
 
 	$(document).foundation();
 
