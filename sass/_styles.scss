@@ -639,15 +639,11 @@ h3 {
 	font-size:15px;
 	padding:12px 14px;
 	text-align:left;
-	font-family:helvetica;
-	background-image:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#fff),color-stop(0.02,#eee),color-stop(0.98,#ccc),color-stop(1,#a3a3a3));
-	border:1px solid #505050;
-	-webkit-border-radius:8px;
+	font-family: $open-sans;
+	background: $orange;
 	-webkit-background-clip:padding-box;
-	color:#333;
-	text-shadow:0 1px 0 rgba(255,255,255,0.75);
+	color: white;
 	line-height:130%;
-	-webkit-box-shadow:0 0 4px rgba(0,0,0,0.5);
 }
 
 #addToHomeScreen.addToHomeIOS7 {
@@ -685,10 +681,9 @@ h3 {
  */
 #addToHomeScreen .addToHomeArrow {
 	position:absolute;
-	background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(0,rgba(204,204,204,0)),color-stop(0.4,rgba(204,204,204,0)),color-stop(0.4,#ccc));
+	background: $orange;
 	border-width:0 1px 1px 0;
 	border-style:solid;
-	border-color:#505050;
 	width:16px; height:16px;
 	-webkit-transform:rotateZ(45deg);
 	bottom:-9px;
