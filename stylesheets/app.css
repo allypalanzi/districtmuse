@@ -7832,7 +7832,7 @@ nav svg {
 
 /* line 585, ../sass/_styles.scss */
 .social {
-  color: white;
+  color: #2b2b2b;
   float: left;
   font-size: 14px;
   margin: 0 !important;
@@ -7846,26 +7846,28 @@ nav svg {
 }
 
 /* line 599, ../sass/_styles.scss */
-.twitter {
+.twitter-active {
+  color: white;
   background-color: #009bca;
 }
 
-/* line 603, ../sass/_styles.scss */
-.facebook {
+/* line 604, ../sass/_styles.scss */
+.facebook-active {
+  color: white;
   background-color: #4d68a1;
 }
 
-/* line 607, ../sass/_styles.scss */
+/* line 609, ../sass/_styles.scss */
 #submit {
   margin-top: 20px;
 }
 
-/* line 611, ../sass/_styles.scss */
+/* line 613, ../sass/_styles.scss */
 .submit {
   margin-top: 20px;
 }
 
-/* line 616, ../sass/_styles.scss */
+/* line 618, ../sass/_styles.scss */
 .help-accordion {
   width: 100%;
   position: relative;
@@ -7888,7 +7890,7 @@ nav svg {
 .help-accordion[data-section-small-style] > [data-section-region] > [data-section-title], .help-accordion[data-section-small-style] > [data-section-region] > .title, .help-accordion[data-section-small-style] > section > [data-section-title], .help-accordion[data-section-small-style] > section > .title, .help-accordion[data-section-small-style] > .section > [data-section-title], .help-accordion[data-section-small-style] > .section > .title {
   width: 100% !important;
 }
-/* line 618, ../sass/_styles.scss */
+/* line 620, ../sass/_styles.scss */
 .help-accordion > section {
   margin: 0;
 }
@@ -7970,33 +7972,33 @@ nav svg {
   border-top: none;
 }
 
-/* line 625, ../sass/_styles.scss */
+/* line 627, ../sass/_styles.scss */
 .help-title .ss-icon {
   font-size: 8px;
 }
 
-/* line 630, ../sass/_styles.scss */
+/* line 632, ../sass/_styles.scss */
 .logo-header {
   text-align: center;
 }
-/* line 632, ../sass/_styles.scss */
+/* line 634, ../sass/_styles.scss */
 .logo-header img {
   margin: 30px 0px 15px 0px;
   width: 250px;
 }
 
-/* line 638, ../sass/_styles.scss */
+/* line 640, ../sass/_styles.scss */
 .ui-dialog-background {
   opacity: 0.5;
   -webkit-transition: opacity 0.5s ease-in;
 }
 
-/* line 643, ../sass/_styles.scss */
+/* line 645, ../sass/_styles.scss */
 #submissionalert {
   background: transparent;
 }
 
-/* line 647, ../sass/_styles.scss */
+/* line 649, ../sass/_styles.scss */
 .submissionalert {
   color: white;
   background-color: #42d8e7;
@@ -8006,11 +8008,11 @@ nav svg {
   text-align: center;
   width: 290px;
 }
-/* line 657, ../sass/_styles.scss */
+/* line 659, ../sass/_styles.scss */
 .submissionalert p {
   padding: 15px;
 }
-/* line 661, ../sass/_styles.scss */
+/* line 663, ../sass/_styles.scss */
 .submissionalert #submit {
   margin-top: 15px;
 }
@@ -8020,7 +8022,7 @@ nav svg {
  * Main container
  *
  */
-/* line 670, ../sass/_styles.scss */
+/* line 672, ../sass/_styles.scss */
 #addToHomeScreen {
   z-index: 9999;
   -webkit-user-select: none;
@@ -8040,14 +8042,14 @@ nav svg {
   line-height: 130%;
 }
 
-/* line 689, ../sass/_styles.scss */
+/* line 691, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 {
   background: #fd8f54 !important;
   -webkit-border-radius: 1px !important;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
-/* line 695, ../sass/_styles.scss */
+/* line 697, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIpad {
   width: 268px;
   font-size: 18px;
@@ -8059,12 +8061,12 @@ nav svg {
  * The 'wide' class is added when the popup contains the touch icon
  *
  */
-/* line 706, ../sass/_styles.scss */
+/* line 708, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeWide {
   width: 296px;
 }
 
-/* line 710, ../sass/_styles.scss */
+/* line 712, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIpad.addToHomeWide {
   width: 320px;
   font-size: 18px;
@@ -8076,7 +8078,7 @@ nav svg {
  * The balloon arrow
  *
  */
-/* line 721, ../sass/_styles.scss */
+/* line 723, ../sass/_styles.scss */
 #addToHomeScreen .addToHomeArrow {
   position: absolute;
   background: #fd8f54;
@@ -8091,7 +8093,7 @@ nav svg {
   -webkit-border-bottom-right-radius: 2px;
 }
 
-/* line 734, ../sass/_styles.scss */
+/* line 736, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 .addToHomeArrow {
   background: #fd8f54;
   -webkit-box-shadow: inset -1px -1px 0 #fff !important;
@@ -8102,7 +8104,7 @@ nav svg {
  * The balloon arrow for iPad
  *
  */
-/* line 744, ../sass/_styles.scss */
+/* line 746, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIpad .addToHomeArrow {
   -webkit-transform: rotateZ(-135deg);
   background: #fd8f54;
@@ -8117,7 +8119,7 @@ nav svg {
  * Close button
  *
  */
-/* line 757, ../sass/_styles.scss */
+/* line 759, ../sass/_styles.scss */
 #addToHomeScreen .addToHomeClose {
   -webkit-box-sizing: border-box;
   position: absolute;
@@ -8135,7 +8137,7 @@ nav svg {
   font-size: 16px;
 }
 
-/* line 773, ../sass/_styles.scss */
+/* line 775, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 .addToHomeClose {
   line-height: 12px;
   padding-right: 1px;
@@ -8148,7 +8150,7 @@ nav svg {
  * The '+' icon, displayed only on iOS < 4.2
  *
  */
-/* line 785, ../sass/_styles.scss */
+/* line 787, ../sass/_styles.scss */
 #addToHomeScreen .addToHomePlus {
   font-weight: bold;
   font-size: 1.3em;
@@ -8159,7 +8161,7 @@ nav svg {
  * The 'share' icon, displayed only on iOS >= 4.2
  *
  */
-/* line 796, ../sass/_styles.scss */
+/* line 798, ../sass/_styles.scss */
 #addToHomeScreen .addToHomeShare {
   display: inline-block;
   width: 18px;
@@ -8171,7 +8173,7 @@ nav svg {
   overflow: hidden;
 }
 
-/* line 807, ../sass/_styles.scss */
+/* line 809, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 .addToHomeShare {
   width: 11px;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAA8CAYAAAAQTCjdAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAASCQAAEgkB80sG3AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKjSURBVGiB7dpPiFVVHMDxz7m9NCtMyI2bEJEC25WrEkzHUXCRraIwdNE8ZxfYIlcis1ZEbGEzT1QCF4XgH1CyWhUoJKIWNRGEiCNKmkSiYTzfcfGuOokx77x3ZlS8382959zfn+/invvn3RdijHIRBrwkOINCYXEcdjpb7VyiYdBsLScwt5y6IloYdzqXo36Ro0gY9IKWo+5JwmzBt2HQnBw9ehYNazyn5TBee8Dh+Vq+CWu92GufnkTDR6ab7gDeBNHouMM/l9tXTXM0fGBmL726Fg1Dam74EsvKqR8VNowL2Yzj5f7rnnE4DHq2235diYYhhTGfC94up35T0y+6di/ITU0rKVd+sEi0P7xr2pSJOu8zvF+OzqEv7vDH/WFxt7/cshy/ticsN8sXYUht0kXDOlsF9XJ4UaEvNoz9X3zc5bKaZThbyr5jzJ4wlNY7KTgM+ES0vhz+KeiPw36fKC/ucAF9uFBOrTZm26SJCtaV27+xIo7cXdkTEhvOoh+XyxprU1qnim7CQdGK2HAyKRexYVShT3RItDElN+mkjiP2Ym+S3f01hv2EVal5WW6hU0ElmptaqJuBpXg6MbeFH2LDpU6CQ93zWIKnEvs0cayGU3glMfkOo1jQYewZzOuyz7FC95Jwo5OgUFfgeg993hh/eTqCTxOSm/iuk8DY0Ap1b2GhtHXxsfZN4j/X0fOx4auEIknEhqv4OiUn1L13Z/+xWfWVaG4q0dxUormpRHNTieamEs1NJZqbJ1Q0jHvdiJo5S2cVjSNOCHZhn3/SnuYnIvl3yomIIz7MXZMn9hydRCrR3FSiualEc1OJ5qYSzU0lmptKNDePjWgwcPePT7/g+4cp8wCW4GXaryK3tL+mLdD5x62ppllgu7bso8q/2HIbzGWdNmWnSJwAAAAASUVORK5CYII=);

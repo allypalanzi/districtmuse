@@ -506,6 +506,14 @@
 		$(this).toggleClass("liked");
 	});
 
+	$('.twitter').click(function(){
+		$(this).toggleClass("twitter-active");
+	});
+
+	$('.facebook').click(function(){
+		$(this).toggleClass("facebook-active");
+	});
+
 	$('.next').click(function(){
 		var canvas = document.getElementById("canvas");
 		var img    = canvas.toDataURL("image/png");

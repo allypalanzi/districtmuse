@@ -583,7 +583,7 @@ h3 {
 }
 
 .social {
-	color: white;
+	color: $type;
 	float: left;
 	font-size: 14px;
 	margin: 0 !important;
@@ -596,11 +596,13 @@ h3 {
 	}
 }
 
-.twitter {
+.twitter-active {
+	color: white;
 	background-color: $twitter;
 }
 
-.facebook {
+.facebook-active {
+	color: white;
 	background-color: $facebook;
 }
 
