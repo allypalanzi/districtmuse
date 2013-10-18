@@ -217,8 +217,13 @@ nav {
 	margin: 0px auto;
 	width: 100%;
 }
+
+.gallery {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+}
 .description {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	margin-top: -15px;
 	max-width: 360px;
 	
@@ -261,13 +266,11 @@ nav {
 
 .create-button {
 	bottom: 10px;
-	height: 44px;
-	right: 20px;
+	right: 15px;
 	position: fixed;
-	width: 44px;
 
 	.ss-icon {
-		font-size: 20px !important;
+		padding-left: 10px;
 	}
 }
 
@@ -357,7 +360,8 @@ nav {
 	}
 
 	.actions {
-		margin-top: 20px;
+		position: absolute;
+		bottom: 50px;
 		.undo, .trash {
 			color: $blue;
 			font-size: 30px;
@@ -368,8 +372,8 @@ nav {
 
 		.action {
 			float: right;
-			margin-right: 10px;
 			width: 200px;
+			margin-left: 30px;
 			
 			.ss-icon {
 				font-size: 10px;
@@ -477,10 +481,11 @@ nav {
 
 
 .toolbox {
-	background: white;
+	background: #f4f4f4;
 	padding: 20px;
 	position: fixed;
 	height: 90%;
+	opacity: 1;
 	margin-top: 64px;
 	overflow: scroll;
 	
@@ -505,7 +510,7 @@ h3 {
 }
 
 .active {
-	background-color: white;
+	background-color: #f4f4f4;
 	-webkit-transition: background 0.3s ease;
 	-moz-transition: background 0.3s ease;
 	transition: background 0.3s ease;
