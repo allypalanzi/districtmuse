@@ -57,9 +57,9 @@
 
 <body>
 
-<!-- HOME PAGE -->
-<div data-role="page" id="home"> 
-	<div class="content home">
+<!-- check PAGE -->
+<div data-role="page" id="check"> 
+	<div class="content check">
 		<nav>
 			<h1 class="buttons"></h1>
 			<h1 class="center">
@@ -118,12 +118,6 @@
 		</nav>
 
 		<div class="top-section">
-			<div class="heading-container">
-				<h3>Theme of the week:</h3>
-				<h2>Grow</h2>
-				<h4>"Saying yes is how things <strong>grow</strong>."</h4>
-				<h6><em>&mdash; Stephen Colbert</em></h6>
-			</div>
 		</div>
 		<div class="checkin">
 			<p><em>Looks like you're near:</em></p>
@@ -302,7 +296,7 @@
 					<span href="#" id="white" class="inactive-tool">&nbsp;</span>
 				</div>
 				<h3>brush size</h3>
-				<input type="range" class="size-slider" min="5" value="0" max="30" name="range">
+				<input type="range" class="size-slider1" min="5" value="0" max="30" name="flkjsdlk">
 			</nav>
 			<canvas class="dontscroll" id="canvas" width="320" height="320"></canvas>
 			<div class="actions">
@@ -375,11 +369,11 @@
 </div>
 
 
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="javascripts/vendor/jquery.mobile.custom.min.js"></script> 
+<script src="javascripts/vendor/jquery.js"></script>
+<script src="javascripts/vendor/jquery.mobile.custom.min.js"></script>
 <script src="javascripts/vendor/zepto.js"></script>
 <script src="javascripts/foundation/foundation.js"></script>
-<script src="javascripts/foundation/add2home.js"></script>
+<script src="javascripts/foundation/add2check.js"></script>
 <script src="javascripts/foundation/foundation.section.js"></script>
 <script src="javascripts/foundation/classie.js"></script>
 <script src="javascripts/vendor/paper.js"></script>
@@ -409,9 +403,9 @@
     	});
 
 	    $(function(){
-			selectedSize = $('.size-slider').val();
-			$('.size-slider').change(function(){
-	    		selectedSize = (this.value);
+			console.log(selectedSize = $('.size-slider1').val());
+			$('.size-slider1').change(function(){
+	    		console.log(selectedSize = (this.value));
 			});
 		});
 
