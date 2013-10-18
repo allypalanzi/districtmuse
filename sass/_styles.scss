@@ -648,16 +648,25 @@ h3 {
 
 .submissionalert {
 	color: white;
-	background-color: $blue-highlight;
+	background-color: $green-highlight;
 	font-size: 16px;
 	font-weight: 400;
 	margin: 40% 15px 0px 15px;
 	text-align: center;
 	width: 290px;
+	
+	.action {
+		background-color: $green;
+		border-color: $green-highlight;
+	}
 
 	
 	p {
 		padding: 15px;
+	}
+
+	.ss-icon {
+		padding-bottom: 0;
 	}
 
 	#submit {

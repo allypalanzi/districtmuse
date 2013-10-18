@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:300italic,400italic,400,300,600);
-/* line 23, ../sass/_vars.scss */
+/* line 24, ../sass/_vars.scss */
 nav {
   background: #fd8f54;
   /* Old browsers */
@@ -8001,18 +8001,27 @@ nav svg {
 /* line 649, ../sass/_styles.scss */
 .submissionalert {
   color: white;
-  background-color: #42d8e7;
+  background-color: #6fd874;
   font-size: 16px;
   font-weight: 400;
   margin: 40% 15px 0px 15px;
   text-align: center;
   width: 290px;
 }
-/* line 659, ../sass/_styles.scss */
+/* line 658, ../sass/_styles.scss */
+.submissionalert .action {
+  background-color: #a1daa6;
+  border-color: #6fd874;
+}
+/* line 664, ../sass/_styles.scss */
 .submissionalert p {
   padding: 15px;
 }
-/* line 663, ../sass/_styles.scss */
+/* line 668, ../sass/_styles.scss */
+.submissionalert .ss-icon {
+  padding-bottom: 0;
+}
+/* line 672, ../sass/_styles.scss */
 .submissionalert #submit {
   margin-top: 15px;
 }
@@ -8022,7 +8031,7 @@ nav svg {
  * Main container
  *
  */
-/* line 672, ../sass/_styles.scss */
+/* line 681, ../sass/_styles.scss */
 #addToHomeScreen {
   z-index: 9999;
   -webkit-user-select: none;
@@ -8042,14 +8051,14 @@ nav svg {
   line-height: 130%;
 }
 
-/* line 691, ../sass/_styles.scss */
+/* line 700, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 {
   background: #fd8f54 !important;
   -webkit-border-radius: 1px !important;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
-/* line 697, ../sass/_styles.scss */
+/* line 706, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIpad {
   width: 268px;
   font-size: 18px;
@@ -8061,12 +8070,12 @@ nav svg {
  * The 'wide' class is added when the popup contains the touch icon
  *
  */
-/* line 708, ../sass/_styles.scss */
+/* line 717, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeWide {
   width: 296px;
 }
 
-/* line 712, ../sass/_styles.scss */
+/* line 721, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIpad.addToHomeWide {
   width: 320px;
   font-size: 18px;
@@ -8078,7 +8087,7 @@ nav svg {
  * The balloon arrow
  *
  */
-/* line 723, ../sass/_styles.scss */
+/* line 732, ../sass/_styles.scss */
 #addToHomeScreen .addToHomeArrow {
   position: absolute;
   background: #fd8f54;
@@ -8093,7 +8102,7 @@ nav svg {
   -webkit-border-bottom-right-radius: 2px;
 }
 
-/* line 736, ../sass/_styles.scss */
+/* line 745, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 .addToHomeArrow {
   background: #fd8f54;
   -webkit-box-shadow: inset -1px -1px 0 #fff !important;
@@ -8104,7 +8113,7 @@ nav svg {
  * The balloon arrow for iPad
  *
  */
-/* line 746, ../sass/_styles.scss */
+/* line 755, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIpad .addToHomeArrow {
   -webkit-transform: rotateZ(-135deg);
   background: #fd8f54;
@@ -8119,7 +8128,7 @@ nav svg {
  * Close button
  *
  */
-/* line 759, ../sass/_styles.scss */
+/* line 768, ../sass/_styles.scss */
 #addToHomeScreen .addToHomeClose {
   -webkit-box-sizing: border-box;
   position: absolute;
@@ -8137,7 +8146,7 @@ nav svg {
   font-size: 16px;
 }
 
-/* line 775, ../sass/_styles.scss */
+/* line 784, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 .addToHomeClose {
   line-height: 12px;
   padding-right: 1px;
@@ -8150,7 +8159,7 @@ nav svg {
  * The '+' icon, displayed only on iOS < 4.2
  *
  */
-/* line 787, ../sass/_styles.scss */
+/* line 796, ../sass/_styles.scss */
 #addToHomeScreen .addToHomePlus {
   font-weight: bold;
   font-size: 1.3em;
@@ -8161,7 +8170,7 @@ nav svg {
  * The 'share' icon, displayed only on iOS >= 4.2
  *
  */
-/* line 798, ../sass/_styles.scss */
+/* line 807, ../sass/_styles.scss */
 #addToHomeScreen .addToHomeShare {
   display: inline-block;
   width: 18px;
@@ -8173,7 +8182,7 @@ nav svg {
   overflow: hidden;
 }
 
-/* line 809, ../sass/_styles.scss */
+/* line 818, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 .addToHomeShare {
   width: 11px;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAA8CAYAAAAQTCjdAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAASCQAAEgkB80sG3AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKjSURBVGiB7dpPiFVVHMDxz7m9NCtMyI2bEJEC25WrEkzHUXCRraIwdNE8ZxfYIlcis1ZEbGEzT1QCF4XgH1CyWhUoJKIWNRGEiCNKmkSiYTzfcfGuOokx77x3ZlS8382959zfn+/invvn3RdijHIRBrwkOINCYXEcdjpb7VyiYdBsLScwt5y6IloYdzqXo36Ro0gY9IKWo+5JwmzBt2HQnBw9ehYNazyn5TBee8Dh+Vq+CWu92GufnkTDR6ab7gDeBNHouMM/l9tXTXM0fGBmL726Fg1Dam74EsvKqR8VNowL2Yzj5f7rnnE4DHq2235diYYhhTGfC94up35T0y+6di/ITU0rKVd+sEi0P7xr2pSJOu8zvF+OzqEv7vDH/WFxt7/cshy/ticsN8sXYUht0kXDOlsF9XJ4UaEvNoz9X3zc5bKaZThbyr5jzJ4wlNY7KTgM+ES0vhz+KeiPw36fKC/ucAF9uFBOrTZm26SJCtaV27+xIo7cXdkTEhvOoh+XyxprU1qnim7CQdGK2HAyKRexYVShT3RItDElN+mkjiP2Ym+S3f01hv2EVal5WW6hU0ElmptaqJuBpXg6MbeFH2LDpU6CQ93zWIKnEvs0cayGU3glMfkOo1jQYewZzOuyz7FC95Jwo5OgUFfgeg993hh/eTqCTxOSm/iuk8DY0Ap1b2GhtHXxsfZN4j/X0fOx4auEIknEhqv4OiUn1L13Z/+xWfWVaG4q0dxUormpRHNTieamEs1NJZqbJ1Q0jHvdiJo5S2cVjSNOCHZhn3/SnuYnIvl3yomIIz7MXZMn9hydRCrR3FSiualEc1OJ5qYSzU0lmptKNDePjWgwcPePT7/g+4cp8wCW4GXaryK3tL+mLdD5x62ppllgu7bso8q/2HIbzGWdNmWnSJwAAAAASUVORK5CYII=);
