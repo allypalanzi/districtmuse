@@ -311,7 +311,7 @@
 					<span href="#" id="white" class="inactive-tool">&nbsp;</span>
 				</div>
 				<h3>brush size</h3>
-				<input type="range" class="size-slider1" min="5" value="0" max="30" name="flkjsdlk">
+				<input type="range" class="size-slider" min="5" value="0" max="30" name="size-slider">
 			</nav>
 			<canvas class="dontscroll" id="canvas" width="320" height="320"></canvas>
 			<div class="actions">
@@ -401,7 +401,7 @@
 			size: 10,
 			smooth: true
 		};
-		var selectedColor = "#000";
+		var selectedColor = "#80DAE9";
 		var selectedSize;
 		var allpaths =[]
 		var path;
@@ -418,9 +418,9 @@
     	});
 
 	    $(function(){
-			console.log(selectedSize = $('.size-slider1').val());
-			$('.size-slider1').change(function(){
-	    		console.log(selectedSize = (this.value));
+			selectedSize = $('.size-slider').val();
+			$('.size-slider').change(function(){
+	    	selectedSize = (this.value);
 			});
 		});
 
