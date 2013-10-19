@@ -8077,15 +8077,15 @@ nav svg {
   padding: 12px 14px;
   text-align: left;
   font-family: "Open Sans", sans-serif;
-  background: #fd8f54;
+  background: white;
   -webkit-background-clip: padding-box;
-  color: white;
+  color: #fd8f54;
   line-height: 130%;
 }
 
 /* line 734, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 {
-  background: #fd8f54 !important;
+  background: white !important;
   -webkit-border-radius: 1px !important;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
@@ -8122,7 +8122,7 @@ nav svg {
 /* line 766, ../sass/_styles.scss */
 #addToHomeScreen .addToHomeArrow {
   position: absolute;
-  background: #fd8f54;
+  background: white;
   border-width: 0 1px 1px 0;
   border-style: solid;
   width: 16px;
@@ -8136,7 +8136,7 @@ nav svg {
 
 /* line 779, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 .addToHomeArrow {
-  background: #fd8f54;
+  background: white;
   -webkit-box-shadow: inset -1px -1px 0 #fff !important;
 }
 
@@ -8148,7 +8148,7 @@ nav svg {
 /* line 789, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIpad .addToHomeArrow {
   -webkit-transform: rotateZ(-135deg);
-  background: #fd8f54;
+  background: white;
   -webkit-box-shadow: inset -1px -1px 0 #fff;
   top: -9px;
   bottom: auto;

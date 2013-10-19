@@ -725,14 +725,14 @@ h3 {
 	padding:12px 14px;
 	text-align:left;
 	font-family: $open-sans;
-	background: $orange;
+	background: white;
 	-webkit-background-clip:padding-box;
-	color: white;
+	color: $orange;
 	line-height:130%;
 }
 
 #addToHomeScreen.addToHomeIOS7 {
-	background:$orange !important;
+	background: white !important;
 	-webkit-border-radius:1px !important;
 	-webkit-box-shadow:0 0 4px rgba(0,0,0,0.2);
 }
@@ -765,7 +765,7 @@ h3 {
  */
 #addToHomeScreen .addToHomeArrow {
 	position:absolute;
-	background: $orange;
+	background: white;
 	border-width:0 1px 1px 0;
 	border-style:solid;
 	width:16px; height:16px;
@@ -777,7 +777,7 @@ h3 {
 }
 
 #addToHomeScreen.addToHomeIOS7 .addToHomeArrow {
-	background: $orange;
+	background: white;
 	-webkit-box-shadow:inset -1px -1px 0 #fff !important;
 }
 
@@ -788,7 +788,7 @@ h3 {
  */
 #addToHomeScreen.addToHomeIpad .addToHomeArrow {
 	-webkit-transform:rotateZ(-135deg);
-	background: $orange;
+	background: white;
 	-webkit-box-shadow:inset -1px -1px 0 #fff;
 	top:-9px; bottom:auto; left:50%;
 }
