@@ -285,7 +285,7 @@
 			<h1 class="center">
 			Create
 			</h1>
-			<h1 class="buttons"><a id="showRight" href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			<h1 class="buttons"><a id="showRight" class="active"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 			width="31.663px" height="29.658px" viewBox="0 0 31.663 29.658" enable-background="new 0 0 31.663 29.658" xml:space="preserve">
 			<path d="M30.279,5.674h-5.977c-0.65-1.914-2.679-5.547-8.703-5.673L15.385,0c-2.62,0-4.694,0.722-6.167,2.145
 			C8.037,3.288,7.492,4.632,7.241,5.674H1.384C0.621,5.674,0,6.295,0,7.058v11.197c0,0.763,0.621,1.384,1.384,1.384h1.268v8.635
@@ -296,7 +296,7 @@
 			</svg></a></h1>
 		</nav>
 		<div class="container">
-			<nav class="toolbox toolbox-vertical toolbox-right" id="toolbox-s2">
+			<nav class="toolbox toolbox-vertical toolbox-right toolbox-open" id="toolbox-s2">
 				<h3>colors</h3>
 				<div class="colors">
 					<span href="#" id="yellow" class="inactive-tool">&nbsp;</span>
@@ -418,12 +418,12 @@
         	$(this).addClass('active-tool').removeClass('inactive-tool');
     	});
 
-	 //    $(function(){
-		// 	selectedSize = $('.size-slider').val();
-		// 	$('.size-slider').change(function(){
-	 //    	selectedSize = (this.value);
-		// 	});
-		// });
+	    $(function(){
+			selectedSize = $('.size-slider').val();
+			$('.size-slider').change(function(){
+	    	selectedSize = (this.value);
+			});
+		});
 
 	    $("#undo").click(function(event){
 			poppedPath = allpaths.pop();
