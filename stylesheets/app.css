@@ -7773,21 +7773,6 @@ nav svg {
   margin-top: 64px;
   overflow: scroll;
 }
-/* line 523, ../sass/_styles.scss */
-.toolbox input[type=range] {
-  -webkit-appearance: none;
-  background-color: #f7ce48;
-  width: 90%;
-  height: 10px;
-}
-/* line 530, ../sass/_styles.scss */
-.toolbox input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  background-color: #f7ce48;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-}
 /* line 538, ../sass/_styles.scss */
 .toolbox h3 {
   margin: 20px 0 20px 0;
