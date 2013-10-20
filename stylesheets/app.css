@@ -3,20 +3,18 @@
 nav, .home .container, .home-triangle {
   background: #fd8f54;
   /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #fd8f54 0%, #f49870 100%);
+  background: -moz-radial-gradient(center, ellipse cover, #f49870 0%, #fd8f54 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #fd8f54), color-stop(100%, #f49870));
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f49870), color-stop(100%, #fd8f54));
   /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, #fd8f54 0%, #f49870 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #f49870 0%, #fd8f54 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, #fd8f54 0%, #f49870 100%);
+  background: -o-radial-gradient(center, ellipse cover, #f49870 0%, #fd8f54 100%);
   /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, #fd8f54 0%, #f49870 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #f49870 0%, #fd8f54 100%);
   /* IE10+ */
-  background: radial-gradient(ellipse at center, #fd8f54 0%, #f49870 100%);
+  background: radial-gradient(ellipse at center, #f49870 0%, #fd8f54 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fd8f54', endColorstr='#f49870',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */
 }
 
 /* normalize.css v2.1.1 | MIT License | git.io/normalize */
