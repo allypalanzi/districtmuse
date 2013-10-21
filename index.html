@@ -311,7 +311,9 @@
 					<span href="#" id="white" class="inactive-tool">&nbsp;</span>
 				</div>
 				<h3>brush size</h3>
+				<div class="divslider">
 				<input type="range" class="size-slider" min="5" value="0" max="30">
+				</div>
 			</nav>
 
 			<canvas class="dontscroll" id="canvas" width="320" height="320"></canvas>
@@ -420,8 +422,8 @@
 
 	    $(function(){
 			selectedSize = $('.size-slider').val();
-			$('.size-slider').change(function(){
-	    	selectedSize = (this.value);
+			$('.divslider').change(function(){
+	    	selectedSize = $(".size-slider").val();
 			});
 		});
 
