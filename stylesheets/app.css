@@ -7761,7 +7761,7 @@ nav svg {
   -webkit-transform: rotate(45deg);
 }
 
-/* line 514, ../sass/_styles.scss */
+/* line 511, ../sass/_styles.scss */
 .toolbox {
   background: #f4f4f4;
   padding: 20px;
@@ -7771,34 +7771,19 @@ nav svg {
   margin-top: 64px;
   overflow: scroll;
 }
-/* line 523, ../sass/_styles.scss */
-.toolbox input[type=range] {
-  -webkit-appearance: none;
-  background-color: #f7ce48;
-  width: 90%;
-  height: 10px;
-}
-/* line 530, ../sass/_styles.scss */
-.toolbox input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  background-color: #f7ce48;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-}
-/* line 538, ../sass/_styles.scss */
+/* line 535, ../sass/_styles.scss */
 .toolbox h3 {
   margin: 20px 0 20px 0;
 }
 
-/* line 543, ../sass/_styles.scss */
+/* line 540, ../sass/_styles.scss */
 .active {
   background-color: #f4f4f4;
   -webkit-transition: background 0.3s ease;
   -moz-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
-/* line 548, ../sass/_styles.scss */
+/* line 545, ../sass/_styles.scss */
 .active svg {
   fill: #fd8f54;
   -webkit-transition: background 0.3s ease;
@@ -7807,32 +7792,32 @@ nav svg {
 }
 
 /* Orientation-dependent styles for the content of the menu */
-/* line 559, ../sass/_styles.scss */
+/* line 556, ../sass/_styles.scss */
 .toolbox-vertical {
   width: 250px;
   top: 0;
   z-index: 100;
 }
 
-/* line 565, ../sass/_styles.scss */
+/* line 562, ../sass/_styles.scss */
 .toolbox-vertical a {
   border-bottom: 1px solid #258ecd;
   padding: 1em;
 }
 
 /* Vertical menu that slides from the left or right */
-/* line 575, ../sass/_styles.scss */
+/* line 572, ../sass/_styles.scss */
 .toolbox-right {
   right: -250px;
 }
 
-/* line 580, ../sass/_styles.scss */
+/* line 577, ../sass/_styles.scss */
 .toolbox-right.toolbox-open {
   right: 0px;
 }
 
 /* Transitions */
-/* line 589, ../sass/_styles.scss */
+/* line 586, ../sass/_styles.scss */
 .toolbox,
 .toolbox-push {
   -webkit-transition: all 0.3s ease;
@@ -7840,7 +7825,7 @@ nav svg {
   transition: all 0.3s ease;
 }
 
-/* line 598, ../sass/_styles.scss */
+/* line 595, ../sass/_styles.scss */
 .image-preview {
   background: url(../img/mappath.svg) no-repeat center;
   height: 320px;
@@ -7849,23 +7834,23 @@ nav svg {
   width: 100%;
 }
 
-/* line 606, ../sass/_styles.scss */
+/* line 603, ../sass/_styles.scss */
 .action .ss-icon {
   font-size: 10px;
   padding-top: 2px;
 }
 
-/* line 613, ../sass/_styles.scss */
+/* line 610, ../sass/_styles.scss */
 .submission textarea {
   height: 75px;
   margin-bottom: 10px;
 }
-/* line 618, ../sass/_styles.scss */
+/* line 615, ../sass/_styles.scss */
 .submission form p {
   margin-bottom: 10px;
 }
 
-/* line 624, ../sass/_styles.scss */
+/* line 621, ../sass/_styles.scss */
 .social {
   color: #2b2b2b;
   float: left;
@@ -7875,34 +7860,34 @@ nav svg {
   text-align: center;
   width: 50%;
 }
-/* line 633, ../sass/_styles.scss */
+/* line 630, ../sass/_styles.scss */
 .social .ss-social {
   padding-right: 10px;
 }
 
-/* line 638, ../sass/_styles.scss */
+/* line 635, ../sass/_styles.scss */
 .twitter-active {
   color: white;
   background-color: #009bca;
 }
 
-/* line 643, ../sass/_styles.scss */
+/* line 640, ../sass/_styles.scss */
 .facebook-active {
   color: white;
   background-color: #4d68a1;
 }
 
-/* line 648, ../sass/_styles.scss */
+/* line 645, ../sass/_styles.scss */
 #submit {
   margin-top: 20px;
 }
 
-/* line 652, ../sass/_styles.scss */
+/* line 649, ../sass/_styles.scss */
 .submit {
   margin-top: 20px;
 }
 
-/* line 657, ../sass/_styles.scss */
+/* line 654, ../sass/_styles.scss */
 .help-accordion {
   width: 100%;
   position: relative;
@@ -7925,7 +7910,7 @@ nav svg {
 .help-accordion[data-section-small-style] > [data-section-region] > [data-section-title], .help-accordion[data-section-small-style] > [data-section-region] > .title, .help-accordion[data-section-small-style] > section > [data-section-title], .help-accordion[data-section-small-style] > section > .title, .help-accordion[data-section-small-style] > .section > [data-section-title], .help-accordion[data-section-small-style] > .section > .title {
   width: 100% !important;
 }
-/* line 659, ../sass/_styles.scss */
+/* line 656, ../sass/_styles.scss */
 .help-accordion > section {
   margin: 0;
 }
@@ -8007,33 +7992,33 @@ nav svg {
   border-top: none;
 }
 
-/* line 666, ../sass/_styles.scss */
+/* line 663, ../sass/_styles.scss */
 .help-title .ss-icon {
   font-size: 8px;
 }
 
-/* line 671, ../sass/_styles.scss */
+/* line 668, ../sass/_styles.scss */
 .logo-header {
   text-align: center;
 }
-/* line 673, ../sass/_styles.scss */
+/* line 670, ../sass/_styles.scss */
 .logo-header img {
   margin: 30px 0px 15px 0px;
   width: 250px;
 }
 
-/* line 679, ../sass/_styles.scss */
+/* line 676, ../sass/_styles.scss */
 .ui-dialog-background {
   opacity: 0.5;
   -webkit-transition: opacity 0.5s ease-in;
 }
 
-/* line 684, ../sass/_styles.scss */
+/* line 681, ../sass/_styles.scss */
 #submissionalert {
   background: transparent;
 }
 
-/* line 688, ../sass/_styles.scss */
+/* line 685, ../sass/_styles.scss */
 .submissionalert {
   color: white;
   background-color: #c2c2c2;
@@ -8043,15 +8028,15 @@ nav svg {
   text-align: center;
   width: 290px;
 }
-/* line 698, ../sass/_styles.scss */
+/* line 695, ../sass/_styles.scss */
 .submissionalert p {
   padding: 15px;
 }
-/* line 702, ../sass/_styles.scss */
+/* line 699, ../sass/_styles.scss */
 .submissionalert .ss-icon {
   padding-bottom: 0;
 }
-/* line 706, ../sass/_styles.scss */
+/* line 703, ../sass/_styles.scss */
 .submissionalert #submit {
   margin-top: 15px;
 }
@@ -8061,7 +8046,7 @@ nav svg {
  * Main container
  *
  */
-/* line 715, ../sass/_styles.scss */
+/* line 712, ../sass/_styles.scss */
 #addToHomeScreen {
   z-index: 9999;
   -webkit-user-select: none;
@@ -8081,14 +8066,14 @@ nav svg {
   line-height: 130%;
 }
 
-/* line 734, ../sass/_styles.scss */
+/* line 731, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 {
   background: white !important;
   -webkit-border-radius: 1px !important;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
-/* line 740, ../sass/_styles.scss */
+/* line 737, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIpad {
   width: 268px;
   font-size: 18px;
@@ -8100,12 +8085,12 @@ nav svg {
  * The 'wide' class is added when the popup contains the touch icon
  *
  */
-/* line 751, ../sass/_styles.scss */
+/* line 748, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeWide {
   width: 296px;
 }
 
-/* line 755, ../sass/_styles.scss */
+/* line 752, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIpad.addToHomeWide {
   width: 320px;
   font-size: 18px;
@@ -8117,7 +8102,7 @@ nav svg {
  * The balloon arrow
  *
  */
-/* line 766, ../sass/_styles.scss */
+/* line 763, ../sass/_styles.scss */
 #addToHomeScreen .addToHomeArrow {
   position: absolute;
   background: white;
@@ -8132,7 +8117,7 @@ nav svg {
   -webkit-border-bottom-right-radius: 2px;
 }
 
-/* line 779, ../sass/_styles.scss */
+/* line 776, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 .addToHomeArrow {
   background: white;
   -webkit-box-shadow: inset -1px -1px 0 #fff !important;
@@ -8143,7 +8128,7 @@ nav svg {
  * The balloon arrow for iPad
  *
  */
-/* line 789, ../sass/_styles.scss */
+/* line 786, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIpad .addToHomeArrow {
   -webkit-transform: rotateZ(-135deg);
   background: white;
@@ -8158,7 +8143,7 @@ nav svg {
  * Close button
  *
  */
-/* line 802, ../sass/_styles.scss */
+/* line 799, ../sass/_styles.scss */
 #addToHomeScreen .addToHomeClose {
   -webkit-box-sizing: border-box;
   position: absolute;
@@ -8176,7 +8161,7 @@ nav svg {
   font-size: 16px;
 }
 
-/* line 818, ../sass/_styles.scss */
+/* line 815, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 .addToHomeClose {
   line-height: 12px;
   padding-right: 1px;
@@ -8189,7 +8174,7 @@ nav svg {
  * The '+' icon, displayed only on iOS < 4.2
  *
  */
-/* line 830, ../sass/_styles.scss */
+/* line 827, ../sass/_styles.scss */
 #addToHomeScreen .addToHomePlus {
   font-weight: bold;
   font-size: 1.3em;
@@ -8200,7 +8185,7 @@ nav svg {
  * The 'share' icon, displayed only on iOS >= 4.2
  *
  */
-/* line 841, ../sass/_styles.scss */
+/* line 838, ../sass/_styles.scss */
 #addToHomeScreen .addToHomeShare {
   display: inline-block;
   width: 18px;
@@ -8212,9 +8197,2799 @@ nav svg {
   overflow: hidden;
 }
 
-/* line 852, ../sass/_styles.scss */
+/* line 849, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 .addToHomeShare {
   width: 11px;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAA8CAYAAAAQTCjdAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAASCQAAEgkB80sG3AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKjSURBVGiB7dpPiFVVHMDxz7m9NCtMyI2bEJEC25WrEkzHUXCRraIwdNE8ZxfYIlcis1ZEbGEzT1QCF4XgH1CyWhUoJKIWNRGEiCNKmkSiYTzfcfGuOokx77x3ZlS8382959zfn+/invvn3RdijHIRBrwkOINCYXEcdjpb7VyiYdBsLScwt5y6IloYdzqXo36Ro0gY9IKWo+5JwmzBt2HQnBw9ehYNazyn5TBee8Dh+Vq+CWu92GufnkTDR6ab7gDeBNHouMM/l9tXTXM0fGBmL726Fg1Dam74EsvKqR8VNowL2Yzj5f7rnnE4DHq2235diYYhhTGfC94up35T0y+6di/ITU0rKVd+sEi0P7xr2pSJOu8zvF+OzqEv7vDH/WFxt7/cshy/ticsN8sXYUht0kXDOlsF9XJ4UaEvNoz9X3zc5bKaZThbyr5jzJ4wlNY7KTgM+ES0vhz+KeiPw36fKC/ucAF9uFBOrTZm26SJCtaV27+xIo7cXdkTEhvOoh+XyxprU1qnim7CQdGK2HAyKRexYVShT3RItDElN+mkjiP2Ym+S3f01hv2EVal5WW6hU0ElmptaqJuBpXg6MbeFH2LDpU6CQ93zWIKnEvs0cayGU3glMfkOo1jQYewZzOuyz7FC95Jwo5OgUFfgeg993hh/eTqCTxOSm/iuk8DY0Ap1b2GhtHXxsfZN4j/X0fOx4auEIknEhqv4OiUn1L13Z/+xWfWVaG4q0dxUormpRHNTieamEs1NJZqbJ1Q0jHvdiJo5S2cVjSNOCHZhn3/SnuYnIvl3yomIIz7MXZMn9hydRCrR3FSiualEc1OJ5qYSzU0lmptKNDePjWgwcPePT7/g+4cp8wCW4GXaryK3tL+mLdD5x62ppllgu7bso8q/2HIbzGWdNmWnSJwAAAAASUVORK5CYII=);
   background-size: 11px 15px;
+}
+
+/*
+* jQuery Mobile v1.3.2
+* http://jquerymobile.com
+*
+* Copyright 2010, 2013 jQuery Foundation, Inc. and other contributors
+* Released under the MIT license.
+* http://jquery.org/license
+*
+*/
+/* line 11, ../sass/_jquerycustom.scss */
+.ui-btn {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  margin: .5em 0;
+  padding: 0;
+}
+
+/* line 12, ../sass/_jquerycustom.scss */
+.ui-mini {
+  margin-top: .25em;
+  margin-bottom: .25em;
+}
+
+/* line 14, ../sass/_jquerycustom.scss */
+.ui-btn-left, .ui-btn-right, .ui-input-clear, .ui-btn-inline,
+.ui-grid-a .ui-btn, .ui-grid-b .ui-btn, .ui-grid-c .ui-btn, .ui-grid-d .ui-btn, .ui-grid-e .ui-btn, .ui-grid-solo .ui-btn {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/* line 15, ../sass/_jquerycustom.scss */
+.ui-btn-inner {
+  font-size: 16px;
+  padding: .6em 20px;
+  min-width: .75em;
+  display: block;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  zoom: 1;
+}
+
+/* line 16, ../sass/_jquerycustom.scss */
+.ui-btn input, .ui-btn button {
+  z-index: 2;
+}
+
+/* line 17, ../sass/_jquerycustom.scss */
+.ui-btn-left, .ui-btn-right, .ui-btn-inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 18, ../sass/_jquerycustom.scss */
+.ui-mobile .ui-btn-left, .ui-mobile .ui-btn-right, .ui-btn-left > .ui-btn, .ui-btn-right > .ui-btn {
+  margin: 0;
+}
+
+/* .ui-mobile to increase specificity level */
+/* line 19, ../sass/_jquerycustom.scss */
+.ui-btn-block {
+  display: block;
+}
+
+/* line 22, ../sass/_jquerycustom.scss */
+.ui-header > .ui-btn,
+.ui-footer > .ui-btn {
+  display: inline-block;
+  margin: 0;
+}
+
+/* line 24, ../sass/_jquerycustom.scss */
+.ui-header .ui-btn-block,
+.ui-footer .ui-btn-block {
+  display: block;
+}
+
+/* line 28, ../sass/_jquerycustom.scss */
+.ui-header .ui-btn-inner,
+.ui-footer .ui-btn-inner,
+.ui-mini .ui-btn-inner {
+  font-size: 12.5px;
+  padding: .55em 11px .5em;
+}
+
+/* line 31, ../sass/_jquerycustom.scss */
+.ui-fullsize .ui-btn-inner,
+.ui-fullsize .ui-btn-inner {
+  font-size: 16px;
+  padding: .6em 20px;
+}
+
+/* line 33, ../sass/_jquerycustom.scss */
+.ui-btn-icon-notext {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 34, ../sass/_jquerycustom.scss */
+.ui-btn-icon-notext .ui-btn-inner {
+  padding: 0;
+  height: 100%;
+}
+
+/* line 35, ../sass/_jquerycustom.scss */
+.ui-btn-icon-notext .ui-btn-inner .ui-icon {
+  margin: 2px 1px 2px 3px;
+  float: left;
+}
+
+/* line 37, ../sass/_jquerycustom.scss */
+.ui-btn-text {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* line 38, ../sass/_jquerycustom.scss */
+div.ui-btn-text {
+  width: auto;
+}
+
+/* line 39, ../sass/_jquerycustom.scss */
+.ui-btn-icon-notext .ui-btn-text {
+  position: absolute;
+  left: -9999px;
+}
+
+/* line 41, ../sass/_jquerycustom.scss */
+.ui-btn-icon-left .ui-btn-inner {
+  padding-left: 40px;
+}
+
+/* line 42, ../sass/_jquerycustom.scss */
+.ui-btn-icon-right .ui-btn-inner {
+  padding-right: 40px;
+}
+
+/* line 43, ../sass/_jquerycustom.scss */
+.ui-btn-icon-top .ui-btn-inner {
+  padding-top: 40px;
+}
+
+/* line 44, ../sass/_jquerycustom.scss */
+.ui-btn-icon-bottom .ui-btn-inner {
+  padding-bottom: 40px;
+}
+
+/* line 49, ../sass/_jquerycustom.scss */
+.ui-header .ui-btn-icon-left .ui-btn-inner,
+.ui-footer .ui-btn-icon-left .ui-btn-inner,
+.ui-mini.ui-btn-icon-left .ui-btn-inner,
+.ui-mini .ui-btn-icon-left .ui-btn-inner {
+  padding-left: 30px;
+}
+
+/* line 53, ../sass/_jquerycustom.scss */
+.ui-header .ui-btn-icon-right .ui-btn-inner,
+.ui-footer .ui-btn-icon-right .ui-btn-inner,
+.ui-mini.ui-btn-icon-right .ui-btn-inner,
+.ui-mini .ui-btn-icon-right .ui-btn-inner {
+  padding-right: 30px;
+}
+
+/* line 55, ../sass/_jquerycustom.scss */
+.ui-header .ui-btn-icon-top .ui-btn-inner,
+.ui-footer .ui-btn-icon-top .ui-btn-inner {
+  padding: 30px 3px .5em 3px;
+}
+
+/* line 57, ../sass/_jquerycustom.scss */
+.ui-mini.ui-btn-icon-top .ui-btn-inner,
+.ui-mini .ui-btn-icon-top .ui-btn-inner {
+  padding-top: 30px;
+}
+
+/* line 59, ../sass/_jquerycustom.scss */
+.ui-header .ui-btn-icon-bottom .ui-btn-inner,
+.ui-footer .ui-btn-icon-bottom .ui-btn-inner {
+  padding: .55em 3px 30px 3px;
+}
+
+/* line 61, ../sass/_jquerycustom.scss */
+.ui-mini.ui-btn-icon-bottom .ui-btn-inner,
+.ui-mini .ui-btn-icon-bottom .ui-btn-inner {
+  padding-bottom: 30px;
+}
+
+/* Corner styling inheritance */
+/* line 64, ../sass/_jquerycustom.scss */
+.ui-btn-inner {
+  -webkit-border-radius: inherit;
+  border-radius: inherit;
+}
+
+/*btn icon positioning*/
+/* line 70, ../sass/_jquerycustom.scss */
+.ui-btn-icon-notext .ui-icon {
+  display: block;
+  z-index: 0;
+}
+
+/* line 71, ../sass/_jquerycustom.scss */
+.ui-btn-icon-left > .ui-btn-inner > .ui-icon, .ui-btn-icon-right > .ui-btn-inner > .ui-icon {
+  position: absolute;
+  top: 50%;
+  margin-top: -9px;
+}
+
+/* line 72, ../sass/_jquerycustom.scss */
+.ui-btn-icon-top .ui-btn-inner .ui-icon, .ui-btn-icon-bottom .ui-btn-inner .ui-icon {
+  position: absolute;
+  left: 50%;
+  margin-left: -9px;
+}
+
+/* line 73, ../sass/_jquerycustom.scss */
+.ui-btn-icon-left .ui-icon {
+  left: 10px;
+}
+
+/* line 74, ../sass/_jquerycustom.scss */
+.ui-btn-icon-right .ui-icon {
+  right: 10px;
+}
+
+/* line 75, ../sass/_jquerycustom.scss */
+.ui-btn-icon-top .ui-icon {
+  top: 10px;
+}
+
+/* line 76, ../sass/_jquerycustom.scss */
+.ui-btn-icon-bottom .ui-icon {
+  top: auto;
+  bottom: 10px;
+}
+
+/* line 81, ../sass/_jquerycustom.scss */
+.ui-header .ui-btn-icon-left .ui-icon,
+.ui-footer .ui-btn-icon-left .ui-icon,
+.ui-mini.ui-btn-icon-left .ui-icon,
+.ui-mini .ui-btn-icon-left .ui-icon {
+  left: 5px;
+}
+
+/* line 85, ../sass/_jquerycustom.scss */
+.ui-header .ui-btn-icon-right .ui-icon,
+.ui-footer .ui-btn-icon-right .ui-icon,
+.ui-mini.ui-btn-icon-right .ui-icon,
+.ui-mini .ui-btn-icon-right .ui-icon {
+  right: 5px;
+}
+
+/* line 89, ../sass/_jquerycustom.scss */
+.ui-header .ui-btn-icon-top .ui-icon,
+.ui-footer .ui-btn-icon-top .ui-icon,
+.ui-mini.ui-btn-icon-top .ui-icon,
+.ui-mini .ui-btn-icon-top .ui-icon {
+  top: 5px;
+}
+
+/* line 93, ../sass/_jquerycustom.scss */
+.ui-header .ui-btn-icon-bottom .ui-icon,
+.ui-footer .ui-btn-icon-bottom .ui-icon,
+.ui-mini.ui-btn-icon-bottom .ui-icon,
+.ui-mini .ui-btn-icon-bottom .ui-icon {
+  bottom: 5px;
+}
+
+/*hiding native button,inputs */
+/* line 96, ../sass/_jquerycustom.scss */
+.ui-btn-hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  cursor: pointer;
+  background: #fff;
+  background: rgba(255, 255, 255, 0);
+  filter: Alpha(Opacity=0);
+  opacity: .1;
+  font-size: 1px;
+  border: none;
+  text-indent: -9999px;
+}
+
+/* Fixes IE/WP filter alpha opacity bugs */
+/* line 98, ../sass/_jquerycustom.scss */
+.ui-disabled .ui-btn-hidden {
+  display: none;
+}
+
+/* line 99, ../sass/_jquerycustom.scss */
+.ui-disabled {
+  z-index: 1;
+}
+
+/* line 101, ../sass/_jquerycustom.scss */
+.ui-field-contain .ui-btn.ui-submit {
+  margin: 0;
+}
+
+/* line 102, ../sass/_jquerycustom.scss */
+label.ui-submit {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 0 0 .3em;
+  display: block;
+}
+
+@media all and (min-width: 28em) {
+  /* line 104, ../sass/_jquerycustom.scss */
+  .ui-field-contain label.ui-submit {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    margin: 0 2% 0 0;
+  }
+
+  /* line 105, ../sass/_jquerycustom.scss */
+  .ui-field-contain .ui-btn.ui-submit {
+    width: 78%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* line 106, ../sass/_jquerycustom.scss */
+  .ui-hide-label .ui-btn.ui-submit {
+    width: auto;
+    display: block;
+  }
+}
+/* some unsets - more probably needed */
+/* line 111, ../sass/_jquerycustom.scss */
+.ui-mobile, .ui-mobile body {
+  height: 99.9%;
+}
+
+/* line 112, ../sass/_jquerycustom.scss */
+.ui-mobile fieldset, .ui-page {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 113, ../sass/_jquerycustom.scss */
+.ui-mobile a img, .ui-mobile fieldset {
+  border-width: 0;
+}
+
+/* line 114, ../sass/_jquerycustom.scss */
+.ui-mobile fieldset {
+  min-width: 0;
+}
+
+/* responsive page widths */
+/* line 117, ../sass/_jquerycustom.scss */
+.ui-mobile-viewport {
+  margin: 0;
+  overflow-x: visible;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Issue #2066 */
+/* line 121, ../sass/_jquerycustom.scss */
+body.ui-mobile-viewport,
+div.ui-mobile-viewport {
+  overflow-x: hidden;
+}
+
+/* "page" containers - full-screen views, one should always be in view post-pageload */
+/* line 124, ../sass/_jquerycustom.scss */
+.ui-mobile [data-role=page], .ui-mobile [data-role=dialog], .ui-page {
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  display: none;
+  border: 0;
+}
+
+/* line 125, ../sass/_jquerycustom.scss */
+.ui-mobile .ui-page-active {
+  display: block;
+  overflow: visible;
+}
+
+/* on ios4, setting focus on the page element causes flashing during transitions when there is an outline, so we turn off outlines */
+/* line 128, ../sass/_jquerycustom.scss */
+.ui-page {
+  outline: none;
+}
+
+/*orientations from js are available */
+@media screen and (orientation: portrait) {
+  /* line 132, ../sass/_jquerycustom.scss */
+  .ui-mobile .ui-page {
+    min-height: 420px;
+  }
+}
+@media screen and (orientation: landscape) {
+  /* line 135, ../sass/_jquerycustom.scss */
+  .ui-mobile .ui-page {
+    min-height: 300px;
+  }
+}
+/* loading screen */
+/* line 139, ../sass/_jquerycustom.scss */
+.ui-loading .ui-loader {
+  display: block;
+}
+
+/* line 140, ../sass/_jquerycustom.scss */
+.ui-loader {
+  display: none;
+  z-index: 9999999;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border: 0;
+}
+
+/* line 141, ../sass/_jquerycustom.scss */
+.ui-loader-default {
+  background: none;
+  filter: Alpha(Opacity=18);
+  opacity: .18;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  margin-top: -23px;
+}
+
+/* line 142, ../sass/_jquerycustom.scss */
+.ui-loader-verbose {
+  width: 200px;
+  filter: Alpha(Opacity=88);
+  opacity: .88;
+  box-shadow: 0 1px 1px -1px #fff;
+  height: auto;
+  margin-left: -110px;
+  margin-top: -43px;
+  padding: 10px;
+}
+
+/* line 143, ../sass/_jquerycustom.scss */
+.ui-loader-default h1 {
+  font-size: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 144, ../sass/_jquerycustom.scss */
+.ui-loader-verbose h1 {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 145, ../sass/_jquerycustom.scss */
+.ui-loader .ui-icon {
+  background-color: #000;
+  display: block;
+  margin: 0;
+  width: 44px;
+  height: 44px;
+  padding: 1px;
+  -webkit-border-radius: 36px;
+  border-radius: 36px;
+}
+
+/* line 146, ../sass/_jquerycustom.scss */
+.ui-loader-verbose .ui-icon {
+  margin: 0 auto 10px;
+  filter: Alpha(Opacity=75);
+  opacity: .75;
+}
+
+/* line 147, ../sass/_jquerycustom.scss */
+.ui-loader-textonly {
+  padding: 15px;
+  margin-left: -115px;
+}
+
+/* line 148, ../sass/_jquerycustom.scss */
+.ui-loader-textonly .ui-icon {
+  display: none;
+}
+
+/* line 149, ../sass/_jquerycustom.scss */
+.ui-loader-fakefix {
+  position: absolute;
+}
+
+/*fouc*/
+/* line 151, ../sass/_jquerycustom.scss */
+.ui-mobile-rendering > * {
+  visibility: hidden;
+}
+
+/*headers, content panels*/
+/* line 154, ../sass/_jquerycustom.scss */
+.ui-bar, .ui-body {
+  position: relative;
+  padding: .4em 15px;
+  overflow: hidden;
+  display: block;
+  clear: both;
+}
+
+/* line 155, ../sass/_jquerycustom.scss */
+.ui-bar {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* line 156, ../sass/_jquerycustom.scss */
+.ui-bar h1, .ui-bar h2, .ui-bar h3, .ui-bar h4, .ui-bar h5, .ui-bar h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  display: inline-block;
+}
+
+/* line 158, ../sass/_jquerycustom.scss */
+.ui-header, .ui-footer {
+  position: relative;
+  zoom: 1;
+}
+
+/* line 159, ../sass/_jquerycustom.scss */
+.ui-mobile .ui-header, .ui-mobile .ui-footer {
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+/* line 165, ../sass/_jquerycustom.scss */
+.ui-header .ui-btn-left,
+.ui-header .ui-btn-right,
+.ui-footer .ui-btn-left,
+.ui-footer .ui-btn-right,
+.ui-header-fixed.ui-fixed-hidden .ui-btn-left,
+.ui-header-fixed.ui-fixed-hidden .ui-btn-right {
+  position: absolute;
+  top: 3px;
+}
+
+/* line 167, ../sass/_jquerycustom.scss */
+.ui-header-fixed .ui-btn-left,
+.ui-header-fixed .ui-btn-right {
+  top: 4px;
+}
+
+/* line 169, ../sass/_jquerycustom.scss */
+.ui-header .ui-btn-left,
+.ui-footer .ui-btn-left {
+  left: 5px;
+}
+
+/* line 171, ../sass/_jquerycustom.scss */
+.ui-header .ui-btn-right,
+.ui-footer .ui-btn-right {
+  right: 5px;
+}
+
+/* line 174, ../sass/_jquerycustom.scss */
+.ui-footer > .ui-btn-icon-notext,
+.ui-header > .ui-btn-icon-notext,
+.ui-header-fixed.ui-fixed-hidden > .ui-btn-icon-notext {
+  top: 6px;
+}
+
+/* line 175, ../sass/_jquerycustom.scss */
+.ui-header-fixed > .ui-btn-icon-notext {
+  top: 7px;
+}
+
+/* line 176, ../sass/_jquerycustom.scss */
+.ui-header .ui-title, .ui-footer .ui-title {
+  min-height: 1.1em;
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  margin: .6em 30% .8em;
+  padding: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  outline: 0 !important;
+}
+
+/* line 177, ../sass/_jquerycustom.scss */
+.ui-footer .ui-title {
+  margin: .6em 15px .8em;
+}
+
+/* content area*/
+/* line 180, ../sass/_jquerycustom.scss */
+.ui-content {
+  border-width: 0;
+  overflow: visible;
+  overflow-x: hidden;
+  padding: 15px;
+}
+
+/* corner styling for dialogs and popups */
+/* line 185, ../sass/_jquerycustom.scss */
+.ui-corner-all > .ui-header:first-child,
+.ui-corner-all > .ui-content:first-child,
+.ui-corner-all > .ui-footer:first-child {
+  -webkit-border-top-left-radius: inherit;
+  border-top-left-radius: inherit;
+  -webkit-border-top-right-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+/* line 193, ../sass/_jquerycustom.scss */
+.ui-corner-all > .ui-header:last-child,
+.ui-corner-all > .ui-content:last-child,
+.ui-corner-all > .ui-footer:last-child {
+  -webkit-border-bottom-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  -webkit-border-bottom-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+/* icons sizing */
+/* line 201, ../sass/_jquerycustom.scss */
+.ui-icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* non-js content hiding */
+/* line 204, ../sass/_jquerycustom.scss */
+.ui-nojs {
+  position: absolute;
+  left: -9999px;
+}
+
+/* accessible content hiding */
+/* line 208, ../sass/_jquerycustom.scss */
+.ui-hide-label label.ui-input-text, .ui-hide-label label.ui-select, .ui-hide-label label.ui-slider, .ui-hide-label label.ui-submit, .ui-hide-label .ui-controlgroup-label,
+.ui-hidden-accessible {
+  position: absolute !important;
+  left: -9999px;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Transitions originally inspired by those from jQtouch, nice work, folks */
+/* line 213, ../sass/_jquerycustom.scss */
+.ui-mobile-viewport-transitioning,
+.ui-mobile-viewport-transitioning .ui-page {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 222, ../sass/_jquerycustom.scss */
+.ui-page-pre-in {
+  opacity: 0;
+}
+
+/* line 225, ../sass/_jquerycustom.scss */
+.in {
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-duration: 350ms;
+  -moz-animation-timing-function: ease-out;
+  -moz-animation-duration: 350ms;
+  animation-timing-function: ease-out;
+  animation-duration: 350ms;
+}
+
+/* line 233, ../sass/_jquerycustom.scss */
+.out {
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-duration: 225ms;
+  -moz-animation-timing-function: ease-in;
+  -moz-animation-duration: 225ms;
+  animation-timing-function: ease-in;
+  animation-duration: 225ms;
+}
+
+/* The properties in this rule are only necessary for the 'flip' transition.
+ * We need specify the perspective to create a projection matrix. This will add
+ * some depth as the element flips. The depth number represents the distance of
+ * the viewer from the z-plane. According to the CSS3 spec, 1000 is a moderate
+ * value.
+ */
+/* line 250, ../sass/_jquerycustom.scss */
+.viewport-flip {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  perspective: 1000;
+  position: absolute;
+}
+
+/* line 256, ../sass/_jquerycustom.scss */
+.flip {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateX(0);
+  /* Needed to work around an iOS 3.1 bug that causes listview thumbs to disappear when -webkit-visibility:hidden is used. */
+  -moz-backface-visibility: hidden;
+  -moz-transform: translateX(0);
+  backface-visibility: hidden;
+  transform: translateX(0);
+}
+
+/* line 265, ../sass/_jquerycustom.scss */
+.flip.out {
+  -webkit-transform: rotateY(-90deg) scale(0.9);
+  -webkit-animation-name: flipouttoleft;
+  -webkit-animation-duration: 175ms;
+  -moz-transform: rotateY(-90deg) scale(0.9);
+  -moz-animation-name: flipouttoleft;
+  -moz-animation-duration: 175ms;
+  transform: rotateY(-90deg) scale(0.9);
+  animation-name: flipouttoleft;
+  animation-duration: 175ms;
+}
+
+/* line 277, ../sass/_jquerycustom.scss */
+.flip.in {
+  -webkit-animation-name: flipintoright;
+  -webkit-animation-duration: 225ms;
+  -moz-animation-name: flipintoright;
+  -moz-animation-duration: 225ms;
+  animation-name: flipintoright;
+  animation-duration: 225ms;
+}
+
+/* line 286, ../sass/_jquerycustom.scss */
+.flip.out.reverse {
+  -webkit-transform: rotateY(90deg) scale(0.9);
+  -webkit-animation-name: flipouttoright;
+  -moz-transform: rotateY(90deg) scale(0.9);
+  -moz-animation-name: flipouttoright;
+  transform: rotateY(90deg) scale(0.9);
+  animation-name: flipouttoright;
+}
+
+/* line 295, ../sass/_jquerycustom.scss */
+.flip.in.reverse {
+  -webkit-animation-name: flipintoleft;
+  -moz-animation-name: flipintoleft;
+  animation-name: flipintoleft;
+}
+
+@-webkit-keyframes flipouttoleft {
+  /* line 302, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: rotateY(0);
+  }
+
+  /* line 303, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: rotateY(-90deg) scale(0.9);
+  }
+}
+
+@-moz-keyframes flipouttoleft {
+  /* line 306, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: rotateY(0);
+  }
+
+  /* line 307, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: rotateY(-90deg) scale(0.9);
+  }
+}
+
+@keyframes flipouttoleft {
+  /* line 310, ../sass/_jquerycustom.scss */
+  from {
+    transform: rotateY(0);
+  }
+
+  /* line 311, ../sass/_jquerycustom.scss */
+  to {
+    transform: rotateY(-90deg) scale(0.9);
+  }
+}
+
+@-webkit-keyframes flipouttoright {
+  /* line 314, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: rotateY(0);
+  }
+
+  /* line 315, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: rotateY(90deg) scale(0.9);
+  }
+}
+
+@-moz-keyframes flipouttoright {
+  /* line 318, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: rotateY(0);
+  }
+
+  /* line 319, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: rotateY(90deg) scale(0.9);
+  }
+}
+
+@keyframes flipouttoright {
+  /* line 322, ../sass/_jquerycustom.scss */
+  from {
+    transform: rotateY(0);
+  }
+
+  /* line 323, ../sass/_jquerycustom.scss */
+  to {
+    transform: rotateY(90deg) scale(0.9);
+  }
+}
+
+@-webkit-keyframes flipintoleft {
+  /* line 326, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: rotateY(-90deg) scale(0.9);
+  }
+
+  /* line 327, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: rotateY(0);
+  }
+}
+
+@-moz-keyframes flipintoleft {
+  /* line 330, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: rotateY(-90deg) scale(0.9);
+  }
+
+  /* line 331, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: rotateY(0);
+  }
+}
+
+@keyframes flipintoleft {
+  /* line 334, ../sass/_jquerycustom.scss */
+  from {
+    transform: rotateY(-90deg) scale(0.9);
+  }
+
+  /* line 335, ../sass/_jquerycustom.scss */
+  to {
+    transform: rotateY(0);
+  }
+}
+
+@-webkit-keyframes flipintoright {
+  /* line 338, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: rotateY(90deg) scale(0.9);
+  }
+
+  /* line 339, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: rotateY(0);
+  }
+}
+
+@-moz-keyframes flipintoright {
+  /* line 342, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: rotateY(90deg) scale(0.9);
+  }
+
+  /* line 343, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: rotateY(0);
+  }
+}
+
+@keyframes flipintoright {
+  /* line 346, ../sass/_jquerycustom.scss */
+  from {
+    transform: rotateY(90deg) scale(0.9);
+  }
+
+  /* line 347, ../sass/_jquerycustom.scss */
+  to {
+    transform: rotateY(0);
+  }
+}
+
+/* flow transition */
+/* line 352, ../sass/_jquerycustom.scss */
+.flow {
+  -webkit-transform-origin: 50% 30%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  -moz-transform-origin: 50% 30%;
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  transform-origin: 50% 30%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* line 360, ../sass/_jquerycustom.scss */
+.ui-dialog.flow {
+  -webkit-transform-origin: none;
+  -webkit-box-shadow: none;
+  -moz-transform-origin: none;
+  -moz-box-shadow: none;
+  transform-origin: none;
+  box-shadow: none;
+}
+
+/* line 368, ../sass/_jquerycustom.scss */
+.flow.out {
+  -webkit-transform: translateX(-100%) scale(0.7);
+  -webkit-animation-name: flowouttoleft;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-duration: 350ms;
+  -moz-transform: translateX(-100%) scale(0.7);
+  -moz-animation-name: flowouttoleft;
+  -moz-animation-timing-function: ease;
+  -moz-animation-duration: 350ms;
+  transform: translateX(-100%) scale(0.7);
+  animation-name: flowouttoleft;
+  animation-timing-function: ease;
+  animation-duration: 350ms;
+}
+
+/* line 383, ../sass/_jquerycustom.scss */
+.flow.in {
+  -webkit-transform: translateX(0) scale(1);
+  -webkit-animation-name: flowinfromright;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-duration: 350ms;
+  -moz-transform: translateX(0) scale(1);
+  -moz-animation-name: flowinfromright;
+  -moz-animation-timing-function: ease;
+  -moz-animation-duration: 350ms;
+  transform: translateX(0) scale(1);
+  animation-name: flowinfromright;
+  animation-timing-function: ease;
+  animation-duration: 350ms;
+}
+
+/* line 398, ../sass/_jquerycustom.scss */
+.flow.out.reverse {
+  -webkit-transform: translateX(100%);
+  -webkit-animation-name: flowouttoright;
+  -moz-transform: translateX(100%);
+  -moz-animation-name: flowouttoright;
+  transform: translateX(100%);
+  animation-name: flowouttoright;
+}
+
+/* line 407, ../sass/_jquerycustom.scss */
+.flow.in.reverse {
+  -webkit-animation-name: flowinfromleft;
+  -moz-animation-name: flowinfromleft;
+  animation-name: flowinfromleft;
+}
+
+@-webkit-keyframes flowouttoleft {
+  /* line 414, ../sass/_jquerycustom.scss */
+  0% {
+    -webkit-transform: translateX(0) scale(1);
+  }
+
+  /* line 415, ../sass/_jquerycustom.scss */
+  60%, 70% {
+    -webkit-transform: translateX(0) scale(0.7);
+  }
+
+  /* line 416, ../sass/_jquerycustom.scss */
+  100% {
+    -webkit-transform: translateX(-100%) scale(0.7);
+  }
+}
+
+@-moz-keyframes flowouttoleft {
+  /* line 419, ../sass/_jquerycustom.scss */
+  0% {
+    -moz-transform: translateX(0) scale(1);
+  }
+
+  /* line 420, ../sass/_jquerycustom.scss */
+  60%, 70% {
+    -moz-transform: translateX(0) scale(0.7);
+  }
+
+  /* line 421, ../sass/_jquerycustom.scss */
+  100% {
+    -moz-transform: translateX(-100%) scale(0.7);
+  }
+}
+
+@keyframes flowouttoleft {
+  /* line 424, ../sass/_jquerycustom.scss */
+  0% {
+    transform: translateX(0) scale(1);
+  }
+
+  /* line 425, ../sass/_jquerycustom.scss */
+  60%, 70% {
+    transform: translateX(0) scale(0.7);
+  }
+
+  /* line 426, ../sass/_jquerycustom.scss */
+  100% {
+    transform: translateX(-100%) scale(0.7);
+  }
+}
+
+@-webkit-keyframes flowouttoright {
+  /* line 430, ../sass/_jquerycustom.scss */
+  0% {
+    -webkit-transform: translateX(0) scale(1);
+  }
+
+  /* line 431, ../sass/_jquerycustom.scss */
+  60%, 70% {
+    -webkit-transform: translateX(0) scale(0.7);
+  }
+
+  /* line 432, ../sass/_jquerycustom.scss */
+  100% {
+    -webkit-transform: translateX(100%) scale(0.7);
+  }
+}
+
+@-moz-keyframes flowouttoright {
+  /* line 435, ../sass/_jquerycustom.scss */
+  0% {
+    -moz-transform: translateX(0) scale(1);
+  }
+
+  /* line 436, ../sass/_jquerycustom.scss */
+  60%, 70% {
+    -moz-transform: translateX(0) scale(0.7);
+  }
+
+  /* line 437, ../sass/_jquerycustom.scss */
+  100% {
+    -moz-transform: translateX(100%) scale(0.7);
+  }
+}
+
+@keyframes flowouttoright {
+  /* line 440, ../sass/_jquerycustom.scss */
+  0% {
+    transform: translateX(0) scale(1);
+  }
+
+  /* line 441, ../sass/_jquerycustom.scss */
+  60%, 70% {
+    transform: translateX(0) scale(0.7);
+  }
+
+  /* line 442, ../sass/_jquerycustom.scss */
+  100% {
+    transform: translateX(100%) scale(0.7);
+  }
+}
+
+@-webkit-keyframes flowinfromleft {
+  /* line 446, ../sass/_jquerycustom.scss */
+  0% {
+    -webkit-transform: translateX(-100%) scale(0.7);
+  }
+
+  /* line 447, ../sass/_jquerycustom.scss */
+  30%, 40% {
+    -webkit-transform: translateX(0) scale(0.7);
+  }
+
+  /* line 448, ../sass/_jquerycustom.scss */
+  100% {
+    -webkit-transform: translateX(0) scale(1);
+  }
+}
+
+@-moz-keyframes flowinfromleft {
+  /* line 451, ../sass/_jquerycustom.scss */
+  0% {
+    -moz-transform: translateX(-100%) scale(0.7);
+  }
+
+  /* line 452, ../sass/_jquerycustom.scss */
+  30%, 40% {
+    -moz-transform: translateX(0) scale(0.7);
+  }
+
+  /* line 453, ../sass/_jquerycustom.scss */
+  100% {
+    -moz-transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes flowinfromleft {
+  /* line 456, ../sass/_jquerycustom.scss */
+  0% {
+    transform: translateX(-100%) scale(0.7);
+  }
+
+  /* line 457, ../sass/_jquerycustom.scss */
+  30%, 40% {
+    transform: translateX(0) scale(0.7);
+  }
+
+  /* line 458, ../sass/_jquerycustom.scss */
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+@-webkit-keyframes flowinfromright {
+  /* line 462, ../sass/_jquerycustom.scss */
+  0% {
+    -webkit-transform: translateX(100%) scale(0.7);
+  }
+
+  /* line 463, ../sass/_jquerycustom.scss */
+  30%, 40% {
+    -webkit-transform: translateX(0) scale(0.7);
+  }
+
+  /* line 464, ../sass/_jquerycustom.scss */
+  100% {
+    -webkit-transform: translateX(0) scale(1);
+  }
+}
+
+@-moz-keyframes flowinfromright {
+  /* line 467, ../sass/_jquerycustom.scss */
+  0% {
+    -moz-transform: translateX(100%) scale(0.7);
+  }
+
+  /* line 468, ../sass/_jquerycustom.scss */
+  30%, 40% {
+    -moz-transform: translateX(0) scale(0.7);
+  }
+
+  /* line 469, ../sass/_jquerycustom.scss */
+  100% {
+    -moz-transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes flowinfromright {
+  /* line 472, ../sass/_jquerycustom.scss */
+  0% {
+    transform: translateX(100%) scale(0.7);
+  }
+
+  /* line 473, ../sass/_jquerycustom.scss */
+  30%, 40% {
+    transform: translateX(0) scale(0.7);
+  }
+
+  /* line 474, ../sass/_jquerycustom.scss */
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+/* line 478, ../sass/_jquerycustom.scss */
+.pop {
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+/* line 484, ../sass/_jquerycustom.scss */
+.pop.in {
+  -webkit-transform: scale(1);
+  -webkit-animation-name: popin;
+  -webkit-animation-duration: 350ms;
+  -moz-transform: scale(1);
+  -moz-animation-name: popin;
+  -moz-animation-duration: 350ms;
+  transform: scale(1);
+  animation-name: popin;
+  animation-duration: 350ms;
+  opacity: 1;
+}
+
+/* line 497, ../sass/_jquerycustom.scss */
+.pop.out {
+  -webkit-animation-name: fadeout;
+  -webkit-animation-duration: 100ms;
+  -moz-animation-name: fadeout;
+  -moz-animation-duration: 100ms;
+  animation-name: fadeout;
+  animation-duration: 100ms;
+  opacity: 0;
+}
+
+/* line 507, ../sass/_jquerycustom.scss */
+.pop.in.reverse {
+  -webkit-animation-name: fadein;
+  -moz-animation-name: fadein;
+  animation-name: fadein;
+}
+
+/* line 513, ../sass/_jquerycustom.scss */
+.pop.out.reverse {
+  -webkit-transform: scale(0.8);
+  -webkit-animation-name: popout;
+  -moz-transform: scale(0.8);
+  -moz-animation-name: popout;
+  transform: scale(0.8);
+  animation-name: popout;
+}
+
+@-webkit-keyframes popin {
+  /* line 523, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: scale(0.8);
+    opacity: 0;
+  }
+
+  /* line 527, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes popin {
+  /* line 533, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: scale(0.8);
+    opacity: 0;
+  }
+
+  /* line 537, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes popin {
+  /* line 543, ../sass/_jquerycustom.scss */
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+
+  /* line 547, ../sass/_jquerycustom.scss */
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes popout {
+  /* line 554, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+
+  /* line 558, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: scale(0.8);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes popout {
+  /* line 564, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: scale(1);
+    opacity: 1;
+  }
+
+  /* line 568, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: scale(0.8);
+    opacity: 0;
+  }
+}
+
+@keyframes popout {
+  /* line 574, ../sass/_jquerycustom.scss */
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  /* line 578, ../sass/_jquerycustom.scss */
+  to {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}
+
+/* keyframes for slidein from sides */
+@-webkit-keyframes slideinfromright {
+  /* line 587, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+  }
+
+  /* line 588, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+}
+
+@-moz-keyframes slideinfromright {
+  /* line 591, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: translateX(100%);
+  }
+
+  /* line 592, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: translateX(0);
+  }
+}
+
+@keyframes slideinfromright {
+  /* line 595, ../sass/_jquerycustom.scss */
+  from {
+    transform: translateX(100%);
+  }
+
+  /* line 596, ../sass/_jquerycustom.scss */
+  to {
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideinfromleft {
+  /* line 600, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+  }
+
+  /* line 601, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+}
+
+@-moz-keyframes slideinfromleft {
+  /* line 604, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: translateX(-100%);
+  }
+
+  /* line 605, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: translateX(0);
+  }
+}
+
+@keyframes slideinfromleft {
+  /* line 608, ../sass/_jquerycustom.scss */
+  from {
+    transform: translateX(-100%);
+  }
+
+  /* line 609, ../sass/_jquerycustom.scss */
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* keyframes for slideout to sides */
+@-webkit-keyframes slideouttoleft {
+  /* line 613, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+
+  /* line 614, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@-moz-keyframes slideouttoleft {
+  /* line 617, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: translateX(0);
+  }
+
+  /* line 618, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+@keyframes slideouttoleft {
+  /* line 621, ../sass/_jquerycustom.scss */
+  from {
+    transform: translateX(0);
+  }
+
+  /* line 622, ../sass/_jquerycustom.scss */
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes slideouttoright {
+  /* line 626, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+
+  /* line 627, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: translate3d(100%, 0, 0);
+  }
+}
+
+@-moz-keyframes slideouttoright {
+  /* line 630, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: translateX(0);
+  }
+
+  /* line 631, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: translateX(100%);
+  }
+}
+
+@keyframes slideouttoright {
+  /* line 634, ../sass/_jquerycustom.scss */
+  from {
+    transform: translateX(0);
+  }
+
+  /* line 635, ../sass/_jquerycustom.scss */
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* line 639, ../sass/_jquerycustom.scss */
+.slide.out, .slide.in {
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-duration: 350ms;
+  -moz-animation-timing-function: ease-out;
+  -moz-animation-duration: 350ms;
+  animation-timing-function: ease-out;
+  animation-duration: 350ms;
+}
+
+/* line 647, ../sass/_jquerycustom.scss */
+.slide.out {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -webkit-animation-name: slideouttoleft;
+  -moz-transform: translateX(-100%);
+  -moz-animation-name: slideouttoleft;
+  transform: translateX(-100%);
+  animation-name: slideouttoleft;
+}
+
+/* line 656, ../sass/_jquerycustom.scss */
+.slide.in {
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-animation-name: slideinfromright;
+  -moz-transform: translateX(0);
+  -moz-animation-name: slideinfromright;
+  transform: translateX(0);
+  animation-name: slideinfromright;
+}
+
+/* line 665, ../sass/_jquerycustom.scss */
+.slide.out.reverse {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -webkit-animation-name: slideouttoright;
+  -moz-transform: translateX(100%);
+  -moz-animation-name: slideouttoright;
+  transform: translateX(100%);
+  animation-name: slideouttoright;
+}
+
+/* line 674, ../sass/_jquerycustom.scss */
+.slide.in.reverse {
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-animation-name: slideinfromleft;
+  -moz-transform: translateX(0);
+  -moz-animation-name: slideinfromleft;
+  transform: translateX(0);
+  animation-name: slideinfromleft;
+}
+
+/* slide down */
+/* line 684, ../sass/_jquerycustom.scss */
+.slidedown.out {
+  -webkit-animation-name: fadeout;
+  -webkit-animation-duration: 100ms;
+  -moz-animation-name: fadeout;
+  -moz-animation-duration: 100ms;
+  animation-name: fadeout;
+  animation-duration: 100ms;
+}
+
+/* line 693, ../sass/_jquerycustom.scss */
+.slidedown.in {
+  -webkit-transform: translateY(0);
+  -webkit-animation-name: slideinfromtop;
+  -webkit-animation-duration: 250ms;
+  -moz-transform: translateY(0);
+  -moz-animation-name: slideinfromtop;
+  -moz-animation-duration: 250ms;
+  transform: translateY(0);
+  animation-name: slideinfromtop;
+  animation-duration: 250ms;
+}
+
+/* line 705, ../sass/_jquerycustom.scss */
+.slidedown.in.reverse {
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 150ms;
+  -moz-animation-name: fadein;
+  -moz-animation-duration: 150ms;
+  animation-name: fadein;
+  animation-duration: 150ms;
+}
+
+/* line 714, ../sass/_jquerycustom.scss */
+.slidedown.out.reverse {
+  -webkit-transform: translateY(-100%);
+  -webkit-animation-name: slideouttotop;
+  -webkit-animation-duration: 200ms;
+  -moz-transform: translateY(-100%);
+  -moz-animation-name: slideouttotop;
+  -moz-animation-duration: 200ms;
+  transform: translateY(-100%);
+  animation-name: slideouttotop;
+  animation-duration: 200ms;
+}
+
+@-webkit-keyframes slideinfromtop {
+  /* line 727, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: translateY(-100%);
+  }
+
+  /* line 728, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes slideinfromtop {
+  /* line 731, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: translateY(-100%);
+  }
+
+  /* line 732, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: translateY(0);
+  }
+}
+
+@keyframes slideinfromtop {
+  /* line 735, ../sass/_jquerycustom.scss */
+  from {
+    transform: translateY(-100%);
+  }
+
+  /* line 736, ../sass/_jquerycustom.scss */
+  to {
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slideouttotop {
+  /* line 740, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 741, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: translateY(-100%);
+  }
+}
+
+@-moz-keyframes slideouttotop {
+  /* line 744, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: translateY(0);
+  }
+
+  /* line 745, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: translateY(-100%);
+  }
+}
+
+@keyframes slideouttotop {
+  /* line 748, ../sass/_jquerycustom.scss */
+  from {
+    transform: translateY(0);
+  }
+
+  /* line 749, ../sass/_jquerycustom.scss */
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+@-webkit-keyframes fadein {
+  /* line 754, ../sass/_jquerycustom.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 755, ../sass/_jquerycustom.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  /* line 758, ../sass/_jquerycustom.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 759, ../sass/_jquerycustom.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  /* line 762, ../sass/_jquerycustom.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 763, ../sass/_jquerycustom.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  /* line 767, ../sass/_jquerycustom.scss */
+  from {
+    opacity: 1;
+  }
+
+  /* line 768, ../sass/_jquerycustom.scss */
+  to {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeout {
+  /* line 771, ../sass/_jquerycustom.scss */
+  from {
+    opacity: 1;
+  }
+
+  /* line 772, ../sass/_jquerycustom.scss */
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  /* line 775, ../sass/_jquerycustom.scss */
+  from {
+    opacity: 1;
+  }
+
+  /* line 776, ../sass/_jquerycustom.scss */
+  to {
+    opacity: 0;
+  }
+}
+
+/* line 779, ../sass/_jquerycustom.scss */
+.fade.out {
+  opacity: 0;
+  -webkit-animation-duration: 125ms;
+  -webkit-animation-name: fadeout;
+  -moz-animation-duration: 125ms;
+  -moz-animation-name: fadeout;
+  animation-duration: 125ms;
+  animation-name: fadeout;
+}
+
+/* line 789, ../sass/_jquerycustom.scss */
+.fade.in {
+  opacity: 1;
+  -webkit-animation-duration: 225ms;
+  -webkit-animation-name: fadein;
+  -moz-animation-duration: 225ms;
+  -moz-animation-name: fadein;
+  animation-duration: 225ms;
+  animation-name: fadein;
+}
+
+/* keyframes for slideout to sides */
+@-webkit-keyframes slideouttoleft {
+  /* line 801, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+
+  /* line 802, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@-moz-keyframes slideouttoleft {
+  /* line 805, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: translateX(0);
+  }
+
+  /* line 806, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+@keyframes slideouttoleft {
+  /* line 809, ../sass/_jquerycustom.scss */
+  from {
+    transform: translateX(0);
+  }
+
+  /* line 810, ../sass/_jquerycustom.scss */
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes slideouttoright {
+  /* line 814, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+
+  /* line 815, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: translate3d(100%, 0, 0);
+  }
+}
+
+@-moz-keyframes slideouttoright {
+  /* line 818, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: translateX(0);
+  }
+
+  /* line 819, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: translateX(100%);
+  }
+}
+
+@keyframes slideouttoright {
+  /* line 822, ../sass/_jquerycustom.scss */
+  from {
+    transform: translateX(0);
+  }
+
+  /* line 823, ../sass/_jquerycustom.scss */
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* line 827, ../sass/_jquerycustom.scss */
+.slidefade.out {
+  -webkit-transform: translateX(-100%);
+  -webkit-animation-name: slideouttoleft;
+  -webkit-animation-duration: 225ms;
+  -moz-transform: translateX(-100%);
+  -moz-animation-name: slideouttoleft;
+  -moz-animation-duration: 225ms;
+  transform: translateX(-100%);
+  animation-name: slideouttoleft;
+  animation-duration: 225ms;
+}
+
+/* line 839, ../sass/_jquerycustom.scss */
+.slidefade.in {
+  -webkit-transform: translateX(0);
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 200ms;
+  -moz-transform: translateX(0);
+  -moz-animation-name: fadein;
+  -moz-animation-duration: 200ms;
+  transform: translateX(0);
+  animation-name: fadein;
+  animation-duration: 200ms;
+}
+
+/* line 851, ../sass/_jquerycustom.scss */
+.slidefade.out.reverse {
+  -webkit-transform: translateX(100%);
+  -webkit-animation-name: slideouttoright;
+  -webkit-animation-duration: 200ms;
+  -moz-transform: translateX(100%);
+  -moz-animation-name: slideouttoright;
+  -moz-animation-duration: 200ms;
+  transform: translateX(100%);
+  animation-name: slideouttoright;
+  animation-duration: 200ms;
+}
+
+/* line 863, ../sass/_jquerycustom.scss */
+.slidefade.in.reverse {
+  -webkit-transform: translateX(0);
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 200ms;
+  -moz-transform: translateX(0);
+  -moz-animation-name: fadein;
+  -moz-animation-duration: 200ms;
+  transform: translateX(0);
+  animation-name: fadein;
+  animation-duration: 200ms;
+}
+
+/* slide up */
+/* line 876, ../sass/_jquerycustom.scss */
+.slideup.out {
+  -webkit-animation-name: fadeout;
+  -webkit-animation-duration: 100ms;
+  -moz-animation-name: fadeout;
+  -moz-animation-duration: 100ms;
+  animation-name: fadeout;
+  animation-duration: 100ms;
+}
+
+/* line 885, ../sass/_jquerycustom.scss */
+.slideup.in {
+  -webkit-transform: translateY(0);
+  -webkit-animation-name: slideinfrombottom;
+  -webkit-animation-duration: 250ms;
+  -moz-transform: translateY(0);
+  -moz-animation-name: slideinfrombottom;
+  -moz-animation-duration: 250ms;
+  transform: translateY(0);
+  animation-name: slideinfrombottom;
+  animation-duration: 250ms;
+}
+
+/* line 897, ../sass/_jquerycustom.scss */
+.slideup.in.reverse {
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 150ms;
+  -moz-animation-name: fadein;
+  -moz-animation-duration: 150ms;
+  animation-name: fadein;
+  animation-duration: 150ms;
+}
+
+/* line 906, ../sass/_jquerycustom.scss */
+.slideup.out.reverse {
+  -webkit-transform: translateY(100%);
+  -webkit-animation-name: slideouttobottom;
+  -webkit-animation-duration: 200ms;
+  -moz-transform: translateY(100%);
+  -moz-animation-name: slideouttobottom;
+  -moz-animation-duration: 200ms;
+  transform: translateY(100%);
+  animation-name: slideouttobottom;
+  animation-duration: 200ms;
+}
+
+@-webkit-keyframes slideinfrombottom {
+  /* line 919, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: translateY(100%);
+  }
+
+  /* line 920, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes slideinfrombottom {
+  /* line 923, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: translateY(100%);
+  }
+
+  /* line 924, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: translateY(0);
+  }
+}
+
+@keyframes slideinfrombottom {
+  /* line 927, ../sass/_jquerycustom.scss */
+  from {
+    transform: translateY(100%);
+  }
+
+  /* line 928, ../sass/_jquerycustom.scss */
+  to {
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slideouttobottom {
+  /* line 932, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 933, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: translateY(100%);
+  }
+}
+
+@-moz-keyframes slideouttobottom {
+  /* line 936, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: translateY(0);
+  }
+
+  /* line 937, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: translateY(100%);
+  }
+}
+
+@keyframes slideouttobottom {
+  /* line 940, ../sass/_jquerycustom.scss */
+  from {
+    transform: translateY(0);
+  }
+
+  /* line 941, ../sass/_jquerycustom.scss */
+  to {
+    transform: translateY(100%);
+  }
+}
+
+/* The properties in this rule are only necessary for the 'flip' transition.
+ * We need specify the perspective to create a projection matrix. This will add
+ * some depth as the element flips. The depth number represents the distance of
+ * the viewer from the z-plane. According to the CSS3 spec, 1000 is a moderate
+ * value.
+ */
+/* line 951, ../sass/_jquerycustom.scss */
+.viewport-turn {
+  -webkit-perspective: 200px;
+  -moz-perspective: 200px;
+  -ms-perspective: 200px;
+  perspective: 200px;
+  position: absolute;
+}
+
+/* line 958, ../sass/_jquerycustom.scss */
+.turn {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateX(0);
+  /* Needed to work around an iOS 3.1 bug that causes listview thumbs to disappear when -webkit-visibility:hidden is used. */
+  -webkit-transform-origin: 0;
+  -moz-backface-visibility: hidden;
+  -moz-transform: translateX(0);
+  -moz-transform-origin: 0;
+  backface-visibility: hidden;
+  transform: translateX(0);
+  transform-origin: 0;
+}
+
+/* line 972, ../sass/_jquerycustom.scss */
+.turn.out {
+  -webkit-transform: rotateY(-90deg) scale(0.9);
+  -webkit-animation-name: flipouttoleft;
+  -webkit-animation-duration: 125ms;
+  -moz-transform: rotateY(-90deg) scale(0.9);
+  -moz-animation-name: flipouttoleft;
+  -moz-animation-duration: 125ms;
+  transform: rotateY(-90deg) scale(0.9);
+  animation-name: flipouttoleft;
+  animation-duration: 125ms;
+}
+
+/* line 984, ../sass/_jquerycustom.scss */
+.turn.in {
+  -webkit-animation-name: flipintoright;
+  -webkit-animation-duration: 250ms;
+  -moz-animation-name: flipintoright;
+  -moz-animation-duration: 250ms;
+  animation-name: flipintoright;
+  animation-duration: 250ms;
+}
+
+/* line 994, ../sass/_jquerycustom.scss */
+.turn.out.reverse {
+  -webkit-transform: rotateY(90deg) scale(0.9);
+  -webkit-animation-name: flipouttoright;
+  -moz-transform: rotateY(90deg) scale(0.9);
+  -moz-animation-name: flipouttoright;
+  transform: rotateY(90deg) scale(0.9);
+  animation-name: flipouttoright;
+}
+
+/* line 1003, ../sass/_jquerycustom.scss */
+.turn.in.reverse {
+  -webkit-animation-name: flipintoleft;
+  -moz-animation-name: flipintoleft;
+  animation-name: flipintoleft;
+}
+
+@-webkit-keyframes flipouttoleft {
+  /* line 1010, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: rotateY(0);
+  }
+
+  /* line 1011, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: rotateY(-90deg) scale(0.9);
+  }
+}
+
+@-moz-keyframes flipouttoleft {
+  /* line 1014, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: rotateY(0);
+  }
+
+  /* line 1015, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: rotateY(-90deg) scale(0.9);
+  }
+}
+
+@keyframes flipouttoleft {
+  /* line 1018, ../sass/_jquerycustom.scss */
+  from {
+    transform: rotateY(0);
+  }
+
+  /* line 1019, ../sass/_jquerycustom.scss */
+  to {
+    transform: rotateY(-90deg) scale(0.9);
+  }
+}
+
+@-webkit-keyframes flipouttoright {
+  /* line 1022, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: rotateY(0);
+  }
+
+  /* line 1023, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: rotateY(90deg) scale(0.9);
+  }
+}
+
+@-moz-keyframes flipouttoright {
+  /* line 1026, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: rotateY(0);
+  }
+
+  /* line 1027, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: rotateY(90deg) scale(0.9);
+  }
+}
+
+@keyframes flipouttoright {
+  /* line 1030, ../sass/_jquerycustom.scss */
+  from {
+    transform: rotateY(0);
+  }
+
+  /* line 1031, ../sass/_jquerycustom.scss */
+  to {
+    transform: rotateY(90deg) scale(0.9);
+  }
+}
+
+@-webkit-keyframes flipintoleft {
+  /* line 1034, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: rotateY(-90deg) scale(0.9);
+  }
+
+  /* line 1035, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: rotateY(0);
+  }
+}
+
+@-moz-keyframes flipintoleft {
+  /* line 1038, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: rotateY(-90deg) scale(0.9);
+  }
+
+  /* line 1039, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: rotateY(0);
+  }
+}
+
+@keyframes flipintoleft {
+  /* line 1042, ../sass/_jquerycustom.scss */
+  from {
+    transform: rotateY(-90deg) scale(0.9);
+  }
+
+  /* line 1043, ../sass/_jquerycustom.scss */
+  to {
+    transform: rotateY(0);
+  }
+}
+
+@-webkit-keyframes flipintoright {
+  /* line 1046, ../sass/_jquerycustom.scss */
+  from {
+    -webkit-transform: rotateY(90deg) scale(0.9);
+  }
+
+  /* line 1047, ../sass/_jquerycustom.scss */
+  to {
+    -webkit-transform: rotateY(0);
+  }
+}
+
+@-moz-keyframes flipintoright {
+  /* line 1050, ../sass/_jquerycustom.scss */
+  from {
+    -moz-transform: rotateY(90deg) scale(0.9);
+  }
+
+  /* line 1051, ../sass/_jquerycustom.scss */
+  to {
+    -moz-transform: rotateY(0);
+  }
+}
+
+@keyframes flipintoright {
+  /* line 1054, ../sass/_jquerycustom.scss */
+  from {
+    transform: rotateY(90deg) scale(0.9);
+  }
+
+  /* line 1055, ../sass/_jquerycustom.scss */
+  to {
+    transform: rotateY(0);
+  }
+}
+
+/* line 1059, ../sass/_jquerycustom.scss */
+.ui-rangeslider {
+  zoom: 1;
+  margin: 0;
+}
+
+/* line 1064, ../sass/_jquerycustom.scss */
+.ui-rangeslider:before,
+.ui-rangeslider:after {
+  content: "";
+  display: table;
+}
+
+/* line 1068, ../sass/_jquerycustom.scss */
+.ui-rangeslider:after {
+  clear: both;
+}
+
+/* Margin-top/bottom: .5em * 16px/14px to make it equal to ui-rangeslider-sliders margin (input font-size is 14px) */
+/* line 1072, ../sass/_jquerycustom.scss */
+.ui-rangeslider input.ui-input-text.ui-slider-input {
+  margin: .57143em 0;
+}
+
+/* line 1075, ../sass/_jquerycustom.scss */
+.ui-rangeslider.ui-mini input.ui-slider-input {
+  margin: .28571em 0;
+}
+
+/* line 1078, ../sass/_jquerycustom.scss */
+.ui-rangeslider input.ui-slider-input.ui-rangeslider-last {
+  float: right;
+}
+
+/* line 1081, ../sass/_jquerycustom.scss */
+.ui-rangeslider .ui-rangeslider-sliders {
+  position: relative;
+  overflow: visible;
+  height: 30px;
+  margin: .5em 68px;
+}
+
+/* line 1087, ../sass/_jquerycustom.scss */
+.ui-rangeslider.ui-mini .ui-rangeslider-sliders {
+  margin: .25em 68px;
+}
+
+/* line 1093, ../sass/_jquerycustom.scss */
+.ui-field-contain .ui-rangeslider input.ui-slider-input,
+.ui-field-contain .ui-rangeslider.ui-mini input.ui-slider-input,
+.ui-field-contain .ui-rangeslider .ui-rangeslider-sliders,
+.ui-field-contain .ui-rangeslider.ui-mini .ui-rangeslider-sliders {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 1097, ../sass/_jquerycustom.scss */
+.ui-rangeslider .ui-rangeslider-sliders .ui-slider-track {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  left: 0;
+  margin: 0;
+}
+
+/* line 1104, ../sass/_jquerycustom.scss */
+.ui-rangeslider.ui-mini .ui-rangeslider-sliders .ui-slider-track {
+  top: 8px;
+}
+
+/* line 1107, ../sass/_jquerycustom.scss */
+.ui-rangeslider .ui-slider-track:first-child .ui-slider-bg {
+  display: none;
+}
+
+/* line 1110, ../sass/_jquerycustom.scss */
+.ui-rangeslider .ui-rangeslider-sliders .ui-slider-track:first-child {
+  background-color: transparent;
+  background: none;
+  border-width: 0;
+  height: 0;
+}
+
+/* this makes ie6 and ie7 set height to 0 to fix z-index problem */
+/* line 1118, ../sass/_jquerycustom.scss */
+html > body .ui-rangeslider .ui-rangeslider-sliders .ui-slider-track:first-child {
+  height: 15px;
+  border-width: 1px;
+}
+
+/* line 1122, ../sass/_jquerycustom.scss */
+html > body .ui-rangeslider.ui-mini .ui-rangeslider-sliders .ui-slider-track:first-child {
+  height: 12px;
+}
+
+@media all and (min-width: 28em) {
+  /* line 1127, ../sass/_jquerycustom.scss */
+  .ui-field-contain .ui-rangeslider label.ui-slider {
+    float: left;
+  }
+
+  /* line 1130, ../sass/_jquerycustom.scss */
+  .ui-field-contain .ui-rangeslider input.ui-slider-input {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* line 1135, ../sass/_jquerycustom.scss */
+  .ui-field-contain .ui-rangeslider input.ui-slider-input.ui-rangeslider-first,
+  .ui-field-contain .ui-rangeslider.ui-mini input.ui-slider-input.ui-rangeslider-first {
+    margin-right: 17px;
+  }
+
+  /* line 1139, ../sass/_jquerycustom.scss */
+  .ui-field-contain .ui-rangeslider .ui-rangeslider-sliders,
+  .ui-field-contain .ui-rangeslider.ui-mini .ui-rangeslider-sliders {
+    float: left;
+    width: 78%;
+    margin: 0 -68px;
+  }
+
+  /* line 1145, ../sass/_jquerycustom.scss */
+  .ui-field-contain .ui-rangeslider .ui-slider-track,
+  .ui-field-contain .ui-rangeslider.ui-mini .ui-slider-track {
+    right: 68px;
+    left: 68px;
+  }
+
+  /* line 1149, ../sass/_jquerycustom.scss */
+  .ui-field-contain.ui-hide-label .ui-rangeslider input.ui-slider-input.ui-rangeslider-first {
+    margin: 0;
+  }
+
+  /* line 1153, ../sass/_jquerycustom.scss */
+  .ui-field-contain.ui-hide-label .ui-rangeslider .ui-rangeslider-sliders,
+  .ui-field-contain.ui-hide-label .ui-rangeslider.ui-mini .ui-rangeslider-sliders {
+    width: auto;
+    float: none;
+    margin: 0 68px;
+  }
+
+  /* line 1159, ../sass/_jquerycustom.scss */
+  .ui-field-contain.ui-hide-label .ui-rangeslider .ui-slider-track,
+  .ui-field-contain.ui-hide-label .ui-rangeslider.ui-mini .ui-slider-track {
+    right: 0;
+    left: 0;
+  }
+}
+/* line 1166, ../sass/_jquerycustom.scss */
+label.ui-slider {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 0;
+  display: block;
+}
+
+/* line 1173, ../sass/_jquerycustom.scss */
+.ui-field-contain label.ui-slider {
+  margin-bottom: .4em;
+}
+
+/* line 1176, ../sass/_jquerycustom.scss */
+div.ui-slider {
+  height: 30px;
+  margin: .5em 0;
+  zoom: 1;
+}
+
+/* line 1181, ../sass/_jquerycustom.scss */
+div.ui-slider.ui-mini {
+  margin: .25em 0;
+}
+
+/* line 1185, ../sass/_jquerycustom.scss */
+.ui-field-contain div.ui-slider,
+.ui-field-contain div.ui-slider.ui-mini {
+  margin: 0;
+}
+
+/* line 1188, ../sass/_jquerycustom.scss */
+div.ui-slider:before, div.ui-slider:after {
+  content: "";
+  display: table;
+}
+
+/* line 1192, ../sass/_jquerycustom.scss */
+div.ui-slider:after {
+  clear: both;
+}
+
+/* High level of specificity to override Textinput CSS. */
+/* line 1196, ../sass/_jquerycustom.scss */
+input.ui-input-text.ui-slider-input {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 4px;
+  width: 40px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 14px;
+  border-width: 0;
+  background-image: none;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: text-bottom;
+  outline: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 1217, ../sass/_jquerycustom.scss */
+.ui-slider-input::-webkit-outer-spin-button,
+.ui-slider-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* line 1222, ../sass/_jquerycustom.scss */
+.ui-slider-track,
+.ui-slider-switch {
+  position: relative;
+  overflow: visible;
+  height: 15px;
+  margin: 0 15px 0 68px;
+  top: 6px;
+}
+
+/* line 1229, ../sass/_jquerycustom.scss */
+.ui-slider-track.ui-mini {
+  height: 12px;
+  top: 8px;
+}
+
+/* line 1233, ../sass/_jquerycustom.scss */
+.ui-slider-bg {
+  border: none;
+  height: 100%;
+}
+
+/* High level of specificity to override button margins in grids */
+/* line 1239, ../sass/_jquerycustom.scss */
+.ui-slider-track .ui-btn.ui-slider-handle,
+.ui-slider-switch .ui-btn.ui-slider-handle {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 28px;
+  height: 28px;
+  margin: -15px 0 0 -15px;
+  outline: 0;
+}
+
+/* line 1248, ../sass/_jquerycustom.scss */
+.ui-slider-track.ui-mini .ui-slider-handle {
+  height: 14px;
+  width: 14px;
+  margin: -8px 0 0 -7px;
+}
+
+/* line 1253, ../sass/_jquerycustom.scss */
+.ui-slider-handle .ui-btn-inner {
+  padding: 0;
+  height: 100%;
+}
+
+/* line 1257, ../sass/_jquerycustom.scss */
+.ui-slider-track.ui-mini .ui-slider-handle .ui-btn-inner {
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  margin: -9px 0 0 -9px;
+  border-top: none;
+}
+
+/* line 1264, ../sass/_jquerycustom.scss */
+select.ui-slider-switch {
+  display: none;
+}
+
+/* line 1267, ../sass/_jquerycustom.scss */
+div.ui-slider-switch {
+  display: inline-block;
+  height: 32px;
+  width: 5.8em;
+  margin: .5em 0;
+  top: 0;
+}
+
+/* reset the clearfix */
+/* line 1275, ../sass/_jquerycustom.scss */
+div.ui-slider-switch:before, div.ui-slider-switch:after {
+  display: none;
+  clear: none;
+}
+
+/* line 1279, ../sass/_jquerycustom.scss */
+div.ui-slider-switch.ui-mini {
+  width: 5em;
+  height: 29px;
+  margin: .25em 0;
+  top: 0;
+}
+
+/* line 1286, ../sass/_jquerycustom.scss */
+.ui-field-contain .ui-slider-switch,
+.ui-field-contain .ui-slider-switch.ui-mini {
+  margin: 0;
+}
+
+/* line 1289, ../sass/_jquerycustom.scss */
+.ui-slider-inneroffset {
+  margin: 0 16px;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 1294, ../sass/_jquerycustom.scss */
+.ui-slider-switch.ui-mini .ui-slider-inneroffset {
+  margin: 0 15px 0 14px;
+}
+
+/* line 1297, ../sass/_jquerycustom.scss */
+.ui-slider-switch .ui-btn.ui-slider-handle {
+  margin: 1px 0 0 -15px;
+}
+
+/* line 1300, ../sass/_jquerycustom.scss */
+.ui-slider-switch.ui-mini .ui-slider-handle {
+  width: 25px;
+  height: 25px;
+  margin: 1px 0 0 -13px;
+  padding: 0;
+}
+
+/* line 1306, ../sass/_jquerycustom.scss */
+.ui-slider-handle-snapping {
+  -webkit-transition: left 70ms linear;
+  -moz-transition: left 70ms linear;
+}
+
+/* line 1310, ../sass/_jquerycustom.scss */
+.ui-slider-switch.ui-mini .ui-slider-handle .ui-btn-inner {
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  margin: 0;
+  border-top: none;
+}
+
+/* line 1317, ../sass/_jquerycustom.scss */
+.ui-slider-switch .ui-slider-label {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  font-size: 16px;
+  top: 0;
+  line-height: 2;
+  min-height: 100%;
+  border-width: 0;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+/* line 1330, ../sass/_jquerycustom.scss */
+.ui-slider-switch.ui-mini .ui-slider-label {
+  font-size: 14px;
+}
+
+/* line 1333, ../sass/_jquerycustom.scss */
+.ui-slider-switch .ui-slider-label-a {
+  z-index: 1;
+  left: 0;
+  text-indent: -1.5em;
+}
+
+/* line 1338, ../sass/_jquerycustom.scss */
+.ui-slider-switch .ui-slider-label-b {
+  z-index: 0;
+  right: 0;
+  text-indent: 1.5em;
+}
+
+@media all and (min-width: 28em) {
+  /* line 1345, ../sass/_jquerycustom.scss */
+  .ui-field-contain label.ui-slider {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    margin: 0 2% 0 0;
+  }
+
+  /* line 1351, ../sass/_jquerycustom.scss */
+  .ui-field-contain div.ui-slider {
+    display: inline-block;
+    width: 78%;
+  }
+
+  /* line 1355, ../sass/_jquerycustom.scss */
+  .ui-field-contain.ui-hide-label div.ui-slider {
+    display: block;
+    width: auto;
+  }
+
+  /* line 1360, ../sass/_jquerycustom.scss */
+  .ui-field-contain div.ui-slider-switch,
+  .ui-field-contain.ui-hide-label div.ui-slider-switch {
+    display: inline-block;
+    width: 5.8em;
+  }
+
+  /* line 1364, ../sass/_jquerycustom.scss */
+  .ui-field-contain div.ui-slider-switch.ui-mini {
+    width: 5em;
+  }
+}
+/* line 1370, ../sass/_jquerycustom.scss */
+label.ui-input-text {
+  font-size: 16px;
+  line-height: 1.4;
+  display: block;
+  font-weight: normal;
+  margin: 0 0 .3em;
+}
+
+/* line 1371, ../sass/_jquerycustom.scss */
+input.ui-input-text, textarea.ui-input-text {
+  background-image: none;
+  padding: .4em;
+  margin: .5em 0;
+  min-height: 1.4em;
+  line-height: 1.4em;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  outline: 0;
+}
+
+/* line 1372, ../sass/_jquerycustom.scss */
+input.ui-mini, .ui-mini input, textarea.ui-mini {
+  font-size: 14px;
+}
+
+/* line 1374, ../sass/_jquerycustom.scss */
+div.ui-input-text input.ui-input-text, div.ui-input-text textarea.ui-input-text,
+.ui-input-search input.ui-input-text {
+  border: none;
+  width: 100%;
+  padding: .4em 0;
+  margin: 0;
+  display: block;
+  background: transparent none;
+  outline: 0 !important;
+}
+
+/* line 1375, ../sass/_jquerycustom.scss */
+.ui-input-search, div.ui-input-text {
+  margin: .5em 0;
+  background-image: none;
+  position: relative;
+}
+
+/* line 1376, ../sass/_jquerycustom.scss */
+.ui-input-search {
+  padding: 0 30px;
+}
+
+/* line 1377, ../sass/_jquerycustom.scss */
+div.ui-input-text {
+  padding: 0 .4em;
+}
+
+/* line 1378, ../sass/_jquerycustom.scss */
+div.ui-input-has-clear {
+  padding: 0 30px 0 .4em;
+}
+
+/* line 1380, ../sass/_jquerycustom.scss */
+input.ui-input-text.ui-mini, textarea.ui-input-text.ui-mini,
+.ui-input-search.ui-mini, div.ui-input-text.ui-mini {
+  margin: .25em 0;
+}
+
+/* line 1382, ../sass/_jquerycustom.scss */
+.ui-field-contain input.ui-input-text, .ui-field-contain textarea.ui-input-text,
+.ui-field-contain .ui-input-search, .ui-field-contain div.ui-input-text {
+  margin: 0;
+}
+
+/* line 1383, ../sass/_jquerycustom.scss */
+textarea.ui-input-text {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1384, ../sass/_jquerycustom.scss */
+input.ui-input-text {
+  -webkit-appearance: none;
+}
+
+/* line 1385, ../sass/_jquerycustom.scss */
+textarea.ui-input-text {
+  height: 50px;
+  -webkit-transition: height 200ms linear;
+  -moz-transition: height 200ms linear;
+  -o-transition: height 200ms linear;
+  transition: height 200ms linear;
+}
+
+/* line 1386, ../sass/_jquerycustom.scss */
+textarea.ui-mini {
+  height: 45px;
+}
+
+/* line 1387, ../sass/_jquerycustom.scss */
+.ui-icon-searchfield:after {
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  margin-top: -9px;
+  content: "";
+  width: 18px;
+  height: 18px;
+  opacity: .5;
+}
+
+/* line 1388, ../sass/_jquerycustom.scss */
+.ui-input-search .ui-input-clear, .ui-input-text .ui-input-clear {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -13px;
+}
+
+/* line 1389, ../sass/_jquerycustom.scss */
+.ui-mini .ui-input-clear {
+  right: -3px;
+}
+
+/* line 1390, ../sass/_jquerycustom.scss */
+.ui-input-search .ui-input-clear-hidden, .ui-input-text .ui-input-clear-hidden {
+  display: none;
+}
+
+/* Resolves issue #5166: Added to support issue introduced in Firefox 15. We can likely remove this in the future. */
+/* line 1393, ../sass/_jquerycustom.scss */
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #aaa;
+}
+
+/* For IE10 */
+/* line 1396, ../sass/_jquerycustom.scss */
+:-ms-input-placeholder {
+  color: #aaa;
+}
+
+/* Resolves issue #5131: Width of textinput depends on its type, for Android 4.1 */
+/* line 1399, ../sass/_jquerycustom.scss */
+input[type=number]::-webkit-outer-spin-button {
+  margin: 0;
+}
+
+@media all and (min-width: 28em) {
+  /* line 1402, ../sass/_jquerycustom.scss */
+  .ui-field-contain label.ui-input-text {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    margin: 0 2% 0 0;
+  }
+
+  /* line 1406, ../sass/_jquerycustom.scss */
+  .ui-field-contain input.ui-input-text,
+  .ui-field-contain textarea.ui-input-text,
+  .ui-field-contain .ui-input-search,
+  .ui-field-contain div.ui-input-text {
+    width: 78%;
+    display: inline-block;
+  }
+
+  /* line 1408, ../sass/_jquerycustom.scss */
+  .ui-field-contain .ui-input-search,
+  .ui-field-contain div.ui-input-text {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* line 1414, ../sass/_jquerycustom.scss */
+  .ui-hide-label input.ui-input-text,
+  .ui-hide-label textarea.ui-input-text,
+  .ui-hide-label .ui-input-search,
+  .ui-hide-label div.ui-input-text,
+  .ui-input-search input.ui-input-text,
+  div.ui-input-text input.ui-input-text {
+    width: 100%;
+  }
 }

@@ -508,9 +508,6 @@ nav {
 }
 
 
-
-
-
 .toolbox {
 	background: #f4f4f4;
 	padding: 20px;
@@ -520,20 +517,20 @@ nav {
 	margin-top: 64px;
 	overflow: scroll;
 	
-	input[type=range] {
-    -webkit-appearance: none;
-    background-color: $yellow;
-    width: 90%;
-    height:10px;
-}
+// 	input[type=range] {
+//     -webkit-appearance: none;
+//     background-color: $yellow;
+//     width: 90%;
+//     height:10px;
+// }
 
-input[type="range"]::-webkit-slider-thumb {
-     -webkit-appearance: none;
-    background-color: $yellow;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-}
+// input[type="range"]::-webkit-slider-thumb {
+//      -webkit-appearance: none;
+//     background-color: $yellow;
+//     width: 30px;
+//     height: 30px;
+//     border-radius: 30px;
+// }
 
 h3 {
 	margin: 20px 0 20px 0;
