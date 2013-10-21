@@ -40,7 +40,17 @@ a:hover {
 	color: white;
 }
 
-.action {
+.container {
+	margin: 0px auto;
+	width: 90%;
+}
+
+.content {
+	margin-top: 64px;
+	height: 100%;
+}
+
+.button-action, %button-action {
 	background-color: $blue;
 	border-bottom: 6px solid $blue-highlight;
 	color: white;
@@ -51,10 +61,15 @@ a:hover {
 	opacity: .97;
 	text-align: center;
 	width: 290px;
+	
+	.ss-icon {
+		font-size: 10px;
+		padding-top: 2px;
+	}
 }
 
 nav {
-@extend %orange-gradient;
+	@extend %orange-gradient;
 	height: 64px;
 	padding-top: 15px;
 	position: fixed;
@@ -103,26 +118,17 @@ nav {
 	}
 }
 
-.container {
-	margin: 0px auto;
-	width: 90%;
-}
-
-.content {
-	margin-top: 64px;
-	height: 100%;
-}
-
 .home {
-	.container {
+	&.container {
 		@extend %orange-gradient;
 		width: 100%;
 	}
+}
 
-	.action {
-		margin-left: 15px;
-		margin-top: 30px;
-	}
+.home-button-action {
+	@extend %button-action;
+	margin-left: 15px;
+	margin-top: 30px;
 }
 
 .home-triangle {
@@ -180,11 +186,12 @@ nav {
 
 	}
 
-	.tip-image {
-		margin: 0 auto;
-		margin-top: 20px;
-		margin-bottom: 20px;
-	}
+}
+
+.home-image {
+	@extend .tip-image;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .top-section {
@@ -391,7 +398,7 @@ nav {
 		display: block;
 	}
 
-	.actions {
+	.button-actions {
 		position: absolute;
 		bottom: 50px;
 		.undo, .trash {
@@ -402,15 +409,10 @@ nav {
 			padding-left: 10px;
 		}
 
-		.action {
+		.button-action {
 			float: right;
 			width: 200px;
 			margin-left: 30px;
-			
-			.ss-icon {
-				font-size: 10px;
-				padding-top: 2px;
-			}
 		}
 
 	}
@@ -419,6 +421,7 @@ nav {
 .tip {
 	background-color: $orange;
 	position: fixed;
+	text-align: center;
 	
 	p {
 		color: white;
@@ -441,29 +444,23 @@ nav {
 		margin-top: 20px;
 		font-weight: 400;
 	}
-
-	.tip-stuff {
-		width: 90%;
-		margin: 0 auto;
-		margin-top: 20px;
-	}
-
-
-
-	text-align: center;
-
+}
+.tip-stuff {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
 }
 
-	.tip-image {
-		background: url(../img/colbert.png);
-		background-size: cover;
-		border-radius: 100px;
-		border: 5px solid white;
-		height:100px;
-		margin: 0 auto;
-		margin-top: 30px;
-		width: 100px;
-	}
+.tip-image {
+	background: url(../img/colbert.png);
+	background-size: cover;
+	border-radius: 100px;
+	border: 5px solid white;
+	height:100px;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 100px;
+}
 
 
 .tip-horizontal {
@@ -518,25 +515,10 @@ nav {
 	opacity: 1;
 	margin-top: 64px;
 	overflow: scroll;
-	
-// 	input[type=range] {
-//     -webkit-appearance: none;
-//     background-color: $yellow;
-//     width: 90%;
-//     height:10px;
-// }
 
-// input[type="range"]::-webkit-slider-thumb {
-//      -webkit-appearance: none;
-//     background-color: $yellow;
-//     width: 30px;
-//     height: 30px;
-//     border-radius: 30px;
-// }
-
-h3 {
-	margin: 20px 0 20px 0;
-}
+	h3 {
+		margin: 20px 0 20px 0;
+	}
 }
 
 .active {
@@ -546,12 +528,11 @@ h3 {
 	transition: background 0.3s ease;
 	svg {
 		fill: $orange;
-	-webkit-transition: background 0.3s ease;
-	-moz-transition: background 0.3s ease;
-	transition: background 0.3s ease;
+		-webkit-transition: background 0.3s ease;
+		-moz-transition: background 0.3s ease;
+		transition: background 0.3s ease;
 	}
 }
-
 
 /* Orientation-dependent styles for the content of the menu */
 
@@ -620,7 +601,7 @@ h3 {
 	margin: 0px auto;
 	width: 100%;
 }
-.action {
+.button-action {
 	.ss-icon {
 		font-size: 10px;
 		padding-top: 2px;
