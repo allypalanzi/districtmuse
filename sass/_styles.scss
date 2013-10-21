@@ -699,13 +699,9 @@ h3 {
 	-webkit-transition: opacity 0.5s ease-in;
 }
 
-#submissionalert {
-	@extend %orange-gradient;
-}
-
 .submissionalert {
-	color: $type;
-	background-color: white;
+	color: white;
+	background-color: #c2c2c2;
 	font-size: 16px;
 	font-weight: 400;
 	margin: 40% 15px 0px 15px;
