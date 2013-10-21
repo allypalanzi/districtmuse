@@ -7801,23 +7801,29 @@ nav svg {
 
 /* line 562, ../sass/_styles.scss */
 .toolbox-vertical a {
-  border-bottom: 1px solid #258ecd;
+  background-color: #f7ce48;
+  border-radius: 50%;
   padding: 1em;
 }
 
+/* line 568, ../sass/_styles.scss */
+.ui-slider-track, .ui-slider-switch {
+  background-color: #f7ce48;
+}
+
 /* Vertical menu that slides from the left or right */
-/* line 572, ../sass/_styles.scss */
+/* line 577, ../sass/_styles.scss */
 .toolbox-right {
   right: -250px;
 }
 
-/* line 577, ../sass/_styles.scss */
+/* line 582, ../sass/_styles.scss */
 .toolbox-right.toolbox-open {
   right: 0px;
 }
 
 /* Transitions */
-/* line 586, ../sass/_styles.scss */
+/* line 591, ../sass/_styles.scss */
 .toolbox,
 .toolbox-push {
   -webkit-transition: all 0.3s ease;
@@ -7825,7 +7831,7 @@ nav svg {
   transition: all 0.3s ease;
 }
 
-/* line 595, ../sass/_styles.scss */
+/* line 600, ../sass/_styles.scss */
 .image-preview {
   background: url(../img/mappath.svg) no-repeat center;
   height: 320px;
@@ -7834,23 +7840,23 @@ nav svg {
   width: 100%;
 }
 
-/* line 603, ../sass/_styles.scss */
+/* line 608, ../sass/_styles.scss */
 .action .ss-icon {
   font-size: 10px;
   padding-top: 2px;
 }
 
-/* line 610, ../sass/_styles.scss */
+/* line 615, ../sass/_styles.scss */
 .submission textarea {
   height: 75px;
   margin-bottom: 10px;
 }
-/* line 615, ../sass/_styles.scss */
+/* line 620, ../sass/_styles.scss */
 .submission form p {
   margin-bottom: 10px;
 }
 
-/* line 621, ../sass/_styles.scss */
+/* line 626, ../sass/_styles.scss */
 .social {
   color: #2b2b2b;
   float: left;
@@ -7860,34 +7866,34 @@ nav svg {
   text-align: center;
   width: 50%;
 }
-/* line 630, ../sass/_styles.scss */
+/* line 635, ../sass/_styles.scss */
 .social .ss-social {
   padding-right: 10px;
 }
 
-/* line 635, ../sass/_styles.scss */
+/* line 640, ../sass/_styles.scss */
 .twitter-active {
   color: white;
   background-color: #009bca;
 }
 
-/* line 640, ../sass/_styles.scss */
+/* line 645, ../sass/_styles.scss */
 .facebook-active {
   color: white;
   background-color: #4d68a1;
 }
 
-/* line 645, ../sass/_styles.scss */
+/* line 650, ../sass/_styles.scss */
 #submit {
   margin-top: 20px;
 }
 
-/* line 649, ../sass/_styles.scss */
+/* line 654, ../sass/_styles.scss */
 .submit {
   margin-top: 20px;
 }
 
-/* line 654, ../sass/_styles.scss */
+/* line 659, ../sass/_styles.scss */
 .help-accordion {
   width: 100%;
   position: relative;
@@ -7910,7 +7916,7 @@ nav svg {
 .help-accordion[data-section-small-style] > [data-section-region] > [data-section-title], .help-accordion[data-section-small-style] > [data-section-region] > .title, .help-accordion[data-section-small-style] > section > [data-section-title], .help-accordion[data-section-small-style] > section > .title, .help-accordion[data-section-small-style] > .section > [data-section-title], .help-accordion[data-section-small-style] > .section > .title {
   width: 100% !important;
 }
-/* line 656, ../sass/_styles.scss */
+/* line 661, ../sass/_styles.scss */
 .help-accordion > section {
   margin: 0;
 }
@@ -7992,33 +7998,33 @@ nav svg {
   border-top: none;
 }
 
-/* line 663, ../sass/_styles.scss */
+/* line 668, ../sass/_styles.scss */
 .help-title .ss-icon {
   font-size: 8px;
 }
 
-/* line 668, ../sass/_styles.scss */
+/* line 673, ../sass/_styles.scss */
 .logo-header {
   text-align: center;
 }
-/* line 670, ../sass/_styles.scss */
+/* line 675, ../sass/_styles.scss */
 .logo-header img {
   margin: 30px 0px 15px 0px;
   width: 250px;
 }
 
-/* line 676, ../sass/_styles.scss */
+/* line 681, ../sass/_styles.scss */
 .ui-dialog-background {
   opacity: 0.5;
   -webkit-transition: opacity 0.5s ease-in;
 }
 
-/* line 681, ../sass/_styles.scss */
+/* line 686, ../sass/_styles.scss */
 #submissionalert {
   background: transparent;
 }
 
-/* line 685, ../sass/_styles.scss */
+/* line 690, ../sass/_styles.scss */
 .submissionalert {
   color: white;
   background-color: #c2c2c2;
@@ -8028,15 +8034,15 @@ nav svg {
   text-align: center;
   width: 290px;
 }
-/* line 695, ../sass/_styles.scss */
+/* line 700, ../sass/_styles.scss */
 .submissionalert p {
   padding: 15px;
 }
-/* line 699, ../sass/_styles.scss */
+/* line 704, ../sass/_styles.scss */
 .submissionalert .ss-icon {
   padding-bottom: 0;
 }
-/* line 703, ../sass/_styles.scss */
+/* line 708, ../sass/_styles.scss */
 .submissionalert #submit {
   margin-top: 15px;
 }
@@ -8046,7 +8052,7 @@ nav svg {
  * Main container
  *
  */
-/* line 712, ../sass/_styles.scss */
+/* line 717, ../sass/_styles.scss */
 #addToHomeScreen {
   z-index: 9999;
   -webkit-user-select: none;
@@ -8066,14 +8072,14 @@ nav svg {
   line-height: 130%;
 }
 
-/* line 731, ../sass/_styles.scss */
+/* line 736, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 {
   background: white !important;
   -webkit-border-radius: 1px !important;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
-/* line 737, ../sass/_styles.scss */
+/* line 742, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIpad {
   width: 268px;
   font-size: 18px;
@@ -8085,12 +8091,12 @@ nav svg {
  * The 'wide' class is added when the popup contains the touch icon
  *
  */
-/* line 748, ../sass/_styles.scss */
+/* line 753, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeWide {
   width: 296px;
 }
 
-/* line 752, ../sass/_styles.scss */
+/* line 757, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIpad.addToHomeWide {
   width: 320px;
   font-size: 18px;
@@ -8102,7 +8108,7 @@ nav svg {
  * The balloon arrow
  *
  */
-/* line 763, ../sass/_styles.scss */
+/* line 768, ../sass/_styles.scss */
 #addToHomeScreen .addToHomeArrow {
   position: absolute;
   background: white;
@@ -8117,7 +8123,7 @@ nav svg {
   -webkit-border-bottom-right-radius: 2px;
 }
 
-/* line 776, ../sass/_styles.scss */
+/* line 781, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 .addToHomeArrow {
   background: white;
   -webkit-box-shadow: inset -1px -1px 0 #fff !important;
@@ -8128,7 +8134,7 @@ nav svg {
  * The balloon arrow for iPad
  *
  */
-/* line 786, ../sass/_styles.scss */
+/* line 791, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIpad .addToHomeArrow {
   -webkit-transform: rotateZ(-135deg);
   background: white;
@@ -8143,7 +8149,7 @@ nav svg {
  * Close button
  *
  */
-/* line 799, ../sass/_styles.scss */
+/* line 804, ../sass/_styles.scss */
 #addToHomeScreen .addToHomeClose {
   -webkit-box-sizing: border-box;
   position: absolute;
@@ -8161,7 +8167,7 @@ nav svg {
   font-size: 16px;
 }
 
-/* line 815, ../sass/_styles.scss */
+/* line 820, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 .addToHomeClose {
   line-height: 12px;
   padding-right: 1px;
@@ -8174,7 +8180,7 @@ nav svg {
  * The '+' icon, displayed only on iOS < 4.2
  *
  */
-/* line 827, ../sass/_styles.scss */
+/* line 832, ../sass/_styles.scss */
 #addToHomeScreen .addToHomePlus {
   font-weight: bold;
   font-size: 1.3em;
@@ -8185,7 +8191,7 @@ nav svg {
  * The 'share' icon, displayed only on iOS >= 4.2
  *
  */
-/* line 838, ../sass/_styles.scss */
+/* line 843, ../sass/_styles.scss */
 #addToHomeScreen .addToHomeShare {
   display: inline-block;
   width: 18px;
@@ -8197,7 +8203,7 @@ nav svg {
   overflow: hidden;
 }
 
-/* line 849, ../sass/_styles.scss */
+/* line 854, ../sass/_styles.scss */
 #addToHomeScreen.addToHomeIOS7 .addToHomeShare {
   width: 11px;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAA8CAYAAAAQTCjdAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAASCQAAEgkB80sG3AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKjSURBVGiB7dpPiFVVHMDxz7m9NCtMyI2bEJEC25WrEkzHUXCRraIwdNE8ZxfYIlcis1ZEbGEzT1QCF4XgH1CyWhUoJKIWNRGEiCNKmkSiYTzfcfGuOokx77x3ZlS8382959zfn+/invvn3RdijHIRBrwkOINCYXEcdjpb7VyiYdBsLScwt5y6IloYdzqXo36Ro0gY9IKWo+5JwmzBt2HQnBw9ehYNazyn5TBee8Dh+Vq+CWu92GufnkTDR6ab7gDeBNHouMM/l9tXTXM0fGBmL726Fg1Dam74EsvKqR8VNowL2Yzj5f7rnnE4DHq2235diYYhhTGfC94up35T0y+6di/ITU0rKVd+sEi0P7xr2pSJOu8zvF+OzqEv7vDH/WFxt7/cshy/ticsN8sXYUht0kXDOlsF9XJ4UaEvNoz9X3zc5bKaZThbyr5jzJ4wlNY7KTgM+ES0vhz+KeiPw36fKC/ucAF9uFBOrTZm26SJCtaV27+xIo7cXdkTEhvOoh+XyxprU1qnim7CQdGK2HAyKRexYVShT3RItDElN+mkjiP2Ym+S3f01hv2EVal5WW6hU0ElmptaqJuBpXg6MbeFH2LDpU6CQ93zWIKnEvs0cayGU3glMfkOo1jQYewZzOuyz7FC95Jwo5OgUFfgeg993hh/eTqCTxOSm/iuk8DY0Ap1b2GhtHXxsfZN4j/X0fOx4auEIknEhqv4OiUn1L13Z/+xWfWVaG4q0dxUormpRHNTieamEs1NJZqbJ1Q0jHvdiJo5S2cVjSNOCHZhn3/SnuYnIvl3yomIIz7MXZMn9hydRCrR3FSiualEc1OJ5qYSzU0lmptKNDePjWgwcPePT7/g+4cp8wCW4GXaryK3tL+mLdD5x62ppllgu7bso8q/2HIbzGWdNmWnSJwAAAAASUVORK5CYII=);

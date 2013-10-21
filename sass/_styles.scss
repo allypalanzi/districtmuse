@@ -560,9 +560,14 @@ h3 {
 }
 
 .toolbox-vertical a {
-	border-bottom: 1px solid #258ecd;
+	background-color: $yellow;
+	border-radius: 50%;
 	padding: 1em;
 }
+
+.ui-slider-track, .ui-slider-switch {
+	background-color: $yellow;
+	}
 
 
 /* Vertical menu that slides from the left or right */
