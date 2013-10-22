@@ -2,6 +2,8 @@
 
 HTML/CSS/JavaScript prototype for an iOS 7 App.
 
+View it here: http://allypalanzi.github.io/districtmuse/landing/
+
 ######Created by:
 - Ally Palanzi (App Dev, Design, UI/UX)
 - Madeline Beard (Landing page Dev, Design, UI/UX)
